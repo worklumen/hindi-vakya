@@ -1,0 +1,1502 @@
+[
+  {
+    "id": "h277",
+    "en": "Usually trains run on time",
+    "hi": "सामान्यतः रेलगाड़ी समय पर चलती है"
+  },
+  {
+    "id": "h278",
+    "en": "The poisonous snake hid in the bush",
+    "hi": "विषाक्त साँप झाड़ी में छिपा था"
+  },
+  {
+    "id": "h279",
+    "en": "The chief of the clan was old",
+    "hi": "कुलाधिपति वृद्ध हो गया था"
+  },
+  {
+    "id": "h280",
+    "en": "New systems are being tried",
+    "hi": "नई प्रणालियाँ आज़माई जा रही हैं"
+  },
+  {
+    "id": "h281",
+    "en": "The fish trade flourishes by the river",
+    "hi": "मत्स्य व्यापार नदी किनारे फलता है"
+  },
+  {
+    "id": "h282",
+    "en": "Explosive material was recovered",
+    "hi": "विस्फोटक सामग्री बरामद हुई"
+  },
+  {
+    "id": "h283",
+    "en": "The inland river is shallow",
+    "hi": "अंतर्देशीय नदी उथली होती है"
+  },
+  {
+    "id": "h284",
+    "en": "The attacker was arrested",
+    "hi": "हमलावर को गिरफ़्तार किया गया"
+  },
+  {
+    "id": "h285",
+    "en": "The dacoity took place at midnight",
+    "hi": "डकैती आधी रात को हुई"
+  },
+  {
+    "id": "h286",
+    "en": "The vice president addressed the gathering",
+    "hi": "उपराष्ट्रपति ने सभा को संबोधित किया"
+  },
+  {
+    "id": "h287",
+    "en": "The validity of the card expired",
+    "hi": "पहचान पत्र की वैधता समाप्त हो गई"
+  },
+  {
+    "id": "h288",
+    "en": "Competitions increase the talent of children",
+    "hi": "प्रतियोगिताएँ बच्चों की प्रतिभा बढ़ाती हैं"
+  },
+  {
+    "id": "h289",
+    "en": "The bounce of the ball surprised the fielder",
+    "hi": "गेंद का उछाल क्षेत्ररक्षक को चौंका गया"
+  },
+  {
+    "id": "h290",
+    "en": "The controller issued new instructions",
+    "hi": "नियंत्रक ने नए निर्देशों का संचार किया"
+  },
+  {
+    "id": "h291",
+    "en": "The integrated plan was praised",
+    "hi": "समेकित योजना की सराहना हुई"
+  },
+  {
+    "id": "h292",
+    "en": "The inclination of students towards science grew",
+    "hi": "छात्रों का विज्ञान की ओर झुकाव बढ़ा"
+  },
+  {
+    "id": "h293",
+    "en": "The councils of villages decided together",
+    "hi": "पालिकाओं ने मिलकर निर्णय लिया"
+  },
+  {
+    "id": "h294",
+    "en": "The supernatural tale scared the children",
+    "hi": "अलौकिक कहानी से बच्चे डर गए"
+  },
+  {
+    "id": "h295",
+    "en": "Institutional changes take time",
+    "hi": "संस्थागत परिवर्तनों में समय लगता है"
+  },
+  {
+    "id": "h296",
+    "en": "The prosecution presented evidence",
+    "hi": "अभियोजन ने सबूत पेश किए"
+  },
+  {
+    "id": "h297",
+    "en": "The revenge destroyed both families",
+    "hi": "प्रतिशोध ने दोनों परिवार बर्बाद कर दिए"
+  },
+  {
+    "id": "h298",
+    "en": "The elections are drawing near",
+    "hi": "चुनाव आसन्न हैं"
+  },
+  {
+    "id": "h299",
+    "en": "Erosion of the soil worries farmers",
+    "hi": "मिट्टी का क्षरण किसानों को चिंतित करता है"
+  },
+  {
+    "id": "h300",
+    "en": "The aforesaid rule applies here",
+    "hi": "उक्त नियम यहाँ लागू होता है"
+  },
+  {
+    "id": "h301",
+    "en": "Educationists demanded better schools",
+    "hi": "शिक्षाविदों ने बेहतर विद्यालय माँगे"
+  },
+  {
+    "id": "h302",
+    "en": "The inclusion of all players is necessary",
+    "hi": "सभी खिलाड़ियों का समावेश आवश्यक है"
+  },
+  {
+    "id": "h303",
+    "en": "The squad practiced till evening",
+    "hi": "टुकड़ी शाम तक अभ्यास करती रही"
+  },
+  {
+    "id": "h304",
+    "en": "Developing countries need support",
+    "hi": "विकासशील देशों को सहयोग चाहिए"
+  },
+  {
+    "id": "h305",
+    "en": "The miracle of science surprised everyone",
+    "hi": "विज्ञान का चमत्कार सबको चौंकाता है"
+  },
+  {
+    "id": "h306",
+    "en": "The orientation of the house is east facing",
+    "hi": "घर का अभिविन्यास पूर्व की ओर है"
+  },
+  {
+    "id": "h307",
+    "en": "The helpless could not defend",
+    "hi": "अक्षम व्यक्ति बचाव नहीं कर सका"
+  },
+  {
+    "id": "h308",
+    "en": "The elevation of the officer was announced",
+    "hi": "अधिकारी के उन्नयन की घोषणा हुई"
+  },
+  {
+    "id": "h309",
+    "en": "Documentation of the event was done",
+    "hi": "कार्यक्रम का दस्तावेजीकरण हुआ"
+  },
+  {
+    "id": "h310",
+    "en": "Geological survey found minerals",
+    "hi": "भूवैज्ञानिक सर्वेक्षण में खनिज मिले"
+  },
+  {
+    "id": "h311",
+    "en": "Nationwide celebrations were held",
+    "hi": "राष्ट्रव्यापी उत्सव मनाए गए"
+  },
+  {
+    "id": "h312",
+    "en": "The economist explained the budget",
+    "hi": "अर्थशास्त्री ने बजट समझाया"
+  },
+  {
+    "id": "h313",
+    "en": "The immovable property was registered",
+    "hi": "अचल संपत्ति पंजीकृत की गई"
+  },
+  {
+    "id": "h314",
+    "en": "The trainee learned the work",
+    "hi": "प्रशिक्षु ने काम सीखा"
+  },
+  {
+    "id": "h315",
+    "en": "The theatrical group staged a play",
+    "hi": "नाट्य मंडली ने नाटक खेला"
+  },
+  {
+    "id": "h316",
+    "en": "The spy was caught at the border",
+    "hi": "टोही सीमा पर पकड़ा गया"
+  },
+  {
+    "id": "h317",
+    "en": "Voluntary donations are accepted",
+    "hi": "स्वैच्छिक दान स्वीकार किए जाते हैं"
+  },
+  {
+    "id": "h318",
+    "en": "The aforesaid lines are quoted",
+    "hi": "उल्लिखित पंक्तियाँ उद्धृत की जाती हैं"
+  },
+  {
+    "id": "h319",
+    "en": "Shipping trade increased in coastal states",
+    "hi": "नौवहन व्यापार तटीय राज्यों में बढ़ा"
+  },
+  {
+    "id": "h320",
+    "en": "The date of the fair is fixed",
+    "hi": "मेले की दिनांक तय है"
+  },
+  {
+    "id": "h321",
+    "en": "The deodar trees of the mountains are tall",
+    "hi": "पर्वतों के देवदार ऊँचे होते हैं"
+  },
+  {
+    "id": "h322",
+    "en": "The proposal was canceled",
+    "hi": "प्रस्ताव निरस्त कर दिया गया"
+  },
+  {
+    "id": "h323",
+    "en": "The fairy blessed the child",
+    "hi": "परी ने बच्चे को आशीर्वाद दिया"
+  },
+  {
+    "id": "h324",
+    "en": "The skeleton was found in the ruins",
+    "hi": "कंकाल खंडहरों में मिला"
+  },
+  {
+    "id": "h325",
+    "en": "The lustful man fell in his own eyes",
+    "hi": "कामुक व्यक्ति अपनी दृष्टि में गिर गया"
+  },
+  {
+    "id": "h326",
+    "en": "The preface of the book is long",
+    "hi": "पुस्तक की प्रस्तावना लंबी है"
+  },
+  {
+    "id": "h327",
+    "en": "The cone of the pine fell down",
+    "hi": "शंकु पेड़ से नीचे गिरा"
+  },
+  {
+    "id": "h328",
+    "en": "The forecast of rain proved right",
+    "hi": "बारिश का पूर्वानुमान सही निकला"
+  },
+  {
+    "id": "h329",
+    "en": "Nationalism grew in the youth",
+    "hi": "युवाओं में राष्ट्रवाद जागा"
+  },
+  {
+    "id": "h330",
+    "en": "The praised dancer performed gracefully",
+    "hi": "प्रशंसित नर्तकी ने सुंदर नृत्य किया"
+  },
+  {
+    "id": "h331",
+    "en": "Polar regions remain frozen",
+    "hi": "ध्रुवीय क्षेत्र जमे रहते हैं"
+  },
+  {
+    "id": "h332",
+    "en": "Classification of animals is interesting",
+    "hi": "जीवों की श्रेणीकरण रोचक है"
+  },
+  {
+    "id": "h333",
+    "en": "The strong wind uprooted trees",
+    "hi": "प्रबल आँधी ने पेड़ उखाड़ दिए"
+  },
+  {
+    "id": "h334",
+    "en": "The coordinator called the meeting",
+    "hi": "समन्वयक ने बैठक बुलाई"
+  },
+  {
+    "id": "h335",
+    "en": "The religious school teaches scripture",
+    "hi": "मदरसा धर्मग्रंथ पढ़ाता है"
+  },
+  {
+    "id": "h336",
+    "en": "Transplant of the heart is complex",
+    "hi": "हृदय का प्रत्यारोपण जटिल होता है"
+  },
+  {
+    "id": "h337",
+    "en": "The release of water from the dam",
+    "hi": "बाँध से जल विमोचन की योजना है"
+  },
+  {
+    "id": "h338",
+    "en": "The consistent statements removed doubts",
+    "hi": "सुसंगत बयानों से शक दूर हुए"
+  },
+  {
+    "id": "h339",
+    "en": "Showing courage the soldier saved the child",
+    "hi": "सैनिक ने दिखाकर साहस बच्चे को बचाया"
+  },
+  {
+    "id": "h340",
+    "en": "The fifth boy won the race",
+    "hi": "पांचवां लड़का दौड़ जीत गया"
+  },
+  {
+    "id": "h341",
+    "en": "The oval field suits the game",
+    "hi": "अंडाकार मैदान खेल के लिए उपयुक्त है"
+  },
+  {
+    "id": "h342",
+    "en": "The famine forced people to migrate",
+    "hi": "दसवें वर्ष के अकाल ने पलायन कराया"
+  },
+  {
+    "id": "h343",
+    "en": "The galaxy shines in the night sky",
+    "hi": "रेखांकित आकाशगंगा रात में चमकती है"
+  },
+  {
+    "id": "h344",
+    "en": "The roots of the old tree are deep",
+    "hi": "पुराने पेड़ की जड़ें गहरी होती हैं"
+  },
+  {
+    "id": "h345",
+    "en": "Ore is extracted from mines",
+    "hi": "अयस्क खदानों से निकाला जाता है"
+  },
+  {
+    "id": "h346",
+    "en": "The riots disturbed the peace of the city",
+    "hi": "दंगों ने नगर की शांति भंग की"
+  },
+  {
+    "id": "h347",
+    "en": "Modernization changed the villages",
+    "hi": "आधुनिकीकरण ने गाँव बदल दिए"
+  },
+  {
+    "id": "h348",
+    "en": "The advocate argued the case well",
+    "hi": "अधिवक्ता ने मुकदमा अच्छी तरह लड़ा"
+  },
+  {
+    "id": "h349",
+    "en": "Sociology studies human society",
+    "hi": "समाजशास्त्र मानव समाज का अध्ययन करता है"
+  },
+  {
+    "id": "h350",
+    "en": "The unpublished diary of the poet surfaced",
+    "hi": "अप्रकाशित डायरी सामने आई"
+  },
+  {
+    "id": "h351",
+    "en": "Mammals feed their young",
+    "hi": "स्तनधारी अपने शावकों को दूध पिलाते हैं"
+  },
+  {
+    "id": "h352",
+    "en": "The ruling party won again",
+    "hi": "शासी दल फिर जीता"
+  },
+  {
+    "id": "h353",
+    "en": "Nationality unites the people",
+    "hi": "राष्ट्रीयता नागरिकों को जोड़ती है"
+  },
+  {
+    "id": "h354",
+    "en": "The master blessed the tenant",
+    "hi": "साहिब ने किसान को आशीर्वाद दिया"
+  },
+  {
+    "id": "h355",
+    "en": "The proximity of the river helps farming",
+    "hi": "नदी के समीप खेती लाभदायक है"
+  },
+  {
+    "id": "h356",
+    "en": "The employer paid the wages",
+    "hi": "नियोक्ता ने मज़दूरी दी"
+  },
+  {
+    "id": "h357",
+    "en": "The oppressed raised their voice",
+    "hi": "दलितों ने आवाज़ उठाई"
+  },
+  {
+    "id": "h358",
+    "en": "The unrest in universities worries all",
+    "hi": "विश्वविद्यालयों में अशांति सबको चिंतित करती है"
+  },
+  {
+    "id": "h359",
+    "en": "The parasite harms the host",
+    "hi": "परजीवी मेज़बान को हानि पहुँचाता है"
+  },
+  {
+    "id": "h360",
+    "en": "The cycle of seasons continues",
+    "hi": "ऋतुओं का आवर्ती चक्र चलता रहता है"
+  },
+  {
+    "id": "h361",
+    "en": "The mandate of people decides the government",
+    "hi": "जनादेश सरकार का निर्णय करता है"
+  },
+  {
+    "id": "h362",
+    "en": "The broadcaster aired the program",
+    "hi": "प्रसारक ने कार्यक्रम प्रसारित किया"
+  },
+  {
+    "id": "h363",
+    "en": "Humor lightens the mind",
+    "hi": "विनोद मन को हल्का करता है"
+  },
+  {
+    "id": "h364",
+    "en": "The stone in the kidney pains",
+    "hi": "पथरी की बीमारी दर्द देती है"
+  },
+  {
+    "id": "h365",
+    "en": "The tailor stitched the shirt",
+    "hi": "दर्ज़ी ने कपड़ा सिलना सीखा"
+  },
+  {
+    "id": "h366",
+    "en": "Turn the key to open the lock",
+    "hi": "ताला खोलने के लिए घुमाना पड़ता है"
+  },
+  {
+    "id": "h367",
+    "en": "The trio sang the song",
+    "hi": "तिकड़ी ने गीत गाया"
+  },
+  {
+    "id": "h368",
+    "en": "The sovereign king ruled justly",
+    "hi": "संप्रभु राजा ने न्याय किया"
+  },
+  {
+    "id": "h369",
+    "en": "The retired officer guides the youth",
+    "hi": "निवर्तमान अधिकारी युवाओं का मार्गदर्शन करते हैं"
+  },
+  {
+    "id": "h370",
+    "en": "The millennium saw great changes",
+    "hi": "सहस्राब्दी में विशाल परिवर्तन आए"
+  },
+  {
+    "id": "h371",
+    "en": "The sponsor funded the tournament",
+    "hi": "प्रायोजक ने प्रतियोगिता का प्रायोजन किया"
+  },
+  {
+    "id": "h372",
+    "en": "The general manager of the factory retired",
+    "hi": "कारखाने का महाप्रबंधक सेवानिवृत्त हुआ"
+  },
+  {
+    "id": "h373",
+    "en": "The restored temple looks grand",
+    "hi": "पुनर्स्थापित मंदिर भव्य लगता है"
+  },
+  {
+    "id": "h374",
+    "en": "The resulting confusion was unavoidable",
+    "hi": "परिणामी भ्रम अनिवार्य था"
+  },
+  {
+    "id": "h375",
+    "en": "The punished culprit repented",
+    "hi": "दंडित अपराधी ने पश्चाताप किया"
+  },
+  {
+    "id": "h376",
+    "en": "The step mother loved the child",
+    "hi": "सौतेले माँ ने बच्चे को गोद लिया"
+  },
+  {
+    "id": "h377",
+    "en": "The sponsorship of sports is increasing",
+    "hi": "खेलों का प्रायोजन बढ़ रहा है"
+  },
+  {
+    "id": "h378",
+    "en": "The ring was lost in the river",
+    "hi": "अंगूठी नदी में खो गई"
+  },
+  {
+    "id": "h379",
+    "en": "Unemployment troubles the youth",
+    "hi": "बेरोजगारी युवाओं को परेशान करती है"
+  },
+  {
+    "id": "h380",
+    "en": "The tomb of the king is in the city",
+    "hi": "राजा का मकबरा शहर में है"
+  },
+  {
+    "id": "h381",
+    "en": "The government school opened",
+    "hi": "राजकीय विद्यालय खुल गया"
+  },
+  {
+    "id": "h382",
+    "en": "The tremor of the earthquake was strong",
+    "hi": "भूकंप का झटका प्रबल था"
+  },
+  {
+    "id": "h383",
+    "en": "The sage meditated in the hills",
+    "hi": "योगी पहाड़ियों में ध्यान करता था"
+  },
+  {
+    "id": "h384",
+    "en": "The colleague helped in the work",
+    "hi": "सहकर्मी ने काम में सहायता की"
+  },
+  {
+    "id": "h385",
+    "en": "The communal riot hurt the town",
+    "hi": "सांप्रदायिक दंगों ने नगर को घायल किया"
+  },
+  {
+    "id": "h386",
+    "en": "The circumference of the field was measured",
+    "hi": "खेत की परिधि नापी गई"
+  },
+  {
+    "id": "h387",
+    "en": "The triangle has three sides",
+    "hi": "त्रिकोण में तीन भुजाएँ होती हैं"
+  },
+  {
+    "id": "h388",
+    "en": "The reunion of friends was joyful",
+    "hi": "पुराने मित्रों का पुनर्मिलन आनंददायक रहा"
+  },
+  {
+    "id": "h389",
+    "en": "The distracted driver met an accident",
+    "hi": "विचलित चालक दुर्घटना का शिकार हुआ"
+  },
+  {
+    "id": "h390",
+    "en": "The ambitious youth dreams big",
+    "hi": "महत्वाकांक्षी युवा बड़ा सपना देखता है"
+  },
+  {
+    "id": "h391",
+    "en": "The populist leader promised jobs",
+    "hi": "जनवादी नेता ने रोज़गार का वादा किया"
+  },
+  {
+    "id": "h392",
+    "en": "The abandoned house fell down",
+    "hi": "परित्यक्त मकान गिर गया"
+  },
+  {
+    "id": "h393",
+    "en": "Unequal wages cause resentment",
+    "hi": "असमान वेतन से असंतोष फैलता है"
+  },
+  {
+    "id": "h394",
+    "en": "The fleet of ships sailed at dawn",
+    "hi": "बेड़ा भोर में रवाना हुआ"
+  },
+  {
+    "id": "h395",
+    "en": "The judiciary is independent",
+    "hi": "न्यायपालिका स्वतंत्र होती है"
+  },
+  {
+    "id": "h396",
+    "en": "The casualties were shifted to hospital",
+    "hi": "हताहतों को अस्पताल ले जाया गया"
+  },
+  {
+    "id": "h397",
+    "en": "The concurrent events surprised all",
+    "hi": "समवर्ती घटनाओं ने सबको चौंकाया"
+  },
+  {
+    "id": "h398",
+    "en": "The proposal was accepted",
+    "hi": "स्वीकार्य प्रस्ताव पारित हुआ"
+  },
+  {
+    "id": "h399",
+    "en": "The processed goods were exported",
+    "hi": "संसाधित माल निर्यात हुआ"
+  },
+  {
+    "id": "h400",
+    "en": "Adolescence is a delicate age",
+    "hi": "किशोरावस्था नाज़ुक उम्र होती है"
+  },
+  {
+    "id": "h401",
+    "en": "Autonomy was given to institutions",
+    "hi": "संस्थाओं को स्वायत्तता दी गई"
+  },
+  {
+    "id": "h402",
+    "en": "The realist accepts the truth",
+    "hi": "यथार्थवादी सत्य स्वीकारता है"
+  },
+  {
+    "id": "h403",
+    "en": "Compliance of rules is required",
+    "hi": "नियमों का अनुपालन आवश्यक है"
+  },
+  {
+    "id": "h404",
+    "en": "The navel of the infant was cut",
+    "hi": "नवजात की नाभि काटी गई"
+  },
+  {
+    "id": "h405",
+    "en": "Insight comes with experience",
+    "hi": "अंतर्दृष्टि अनुभव से आती है"
+  },
+  {
+    "id": "h406",
+    "en": "The displacement of people pained all",
+    "hi": "जनता का विस्थापन सबको दुखी करता है"
+  },
+  {
+    "id": "h407",
+    "en": "Actually the fault was of the servant",
+    "hi": "दरअसल गलती नौकर की थी"
+  },
+  {
+    "id": "h408",
+    "en": "The noun names a thing",
+    "hi": "संज्ञा किसी वस्तु का नाम है"
+  },
+  {
+    "id": "h409",
+    "en": "The fasting devotee prayed",
+    "hi": "उपवास करते अनुयायियों ने प्रार्थना की"
+  },
+  {
+    "id": "h410",
+    "en": "The meter of poetry is musical",
+    "hi": "काव्य का छंद संगीतमय होता है"
+  },
+  {
+    "id": "h411",
+    "en": "The wrestler uprooted the opponent",
+    "hi": "पहलवान ने उखाड़ प्रतिद्वंद्वी को गिराया"
+  },
+  {
+    "id": "h412",
+    "en": "Salvation is the aim of life",
+    "hi": "मोक्ष जीवन का लक्ष्य है"
+  },
+  {
+    "id": "h413",
+    "en": "The trust takes care of property",
+    "hi": "न्यासी संपत्तियों की देखभाल करता है"
+  },
+  {
+    "id": "h414",
+    "en": "Strictness alone does not reform",
+    "hi": "सख्ती मात्र सुधार नहीं लाती"
+  },
+  {
+    "id": "h415",
+    "en": "The end of the story is strange",
+    "hi": "कहानी का अंजाम अजीब है"
+  },
+  {
+    "id": "h416",
+    "en": "The trio of gods is praised",
+    "hi": "त्रयी की महिमा गाई जाती है"
+  },
+  {
+    "id": "h417",
+    "en": "The map shows the terrain",
+    "hi": "भूभाग मानचित्रों में दिखता है"
+  },
+  {
+    "id": "h418",
+    "en": "Colloquial language is easy",
+    "hi": "बोलचाल की भाषा सरल होती है"
+  },
+  {
+    "id": "h419",
+    "en": "Every year the fair is held",
+    "hi": "प्रतिवर्ष मेला लगता है"
+  },
+  {
+    "id": "h420",
+    "en": "The play of the child is lovely",
+    "hi": "अंदर के कमरे में खिलौना रखा है"
+  },
+  {
+    "id": "h421",
+    "en": "The god of wealth is worshipped",
+    "hi": "लीला के रूप में देवताओं की पूजा होती है"
+  },
+  {
+    "id": "h422",
+    "en": "Firefighting teams worked hard",
+    "hi": "अग्निशमन दलों ने कड़ी मेहनत की"
+  },
+  {
+    "id": "h423",
+    "en": "Amendments were made in the law",
+    "hi": "कानून में संशोधनों का सुझाव आया"
+  },
+  {
+    "id": "h424",
+    "en": "Gender equality is a modern idea",
+    "hi": "लैंगिक समानता की बात होती है"
+  },
+  {
+    "id": "h425",
+    "en": "The puppet danced on strings",
+    "hi": "कठपुतली नाचती है धागों से"
+  },
+  {
+    "id": "h426",
+    "en": "The attackers fled in the dark",
+    "hi": "हमलावरों अंधेरे में भाग गए"
+  },
+  {
+    "id": "h427",
+    "en": "The empire lasted long",
+    "hi": "सल्तनत लंबे समय तक चली"
+  },
+  {
+    "id": "h428",
+    "en": "Reducing the wastage saved money",
+    "hi": "घटाकर बर्बादी रोकी गई"
+  },
+  {
+    "id": "h429",
+    "en": "The patriot sacrifices everything",
+    "hi": "देशभक्त सब कुछ अर्पित कर देता है"
+  },
+  {
+    "id": "h430",
+    "en": "Sandy soil drains quickly",
+    "hi": "बलुआ मिट्टी जल्दी सूख जाती है"
+  },
+  {
+    "id": "h431",
+    "en": "The specification was shared with firms",
+    "hi": "विनिर्देश फर्मों को भेजा गया"
+  },
+  {
+    "id": "h432",
+    "en": "The translated book sold well",
+    "hi": "अनुवादित पुस्तक अच्छी बिकी"
+  },
+  {
+    "id": "h433",
+    "en": "The analyst studied the data",
+    "hi": "विश्लेषक ने आँकड़े देखे"
+  },
+  {
+    "id": "h434",
+    "en": "The supply of grain was arranged",
+    "hi": "खाद्यान्न की पूर्ति की गई"
+  },
+  {
+    "id": "h435",
+    "en": "The foundation of the building is strong",
+    "hi": "नींव कायम रखने से इमारत टिकती है"
+  },
+  {
+    "id": "h436",
+    "en": "The unsafe bridge was closed",
+    "hi": "असुरक्षित पुल बंद कर दिया गया"
+  },
+  {
+    "id": "h437",
+    "en": "Raw material was arranged",
+    "hi": "सामग्रियों की खरीदी हुई"
+  },
+  {
+    "id": "h438",
+    "en": "Power lines were repaired",
+    "hi": "बिजली की लाइनें ठीक की गईं"
+  },
+  {
+    "id": "h439",
+    "en": "The assumptions of the study were wrong",
+    "hi": "मान्यताओं का आधार गलत था"
+  },
+  {
+    "id": "h440",
+    "en": "The museums of the city are famous",
+    "hi": "संग्रहालयों की मान्यता प्रसिद्ध है"
+  },
+  {
+    "id": "h441",
+    "en": "The inhibitor blocked the reaction",
+    "hi": "अवरोधक ने प्रतिक्रिया रोकी"
+  },
+  {
+    "id": "h442",
+    "en": "The plans were discussed",
+    "hi": "योजनाओं पर विचार हुआ"
+  },
+  {
+    "id": "h443",
+    "en": "Atoms combine to form molecules",
+    "hi": "अणुओं के जुड़ने से अणु बनते हैं"
+  },
+  {
+    "id": "h444",
+    "en": "The adjective qualifies the noun",
+    "hi": "विशेषण क्रिया की विशेषता बताता है"
+  },
+  {
+    "id": "h445",
+    "en": "Yes the work is complete",
+    "hi": "हां काम पूरा हो गया"
+  },
+  {
+    "id": "h446",
+    "en": "The councils of districts met",
+    "hi": "परिषदों की बैठक हुई"
+  },
+  {
+    "id": "h447",
+    "en": "Persuading him took time",
+    "hi": "दिलाने में समय लगा"
+  },
+  {
+    "id": "h448",
+    "en": "Monopoly harms consumers",
+    "hi": "एकाधिकार उपभोक्ताओं के लिए हानिकार है"
+  },
+  {
+    "id": "h449",
+    "en": "The slaying of the demon is legend",
+    "hi": "राक्षस का वध पौराणिक है"
+  },
+  {
+    "id": "h450",
+    "en": "The catalyst speeds the reaction",
+    "hi": "उत्प्रेरक प्रतिक्रिया तेज़ करता है"
+  },
+  {
+    "id": "h451",
+    "en": "Maps of the region were updated",
+    "hi": "मानचित्रों क्षेत्र का नक्शा बना"
+  },
+  {
+    "id": "h452",
+    "en": "The coral reef is fragile",
+    "hi": "प्रवाल भित्ति नाज़ुक होती है"
+  },
+  {
+    "id": "h453",
+    "en": "The compensation was announced",
+    "hi": "मुआवजे की घोषणा हुई"
+  },
+  {
+    "id": "h454",
+    "en": "The glory of the kingdom spread",
+    "hi": "महिमा की चर्चा दूर तक फैली"
+  },
+  {
+    "id": "h455",
+    "en": "The figures were counted again",
+    "hi": "संख्याएँ फिर गिनी गईं"
+  },
+  {
+    "id": "h456",
+    "en": "Saturn is a giant planet",
+    "hi": "शनि विशाल ग्रह है"
+  },
+  {
+    "id": "h457",
+    "en": "The mischiefs of children continue",
+    "hi": "छेड़ें बच्चों का शौक बना रहे"
+  },
+  {
+    "id": "h458",
+    "en": "Terror spread in the village",
+    "hi": "आतंक गाँव में फैल गया"
+  },
+  {
+    "id": "h459",
+    "en": "The thief sneaked in at night",
+    "hi": "चोर रात में घुस गया"
+  },
+  {
+    "id": "h460",
+    "en": "The churches of the coast are old",
+    "hi": "गिरजाघर तट के पुराने हैं"
+  },
+  {
+    "id": "h461",
+    "en": "The awakening spread among the youth",
+    "hi": "जागरण युवाओं में फैला"
+  },
+  {
+    "id": "h462",
+    "en": "The firms invested in technology",
+    "hi": "फर्मों ने तकनीक में निवेश किया"
+  },
+  {
+    "id": "h463",
+    "en": "The turn of duties rotates",
+    "hi": "बारीबारी से कर्तव्य निभाते हैं"
+  },
+  {
+    "id": "h464",
+    "en": "Mapping of resources was done",
+    "hi": "मानचित्रण विशेषज्ञों ने किया"
+  },
+  {
+    "id": "h465",
+    "en": "Geometric designs decorate the floor",
+    "hi": "ज्यामितीय आकृतियों फर्श सजाती हैं"
+  },
+  {
+    "id": "h466",
+    "en": "The obscene poster was removed",
+    "hi": "अश्लील पोस्टर हटाए गए"
+  },
+  {
+    "id": "h467",
+    "en": "Atmospheric pressure varies",
+    "hi": "वायुमंडलीय दबाव बदलता रहता है"
+  },
+  {
+    "id": "h468",
+    "en": "The prehistoric cave has paintings",
+    "hi": "प्रागैतिहासिक गुफा में चित्र हैं"
+  },
+  {
+    "id": "h469",
+    "en": "To grow the crop needs water",
+    "hi": "बढना हेतु फसल को जल चाहिए"
+  },
+  {
+    "id": "h470",
+    "en": "The urine test was clear",
+    "hi": "मूत्र परीक्षण साफ़ निकला"
+  },
+  {
+    "id": "h471",
+    "en": "Vaccination protected the children",
+    "hi": "टीकाकरण बच्चों को बचाता है"
+  },
+  {
+    "id": "h472",
+    "en": "The layers of earth tell history",
+    "hi": "परतों से पृथ्वी का इतिहास पता चलता है"
+  },
+  {
+    "id": "h473",
+    "en": "To draw a line use a scale",
+    "hi": "खींचने रेखा के लिए पैमाना चाहिए"
+  },
+  {
+    "id": "h474",
+    "en": "Constant practice improves skill",
+    "hi": "सतत अभ्यास कौशल बढ़ाता है"
+  },
+  {
+    "id": "h475",
+    "en": "To believe the truthful is wise",
+    "hi": "मानने में सच्चा बुद्धिमानी है"
+  },
+  {
+    "id": "h476",
+    "en": "Sexuality education is debated",
+    "hi": "कामुकता पर बहस होती है"
+  },
+  {
+    "id": "h477",
+    "en": "The obsolete custom ended",
+    "hi": "अप्रचलित रीति रिवाज बंद हुए"
+  },
+  {
+    "id": "h478",
+    "en": "The thorns hurt the feet",
+    "hi": "कांटे पैरों में चुभते हैं"
+  },
+  {
+    "id": "h479",
+    "en": "The tower collapsed suddenly",
+    "hi": "बुर्ज अचानक गिर गया"
+  },
+  {
+    "id": "h480",
+    "en": "The researcher published findings",
+    "hi": "खोजकर्ता ने निष्कर्ष प्रकाशित किए"
+  },
+  {
+    "id": "h481",
+    "en": "Dozens of boats sailed",
+    "hi": "दर्जनों नावें समुद्र में चलीं"
+  },
+  {
+    "id": "h482",
+    "en": "The graves are in the yard",
+    "hi": "कब्रों का प्रांगण पुराना है"
+  },
+  {
+    "id": "h483",
+    "en": "He performed the duty well",
+    "hi": "उसने निभाया कर्तव्य निष्ठा से"
+  },
+  {
+    "id": "h484",
+    "en": "The bankrupt trader left the town",
+    "hi": "दिवालिया व्यापारी नगर छोड़ गया"
+  },
+  {
+    "id": "h485",
+    "en": "To bury the dead is a duty",
+    "hi": "दफनाने मृतकों का धर्म है"
+  },
+  {
+    "id": "h486",
+    "en": "Moments of joy are rare",
+    "hi": "क्षणों की महत्त्वपूर्ण बेला है"
+  },
+  {
+    "id": "h487",
+    "en": "The ruling dynasty declined",
+    "hi": "सत्तारूढ़ वंश पतन को गया"
+  },
+  {
+    "id": "h488",
+    "en": "The foursome played well",
+    "hi": "चौकड़ी ने अच्छा प्रदर्शन किया"
+  },
+  {
+    "id": "h489",
+    "en": "The magic show amazed children",
+    "hi": "जादुई खेल से बच्चे हैरान रह गए"
+  },
+  {
+    "id": "h490",
+    "en": "The fool learns late",
+    "hi": "मूर्ख समझता देर से है"
+  },
+  {
+    "id": "h491",
+    "en": "The retrospective law was debated",
+    "hi": "पूर्वव्यापी कानून पर बहस हुई"
+  },
+  {
+    "id": "h492",
+    "en": "Lakes freeze in winter",
+    "hi": "झीलें सर्दियों में जम जाती हैं"
+  },
+  {
+    "id": "h493",
+    "en": "The varieties of mangoes were many",
+    "hi": "किस्मों का विवरण दिया गया"
+  },
+  {
+    "id": "h494",
+    "en": "The statements were recorded",
+    "hi": "बयानों का विघटित संग्रह हुआ"
+  },
+  {
+    "id": "h495",
+    "en": "Worldwide trade expanded",
+    "hi": "विश्वव्यापी व्यापार फैला"
+  },
+  {
+    "id": "h496",
+    "en": "The address on the letter faded",
+    "hi": "पते का लेख मिट गया"
+  },
+  {
+    "id": "h497",
+    "en": "The film won awards",
+    "hi": "चलचित्र को पुरस्कार मिले"
+  },
+  {
+    "id": "h498",
+    "en": "The widow bequeathed her property",
+    "hi": "वसीयत में संपत्ति दान की गई"
+  },
+  {
+    "id": "h499",
+    "en": "To order food call the kitchen",
+    "hi": "मंगवाना भोजन रसोई से कहिए"
+  },
+  {
+    "id": "h500",
+    "en": "Grumbling does no good",
+    "hi": "बडबडाना बेकार है"
+  },
+  {
+    "id": "h501",
+    "en": "The cockroach hid in a corner",
+    "hi": "तिलचट्टा कोने में छिप गया"
+  },
+  {
+    "id": "h502",
+    "en": "The moth circled the lamp",
+    "hi": "पतंगा दीपक के पास घूमता रहा"
+  },
+  {
+    "id": "h503",
+    "en": "The young man joined the army",
+    "hi": "तरुण युवक सेना में भर्ती हुआ"
+  },
+  {
+    "id": "h504",
+    "en": "The dog smelled the trail",
+    "hi": "कुत्ते ने सूँघना जाना मार्ग"
+  },
+  {
+    "id": "h505",
+    "en": "To push the cart needs strength",
+    "hi": "धकेलना गाड़ी के लिए शक्ति चाहिए"
+  },
+  {
+    "id": "h506",
+    "en": "To scatter seeds is sowing",
+    "hi": "बिखेरना बीज बोना कहलाता है"
+  },
+  {
+    "id": "h507",
+    "en": "The constellation guides sailors",
+    "hi": "तारामंडल नाविकों का मार्ग दिखाता है"
+  },
+  {
+    "id": "h508",
+    "en": "The monetary policy changed",
+    "hi": "मौद्रिक नीति में बदलाव आया"
+  },
+  {
+    "id": "h509",
+    "en": "The claimant filed a case",
+    "hi": "दावेदार ने मुकदमा दायर किया"
+  },
+  {
+    "id": "h510",
+    "en": "The future of children is bright",
+    "hi": "भावी पीढ़ी का भविष्य उज्ज्वल है"
+  },
+  {
+    "id": "h511",
+    "en": "The tablets were bitter",
+    "hi": "गोलियों का स्वाद कड़वा था"
+  },
+  {
+    "id": "h512",
+    "en": "The torso was injured",
+    "hi": "धड पर चोट आई थी"
+  },
+  {
+    "id": "h513",
+    "en": "The tremor of the phone broke silence",
+    "hi": "कंपन से मौन टूटा"
+  },
+  {
+    "id": "h514",
+    "en": "The effectiveness of the drug was proven",
+    "hi": "प्रभावशीलता परीक्षण सिद्ध हुई"
+  },
+  {
+    "id": "h515",
+    "en": "Competition improves quality",
+    "hi": "स्पर्धा गुणवत्ता बढ़ाती है"
+  },
+  {
+    "id": "h516",
+    "en": "The subcontinent is densely populated",
+    "hi": "उपमहाद्वीप घनी आबादी वाला है"
+  },
+  {
+    "id": "h517",
+    "en": "Eternal values endure",
+    "hi": "शाश्वत मूल्य कायम रहते हैं"
+  },
+  {
+    "id": "h518",
+    "en": "The complexities of law confuse people",
+    "hi": "जटिलताओं का ज्ञान कठिन है"
+  },
+  {
+    "id": "h519",
+    "en": "The boxer trained hard",
+    "hi": "मुक्केबाज ने कठोर अभ्यास किया"
+  },
+  {
+    "id": "h520",
+    "en": "Racism is condemnable",
+    "hi": "नस्लवाद निंदनीय है"
+  },
+  {
+    "id": "h521",
+    "en": "The district was reorganized",
+    "hi": "रूपांतरित जनपद बना"
+  },
+  {
+    "id": "h522",
+    "en": "The prophet preached peace",
+    "hi": "पैगंबर ने शांति का संदेश दिया"
+  },
+  {
+    "id": "h523",
+    "en": "The destruction of war is vast",
+    "hi": "विध्वंस युद्ध का परिणाम है"
+  },
+  {
+    "id": "h524",
+    "en": "The excitement of the crowd grew",
+    "hi": "उत्तेजना भीड़ में बढ़ती गई"
+  },
+  {
+    "id": "h525",
+    "en": "The waterfalls cascade from heights",
+    "hi": "झरनों का जल ऊँचाई से गिरता है"
+  },
+  {
+    "id": "h526",
+    "en": "The instructions were followed",
+    "hi": "निर्देशों प्राप्त हुए और पालन हुआ"
+  },
+  {
+    "id": "h527",
+    "en": "Socialism aims at equality",
+    "hi": "समाजवाद समानता चाहता है"
+  },
+  {
+    "id": "h528",
+    "en": "He sends letters every week",
+    "hi": "वह परम्परा से पत्र भेजता है"
+  },
+  {
+    "id": "h529",
+    "en": "The past cannot return",
+    "hi": "पिछला समय लौटता नहीं"
+  },
+  {
+    "id": "h530",
+    "en": "The ambiguity confused the court",
+    "hi": "अस्पष्टता ने न्यायालय को भ्रमित किया"
+  },
+  {
+    "id": "h531",
+    "en": "The broker settled the deal",
+    "hi": "मध्यस्थ ने सौदा तय किया"
+  },
+  {
+    "id": "h532",
+    "en": "The daughter is wise",
+    "hi": "पुत्री बुद्धिमान है"
+  },
+  {
+    "id": "h533",
+    "en": "The donor was honored",
+    "hi": "दाता का सम्मान हुआ"
+  },
+  {
+    "id": "h534",
+    "en": "The excited crowd cheered",
+    "hi": "उत्तेजित भीड़ ने नारे लगाए"
+  },
+  {
+    "id": "h535",
+    "en": "The warrior guarded the gate",
+    "hi": "सेनानी द्वार की रखवाली करता था"
+  },
+  {
+    "id": "h536",
+    "en": "The rooms of the palace are grand",
+    "hi": "कक्षों महल के भव्य हैं"
+  },
+  {
+    "id": "h537",
+    "en": "The bacteria caused illness",
+    "hi": "जीवाणु से बीमारी फैली"
+  },
+  {
+    "id": "h538",
+    "en": "The director general inspected the plant",
+    "hi": "महानिदेशक ने संयंत्र का निरीक्षण किया"
+  },
+  {
+    "id": "h539",
+    "en": "The junior clerk typed letters",
+    "hi": "कनिष्ठ लिपिक ने पत्र टाइप किए"
+  },
+  {
+    "id": "h540",
+    "en": "Bankruptcy ruined the trader",
+    "hi": "दिवालियापन व्यापारी का सर्वनाश है"
+  },
+  {
+    "id": "h541",
+    "en": "Circulation of blood is vital",
+    "hi": "परिसंचरण शरीर के लिए आवश्यक है"
+  },
+  {
+    "id": "h542",
+    "en": "Waste was recycled",
+    "hi": "कचरे से खाद बनाई गई"
+  },
+  {
+    "id": "h543",
+    "en": "Logical thinking solves problems",
+    "hi": "तार्किक विचार समस्याएँ सुलझाता है"
+  },
+  {
+    "id": "h544",
+    "en": "The tribunal gave the verdict",
+    "hi": "न्यायाधिकरण ने फैसला सुनाया"
+  },
+  {
+    "id": "h545",
+    "en": "The preacher addressed the gathering",
+    "hi": "प्रचारक ने सभा को संबोधित किया"
+  },
+  {
+    "id": "h546",
+    "en": "The beautiful valley attracted tourists",
+    "hi": "खूबसूरत घाटी पर्यटकों को लुभाती है"
+  },
+  {
+    "id": "h547",
+    "en": "The atmosphere of the village is calm",
+    "hi": "वायुमंडल का वातावरण शांत है"
+  },
+  {
+    "id": "h548",
+    "en": "The deviation from the path was small",
+    "hi": "विचलन मार्ग से थोड़ा था"
+  },
+  {
+    "id": "h549",
+    "en": "To catch the ball needs skill",
+    "hi": "पकडना गेंद के लिए कौशल चाहिए"
+  },
+  {
+    "id": "h550",
+    "en": "Because it rained the crop grew",
+    "hi": "चूँकि बारिश हुई फसल बढ़ी"
+  },
+  {
+    "id": "h551",
+    "en": "The blow was severe",
+    "hi": "प्रहार तेज़ था"
+  },
+  {
+    "id": "h552",
+    "en": "He said this yesterday",
+    "hi": "कहे गए शब्द वापस नहीं"
+  },
+  {
+    "id": "h553",
+    "en": "The wells dried in summer",
+    "hi": "कुओं का जल गर्मी में सूख गया"
+  },
+  {
+    "id": "h554",
+    "en": "The saw cut the plank",
+    "hi": "आरा ने तख्ता काटा"
+  },
+  {
+    "id": "h555",
+    "en": "Illegal construction was removed",
+    "hi": "गैरकानूनी निर्माण हटाया गया"
+  },
+  {
+    "id": "h556",
+    "en": "The terrestrial animals grazed",
+    "hi": "स्थलीय पशुओं ने चरना आरंभ किया"
+  },
+  {
+    "id": "h557",
+    "en": "The maiden won hearts",
+    "hi": "कुमारी ने सबका मन जीता"
+  },
+  {
+    "id": "h558",
+    "en": "The contributor was thanked",
+    "hi": "योगदानकर्ता का आभार व्यक्त हुआ"
+  },
+  {
+    "id": "h559",
+    "en": "The winners celebrated",
+    "hi": "जीतीं टीम ने जश्न मनाया"
+  },
+  {
+    "id": "h560",
+    "en": "Astrology claims to foretell",
+    "hi": "ज्योतिष भविष्य बताने का दावा करता है"
+  },
+  {
+    "id": "h561",
+    "en": "The dissatisfied workers struck work",
+    "hi": "असंतुष्ट मज़दूरों ने काम बंद किया"
+  },
+  {
+    "id": "h562",
+    "en": "Communism spread in that era",
+    "hi": "साम्यवाद उस युग में फैला"
+  },
+  {
+    "id": "h563",
+    "en": "Accordingly the plan was changed",
+    "hi": "तदनुसार योजना में बदलाव हुआ"
+  },
+  {
+    "id": "h564",
+    "en": "The tragedy moved everyone",
+    "hi": "त्रासदी से सब भावुक हुए"
+  },
+  {
+    "id": "h565",
+    "en": "Numerical data was analyzed",
+    "hi": "संख्यात्मक आँकड़े विश्लेषित किए गए"
+  },
+  {
+    "id": "h566",
+    "en": "The marginal farmer suffered loss",
+    "hi": "सीमांत किसान को घाटा हुआ"
+  },
+  {
+    "id": "h567",
+    "en": "The hole in the wall was patched",
+    "hi": "छिद्र दीवार में बंद किया गया"
+  },
+  {
+    "id": "h568",
+    "en": "The asteroid orbits the sun",
+    "hi": "क्षुद्रग्रह सूर्य की परिक्रमा करता है"
+  },
+  {
+    "id": "h569",
+    "en": "The councilors attended the meeting",
+    "hi": "पार्षदों की सूची बनाई गई"
+  },
+  {
+    "id": "h570",
+    "en": "Inflation hurts savings",
+    "hi": "मुद्रास्फीति से बचत घिसटती है"
+  },
+  {
+    "id": "h571",
+    "en": "The prosecutor examined witnesses",
+    "hi": "अभियोजक ने गवाहों की परीक्षा की"
+  },
+  {
+    "id": "h572",
+    "en": "The imaginary tale amused children",
+    "hi": "कल्पित कहानियों से बच्चे प्रसन्न हुए"
+  },
+  {
+    "id": "h573",
+    "en": "The assembly session began",
+    "hi": "विधानमंडल का अधिवेशन शुरू हुआ"
+  },
+  {
+    "id": "h574",
+    "en": "Venus shines at dusk",
+    "hi": "शुक्र संध्या में चमकता है"
+  },
+  {
+    "id": "h575",
+    "en": "The spear was sharp",
+    "hi": "भाला तेज़ धार वाला था"
+  },
+  {
+    "id": "h576",
+    "en": "The titles of nobles were hereditary",
+    "hi": "खिताबों का दायित्व विरासत चला"
+  }
+]

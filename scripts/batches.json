@@ -1,0 +1,3154 @@
+[
+  {
+    "id": "batch-001",
+    "file": "data/batch-001.json",
+    "game_level": "L1",
+    "grammar_level": "L1",
+    "category": "colors",
+    "word_range": [
+      6,
+      18
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 50,
+    "id_prefix": "b001",
+    "notes": "colors; merged into level chunks during reorg"
+  },
+  {
+    "id": "batch-002",
+    "file": "data/batch-002.json",
+    "game_level": "L2",
+    "grammar_level": "L1",
+    "category": "colors",
+    "word_range": [
+      9,
+      12
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 50,
+    "id_prefix": "b002",
+    "notes": "food; merged into level chunks during reorg"
+  },
+  {
+    "id": "batch-003",
+    "file": "data/batch-003.json",
+    "game_level": "L2",
+    "grammar_level": "L1",
+    "category": "vegetables",
+    "word_range": [
+      7,
+      12
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 50,
+    "id_prefix": "b003",
+    "notes": "food; 27 new vocab words; merged into L2-1"
+  },
+  {
+    "id": "batch-004",
+    "file": "data/batch-004.json",
+    "game_level": "L2",
+    "grammar_level": "L2",
+    "category": "fruits",
+    "word_range": [
+      7,
+      12
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 50,
+    "id_prefix": "b004",
+    "notes": "fruits; 23 new vocab words; merged into L2"
+  },
+  {
+    "id": "batch-005",
+    "file": "data/batch-005.json",
+    "game_level": "L2",
+    "grammar_level": "L1",
+    "category": "days and time",
+    "word_range": [
+      7,
+      12
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 50,
+    "id_prefix": "b005",
+    "notes": "days and time; 16 new vocab words; merged into L2"
+  },
+  {
+    "id": "batch-006",
+    "file": "data/batch-006.json",
+    "game_level": "L2",
+    "grammar_level": "L1",
+    "grammar_topics": [
+      "gender and number agreement"
+    ],
+    "category": "colors",
+    "word_range": [
+      7,
+      12
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 50,
+    "id_prefix": "b006",
+    "notes": "colors; grammar: gender/number agreement; 32 new vocab words"
+  },
+  {
+    "id": "batch-007",
+    "file": "data/batch-007.json",
+    "game_level": "L2",
+    "grammar_level": "L2",
+    "grammar_topics": [
+      "ne ergative"
+    ],
+    "category": "days and time",
+    "word_range": [
+      7,
+      12
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 50,
+    "id_prefix": "b007",
+    "notes": "days and time; ne ergative; 19 new vocab words"
+  },
+  {
+    "id": "batch-008",
+    "file": "data/batch-008.json",
+    "game_level": "L2",
+    "grammar_level": "L1",
+    "grammar_topics": [
+      "pronouns tu tum aap"
+    ],
+    "category": "school",
+    "word_range": [
+      7,
+      12
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 25,
+    "id_prefix": "b008",
+    "notes": "school; pronouns tu tum aap; 44 new vocab words; merged into L2"
+  },
+  {
+    "id": "batch-009",
+    "file": "data/batch-009.json",
+    "game_level": "L2",
+    "grammar_level": "L2",
+    "grammar_topics": [
+      "oblique and postpositions ko se ka ki me par"
+    ],
+    "category": "house and home",
+    "word_range": [
+      7,
+      12
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 25,
+    "id_prefix": "b009",
+    "notes": "house and home; oblique and postpositions; 38 new vocab words; merged into L2"
+  },
+  {
+    "id": "batch-010",
+    "file": "data/batch-010.json",
+    "game_level": "L2",
+    "grammar_level": "L1",
+    "grammar_topics": [
+      "marked and unmarked adjectives"
+    ],
+    "category": "emotions",
+    "word_range": [
+      7,
+      12
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 25,
+    "id_prefix": "b010",
+    "notes": "emotions; marked and unmarked adjectives; 40 new vocab words; merged into L2"
+  },
+  {
+    "id": "batch-011",
+    "file": "data/batch-011.json",
+    "game_level": "L2",
+    "grammar_level": "L2",
+    "grammar_topics": [
+      "compound postpositions ke pas ke sath ke bina"
+    ],
+    "category": "places and infrastructure",
+    "word_range": [
+      7,
+      12
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 25,
+    "id_prefix": "b011",
+    "notes": "places and infrastructure; compound postpositions; 33 new vocab words; merged into L2"
+  },
+  {
+    "id": "batch-012",
+    "file": "data/batch-012.json",
+    "game_level": "L2",
+    "grammar_level": "L1",
+    "grammar_topics": [
+      "SOV order"
+    ],
+    "category": "adjectives",
+    "word_range": [
+      7,
+      12
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 25,
+    "id_prefix": "b012",
+    "notes": "adjectives; SOV order; new vocab words; merged into L2"
+  },
+  {
+    "id": "batch-013",
+    "file": "data/batch-013.json",
+    "game_level": "L2",
+    "grammar_level": "L2",
+    "grammar_topics": [
+      "transitive vs intransitive"
+    ],
+    "category": "vegetables",
+    "word_range": [
+      7,
+      12
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 25,
+    "id_prefix": "b013",
+    "notes": "vegetables; transitive vs intransitive; 31 new vocab words; merged into L2"
+  },
+  {
+    "id": "batch-014",
+    "file": "data/batch-014.json",
+    "game_level": "L2",
+    "grammar_level": "L1",
+    "grammar_topics": [
+      "hona copula tenses"
+    ],
+    "category": "body",
+    "word_range": [
+      7,
+      12
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 25,
+    "id_prefix": "b014",
+    "notes": "body; hona copula tenses (tha thi thin hoga hogi hai hain drawn)"
+  },
+  {
+    "id": "batch-015",
+    "file": "data/batch-015.json",
+    "game_level": "L3",
+    "grammar_level": "L2",
+    "grammar_topics": [
+      "compound verbs with vector verbs"
+    ],
+    "category": "food",
+    "word_range": [
+      13,
+      18
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 25,
+    "id_prefix": "b015",
+    "notes": "merged into level chunks"
+  },
+  {
+    "id": "batch-016",
+    "file": "data/batch-016.json",
+    "game_level": "L3",
+    "grammar_level": "L3",
+    "grammar_topics": [
+      "passive karmavachya with jana"
+    ],
+    "category": "family and relations",
+    "word_range": [
+      13,
+      18
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 25,
+    "id_prefix": "b016",
+    "notes": "family and relations; passive karmavachya (gaya gayi gae dwara drawn from grammar03)"
+  },
+  {
+    "id": "batch-017",
+    "file": "data/batch-017.json",
+    "game_level": "L3",
+    "grammar_level": "L2",
+    "grammar_topics": [
+      "causatives karana karavana"
+    ],
+    "category": "market and shopping",
+    "word_range": [
+      13,
+      18
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 25,
+    "id_prefix": "b017",
+    "notes": "market and shopping; causatives (silvana karana likhavana bulvana dilavana khilana pilana drawn from grammar02)"
+  },
+  {
+    "id": "batch-018",
+    "file": "data/batch-018.json",
+    "game_level": "L3",
+    "grammar_level": "L3",
+    "grammar_topics": [
+      "impersonal bhavavachya"
+    ],
+    "category": "travel and directions",
+    "word_range": [
+      13,
+      18
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 25,
+    "id_prefix": "b018",
+    "notes": "travel and directions; impersonal bhavavachya (mujhe lagta hai pata chala malum hai dikhai deta hai yaad aaya man hua drawn from grammar03)"
+  },
+  {
+    "id": "batch-019",
+    "file": "data/batch-019.json",
+    "game_level": "L3",
+    "grammar_level": "L2",
+    "grammar_topics": [
+      "obligation dative plus infinitive plus hona padna cahiye"
+    ],
+    "category": "nature",
+    "word_range": [
+      13,
+      18
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 25,
+    "id_prefix": "b019",
+    "notes": "nature; obligation dative infinitive (padna padata hai cahiye padegi drawn from grammar02)"
+  },
+  {
+    "id": "batch-020",
+    "file": "data/batch-020.json",
+    "game_level": "L3",
+    "grammar_level": "L3",
+    "grammar_topics": [
+      "relative correlatives jo vah jab tab"
+    ],
+    "category": "daily routine",
+    "word_range": [
+      13,
+      18
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 25,
+    "id_prefix": "b020",
+    "notes": "daily routine; relative correlatives jo vah jab tab drawn from grammar03"
+  },
+  {
+    "id": "batch-021",
+    "file": "data/batch-021.json",
+    "game_level": "L3",
+    "grammar_level": "L2",
+    "grammar_topics": [
+      "ability sakna"
+    ],
+    "category": "society and people",
+    "word_range": [
+      13,
+      18
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 25,
+    "id_prefix": "b021",
+    "notes": "society and people; ability sakna (sakta sakta hai sake nahi sakta drawn from grammar02)"
+  },
+  {
+    "id": "batch-022",
+    "file": "data/batch-022.json",
+    "game_level": "L3",
+    "grammar_level": "L3",
+    "grammar_topics": [
+      "jahan vahan jaisa vaisa jitna utna"
+    ],
+    "category": "fruits",
+    "word_range": [
+      13,
+      18
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 25,
+    "id_prefix": "b022",
+    "notes": "fruits; jahan vahan jaisa vaisa jitna utna drawn from grammar03"
+  },
+  {
+    "id": "batch-023",
+    "file": "data/batch-023.json",
+    "game_level": "L3",
+    "grammar_level": "L2",
+    "grammar_topics": [
+      "permission"
+    ],
+    "category": "weather and seasons",
+    "word_range": [
+      13,
+      18
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 25,
+    "id_prefix": "b023",
+    "notes": "weather and seasons; permission (ijazat anumati varjit pravesh maf drawn from grammar02)"
+  },
+  {
+    "id": "batch-024",
+    "file": "data/batch-024.json",
+    "game_level": "L3",
+    "grammar_level": "L3",
+    "grammar_topics": [
+      "samas compounds"
+    ],
+    "category": "clothes",
+    "word_range": [
+      13,
+      18
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 25,
+    "id_prefix": "b024",
+    "notes": "clothes; samas compounds (grampanchayat nilkamal chauraha matapita ratadin sukhdukh yathashakti drawn from grammar03)"
+  },
+  {
+    "id": "batch-025",
+    "file": "data/batch-025.json",
+    "game_level": "L3",
+    "grammar_level": "L2",
+    "grammar_topics": [
+      "ne ergative"
+    ],
+    "category": "work and occupations",
+    "word_range": [
+      13,
+      18
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 25,
+    "id_prefix": "b025",
+    "notes": "work and occupations; ne ergative with perfectives drawn from grammar02"
+  },
+  {
+    "id": "batch-026",
+    "file": "data/batch-026.json",
+    "game_level": "L3",
+    "grammar_level": "L3",
+    "grammar_topics": [
+      "sandhi"
+    ],
+    "category": "numbers and counting",
+    "word_range": [
+      13,
+      18
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 25,
+    "id_prefix": "b026",
+    "notes": "numbers and counting; sandhi (suryodaya ekaki ekant vakchaturya dukhant drawn from grammar03)"
+  },
+  {
+    "id": "batch-027",
+    "file": "data/batch-027.json",
+    "game_level": "L3",
+    "grammar_level": "L2",
+    "grammar_topics": [
+      "oblique and postpositions ko se ka ki me par"
+    ],
+    "category": "daily routine",
+    "word_range": [
+      13,
+      18
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 25,
+    "id_prefix": "b027",
+    "notes": "daily routine; oblique and simple postpositions ko se ka ki me par drawn from grammar02"
+  },
+  {
+    "id": "batch-028",
+    "file": "data/batch-028.json",
+    "game_level": "L3",
+    "grammar_level": "L3",
+    "grammar_topics": [
+      "indeclinables and emphatic particles hi bhi tak to"
+    ],
+    "category": "adjectives",
+    "word_range": [
+      13,
+      18
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 25,
+    "id_prefix": "b028",
+    "notes": "adjectives; indeclinables and emphatic particles hi bhi tak to drawn from grammar03"
+  },
+  {
+    "id": "batch-029",
+    "file": "data/batch-029.json",
+    "game_level": "L3",
+    "grammar_level": "L2",
+    "grammar_topics": [
+      "compound postpositions ke pas ke sath ke bina"
+    ],
+    "category": "food",
+    "word_range": [
+      13,
+      18
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 25,
+    "id_prefix": "b029",
+    "notes": "food; compound postpositions (ke pas ke sath ke bina ke liye ke upar ke kar drawn from grammar02)"
+  },
+  {
+    "id": "batch-030",
+    "file": "data/batch-030.json",
+    "game_level": "L3",
+    "grammar_level": "L3",
+    "grammar_topics": [
+      "sentence transformation"
+    ],
+    "category": "days and time",
+    "word_range": [
+      13,
+      18
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 25,
+    "id_prefix": "b030",
+    "notes": "days and time; sentence transformation (kya questions, negative and affirmative pairs drawn from grammar03)"
+  },
+  {
+    "id": "batch-031",
+    "file": "data/batch-031.json",
+    "game_level": "L3",
+    "grammar_level": "L2",
+    "grammar_topics": [
+      "transitive vs intransitive"
+    ],
+    "category": "weather and seasons",
+    "word_range": [
+      13,
+      18
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 25,
+    "id_prefix": "b031",
+    "notes": "weather and seasons; transitive vs intransitive (uthna uthana girana kholna khulna pairs drawn from grammar02)"
+  },
+  {
+    "id": "batch-032",
+    "file": "data/batch-032.json",
+    "game_level": "L3",
+    "grammar_level": "L3",
+    "grammar_topics": [
+      "passive karmavachya with jana"
+    ],
+    "category": "animals",
+    "word_range": [
+      13,
+      18
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 25,
+    "id_prefix": "b032",
+    "notes": "animals; passive karmavachya with jana (karayi gayi banayi gayi bheja gaya drawn from grammar03)"
+  },
+  {
+    "id": "batch-033",
+    "file": "data/batch-033.json",
+    "game_level": "L4",
+    "grammar_level": "L3",
+    "grammar_topics": [
+      "impersonal bhavavachya"
+    ],
+    "category": "vegetables",
+    "word_range": [
+      19,
+      24
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 25,
+    "id_prefix": "b033",
+    "notes": "merged into level chunks"
+  },
+  {
+    "id": "batch-034",
+    "file": "data/batch-034.json",
+    "game_level": "L4",
+    "grammar_level": "L4",
+    "grammar_topics": [
+      "anupras alliteration"
+    ],
+    "category": "body",
+    "word_range": [
+      19,
+      24
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 25,
+    "id_prefix": "b034",
+    "notes": "body; anupras alliteration (manda maruta murali madhura, taru tata taranga, kamala kanaka kiraana drawn from grammar04)"
+  },
+  {
+    "id": "batch-035",
+    "file": "data/batch-035.json",
+    "game_level": "L4",
+    "grammar_level": "L3",
+    "grammar_topics": [
+      "relative correlatives jo vah jab tab"
+    ],
+    "category": "animals",
+    "word_range": [
+      19,
+      24
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 25,
+    "id_prefix": "b035",
+    "notes": "animals; relative correlatives jo vah jab tab drawn from grammar03"
+  },
+  {
+    "id": "batch-036",
+    "file": "data/batch-036.json",
+    "game_level": "L4",
+    "grammar_level": "L4",
+    "grammar_topics": [
+      "shles double entendre"
+    ],
+    "category": "health",
+    "word_range": [
+      19,
+      24
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 25,
+    "id_prefix": "b036",
+    "notes": "health; shlesha double entendre (jal rang mala patra double-meaning words drawn from grammar04)"
+  },
+  {
+    "id": "batch-037",
+    "file": "data/batch-037.json",
+    "game_level": "L4",
+    "grammar_level": "L3",
+    "grammar_topics": [
+      "jahan vahan jaisa vaisa jitna utna"
+    ],
+    "category": "numbers and counting",
+    "word_range": [
+      19,
+      24
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 25,
+    "id_prefix": "b037",
+    "notes": "numbers and counting; jahan vahan jaisa vaisa jitna utna drawn from grammar03"
+  },
+  {
+    "id": "batch-038",
+    "file": "data/batch-038.json",
+    "game_level": "L4",
+    "grammar_level": "L4",
+    "grammar_topics": [
+      "upama simile"
+    ],
+    "category": "pronouns and questions",
+    "word_range": [
+      19,
+      24
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 25,
+    "id_prefix": "b038",
+    "notes": "pronouns and questions; upama simile (jaisa samaan tarah drawn from grammar04)"
+  },
+  {
+    "id": "batch-039",
+    "file": "data/batch-039.json",
+    "game_level": "L4",
+    "grammar_level": "L3",
+    "grammar_topics": [
+      "samas compounds"
+    ],
+    "category": "colors",
+    "word_range": [
+      19,
+      24
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 25,
+    "id_prefix": "b039",
+    "notes": "colors; samas compounds (yugmikara and tatpurusha style word building drawn from grammar03)"
+  },
+  {
+    "id": "batch-040",
+    "file": "data/batch-040.json",
+    "game_level": "L4",
+    "grammar_level": "L4",
+    "grammar_topics": [
+      "rupak metaphor"
+    ],
+    "category": "days and time",
+    "word_range": [
+      19,
+      24
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 25,
+    "id_prefix": "b040",
+    "notes": "days and time; rupak metaphor (x is y patterns drawn from grammar04)"
+  },
+  {
+    "id": "batch-041",
+    "file": "data/batch-041.json",
+    "game_level": "L3",
+    "grammar_level": "L3",
+    "grammar_topics": [
+      "sandhi"
+    ],
+    "category": "school",
+    "word_range": [
+      19,
+      24
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 25,
+    "id_prefix": "b041",
+    "notes": "school; sandhi (vidyalaya vishvavidyalaya suryoday forms from grammar03)"
+  },
+  {
+    "id": "batch-042",
+    "file": "data/batch-042.json",
+    "game_level": "L3",
+    "grammar_level": "L4",
+    "grammar_topics": [
+      "atishayokti hyperbole"
+    ],
+    "category": "house and home",
+    "word_range": [
+      19,
+      24
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 25,
+    "id_prefix": "b042",
+    "notes": "house and home; atishayokti hyperbole patterns from grammar04"
+  },
+  {
+    "id": "batch-043",
+    "file": "data/batch-043.json",
+    "game_level": "L3",
+    "grammar_level": "L3",
+    "grammar_topics": [
+      "indeclinables and emphatic particles hi bhi tak to"
+    ],
+    "category": "emotions",
+    "word_range": [
+      19,
+      24
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 25,
+    "id_prefix": "b043",
+    "notes": "emotions; indeclinables hi bhi tak to from grammar03"
+  },
+  {
+    "id": "batch-044",
+    "file": "data/batch-044.json",
+    "game_level": "L3",
+    "grammar_level": "L4",
+    "grammar_topics": [
+      "ras aesthetics"
+    ],
+    "category": "greetings and courtesy",
+    "word_range": [
+      19,
+      24
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 24,
+    "id_prefix": "b044",
+    "notes": "greetings and courtesy; ras aesthetics from grammar04"
+  },
+  {
+    "id": "batch-045",
+    "file": "data/batch-045.json",
+    "game_level": "L3",
+    "grammar_level": "L3",
+    "grammar_topics": [
+      "sentence transformation"
+    ],
+    "category": "pronouns and questions",
+    "word_range": [
+      19,
+      24
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 25,
+    "id_prefix": "b045",
+    "notes": "pronouns and questions; sentence transformation from grammar03"
+  },
+  {
+    "id": "batch-046",
+    "file": "data/batch-046.json",
+    "game_level": "L3",
+    "grammar_level": "L4",
+    "grammar_topics": [
+      "literary word order"
+    ],
+    "category": "society and people",
+    "word_range": [
+      19,
+      24
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 25,
+    "id_prefix": "b046",
+    "notes": "society and people; literary word order from grammar04"
+  },
+  {
+    "id": "batch-047",
+    "file": "data/batch-047.json",
+    "game_level": "L3",
+    "grammar_level": "L3",
+    "grammar_topics": [
+      "passive karmavachya with jana"
+    ],
+    "category": "vegetables",
+    "word_range": [
+      19,
+      24
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 25,
+    "id_prefix": "b047",
+    "notes": "vegetables; passive karmavachya with jana from grammar03"
+  },
+  {
+    "id": "batch-048",
+    "file": "data/batch-048.json",
+    "game_level": "L3",
+    "grammar_level": "L4",
+    "grammar_topics": [
+      "formal administrative register"
+    ],
+    "category": "family and relations",
+    "word_range": [
+      19,
+      24
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 25,
+    "id_prefix": "b048",
+    "notes": "family and relations; formal administrative register from grammar04"
+  },
+  {
+    "id": "batch-049",
+    "file": "data/batch-049.json",
+    "game_level": "L3",
+    "grammar_level": "L3",
+    "grammar_topics": [
+      "impersonal bhavavachya"
+    ],
+    "category": "school",
+    "word_range": [
+      19,
+      24
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 24,
+    "id_prefix": "b049",
+    "notes": "school; impersonal bhavavachya from grammar03"
+  },
+  {
+    "id": "batch-050",
+    "file": "data/batch-050.json",
+    "game_level": "L3",
+    "grammar_level": "L4",
+    "grammar_topics": [
+      "complex multi-clause syntax"
+    ],
+    "category": "clothes",
+    "word_range": [
+      19,
+      24
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 24,
+    "id_prefix": "b050",
+    "notes": "clothes; complex multi-clause syntax from grammar04"
+  },
+  {
+    "id": "batch-051",
+    "file": "data/batch-051.json",
+    "game_level": "L5",
+    "grammar_level": "L4",
+    "grammar_topics": [
+      "anupras alliteration"
+    ],
+    "category": "fruits",
+    "word_range": [
+      25,
+      30
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 15,
+    "id_prefix": "b051",
+    "notes": "merged into level chunks"
+  },
+  {
+    "id": "batch-052",
+    "file": "data/batch-052.json",
+    "game_level": "L3",
+    "grammar_level": "L4",
+    "grammar_topics": [
+      "shles double entendre"
+    ],
+    "category": "weather and seasons",
+    "word_range": [
+      17,
+      24
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 23,
+    "id_prefix": "b052",
+    "notes": "weather and seasons; shles double entendre from grammar04"
+  },
+  {
+    "id": "batch-053",
+    "file": "data/batch-053.json",
+    "game_level": "L3",
+    "grammar_level": "L4",
+    "grammar_topics": [
+      "upama simile"
+    ],
+    "category": "clothes",
+    "word_range": [
+      17,
+      24
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 24,
+    "id_prefix": "b053",
+    "notes": "clothes; upama simile; lengths spread across band"
+  },
+  {
+    "id": "batch-054",
+    "file": "data/batch-054.json",
+    "game_level": "L3",
+    "grammar_level": "L4",
+    "grammar_topics": [
+      "rupak metaphor"
+    ],
+    "category": "work and occupations",
+    "word_range": [
+      17,
+      24
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 24,
+    "id_prefix": "b054",
+    "notes": "work and occupations; rupak metaphor; lengths spread across band"
+  },
+  {
+    "id": "batch-055",
+    "file": "data/batch-055.json",
+    "game_level": "L3",
+    "grammar_level": "L4",
+    "grammar_topics": [
+      "atishayokti hyperbole"
+    ],
+    "category": "greetings and courtesy",
+    "word_range": [
+      17,
+      24
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 24,
+    "id_prefix": "b055",
+    "notes": "greetings and courtesy; atishayokti hyperbole; lengths spread across band"
+  },
+  {
+    "id": "batch-056",
+    "file": "data/batch-056.json",
+    "game_level": "L3",
+    "grammar_level": "L4",
+    "grammar_topics": [
+      "ras aesthetics"
+    ],
+    "category": "action verbs",
+    "word_range": [
+      17,
+      24
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 24,
+    "id_prefix": "b056",
+    "notes": "action verbs; ras aesthetics; lengths spread across band"
+  },
+  {
+    "id": "batch-057",
+    "file": "data/batch-057.json",
+    "game_level": "L3",
+    "grammar_level": "L4",
+    "grammar_topics": [
+      "literary word order"
+    ],
+    "category": "food",
+    "word_range": [
+      17,
+      24
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 24,
+    "id_prefix": "b057",
+    "notes": "food; literary word order; lengths spread across band"
+  },
+  {
+    "id": "batch-058",
+    "file": "data/batch-058.json",
+    "game_level": "L3",
+    "grammar_level": "L4",
+    "grammar_topics": [
+      "formal administrative register"
+    ],
+    "category": "family and relations",
+    "word_range": [
+      17,
+      24
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 24,
+    "id_prefix": "b058",
+    "notes": "family and relations; formal administrative register; lengths spread across band"
+  },
+  {
+    "id": "batch-059",
+    "file": "data/batch-059.json",
+    "game_level": "L3",
+    "grammar_level": "L4",
+    "grammar_topics": [
+      "complex multi-clause syntax"
+    ],
+    "category": "market and shopping",
+    "word_range": [
+      17,
+      24
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 24,
+    "id_prefix": "b059",
+    "notes": "market and shopping; complex multi-clause syntax; lengths spread across band"
+  },
+  {
+    "id": "batch-060",
+    "file": "data/batch-060.json",
+    "game_level": "L3",
+    "grammar_level": "L4",
+    "grammar_topics": [
+      "anupras alliteration"
+    ],
+    "category": "travel and directions",
+    "word_range": [
+      17,
+      24
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 24,
+    "id_prefix": "b060",
+    "notes": "travel and directions; anupras alliteration; lengths spread across band"
+  },
+  {
+    "id": "batch-061",
+    "file": "data/batch-061.json",
+    "game_level": "L3",
+    "grammar_level": "L4",
+    "grammar_topics": [
+      "shles double entendre"
+    ],
+    "category": "nature",
+    "word_range": [
+      17,
+      24
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 24,
+    "id_prefix": "b061",
+    "notes": "nature; shles double entendre; lengths spread across band"
+  },
+  {
+    "id": "batch-062",
+    "file": "data/batch-062.json",
+    "game_level": "L3",
+    "grammar_level": "L4",
+    "grammar_topics": [
+      "upama simile"
+    ],
+    "category": "places and infrastructure",
+    "word_range": [
+      17,
+      24
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 24,
+    "id_prefix": "b062",
+    "notes": "places and infrastructure; upama simile; lengths spread across band"
+  },
+  {
+    "id": "batch-063",
+    "file": "data/batch-063.json",
+    "game_level": "L3",
+    "grammar_level": "L4",
+    "grammar_topics": [
+      "rupak metaphor"
+    ],
+    "category": "action verbs",
+    "word_range": [
+      17,
+      24
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 50,
+    "id_prefix": "b063",
+    "notes": "action verbs rupak metaphor; merged into data/phrases07.json"
+  },
+  {
+    "id": "batch-064",
+    "file": "data/batch-064.json",
+    "game_level": "L1",
+    "grammar_level": "L4",
+    "grammar_topics": [
+      "atishayokti hyperbole"
+    ],
+    "category": "colors",
+    "word_range": [
+      5,
+      8
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 50,
+    "id_prefix": "b064",
+    "notes": "colors atishayokti; merged into data/phrases08.json"
+  },
+  {
+    "id": "batch-065",
+    "file": "data/batch-065.json",
+    "game_level": "L1",
+    "grammar_level": "L4",
+    "grammar_topics": [
+      "ras aesthetics"
+    ],
+    "category": "fruits",
+    "word_range": [
+      2,
+      8
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 50,
+    "id_prefix": "b065",
+    "notes": "fruits ras aesthetics; merged into data/phrases08.json"
+  },
+  {
+    "id": "batch-066",
+    "file": "data/batch-066.json",
+    "game_level": "L1",
+    "grammar_level": "L4",
+    "grammar_topics": [
+      "literary word order"
+    ],
+    "category": "body",
+    "word_range": [
+      5,
+      8
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 50,
+    "id_prefix": "b066",
+    "notes": "body literary word order; merged into data/phrases08.json"
+  },
+  {
+    "id": "batch-067",
+    "file": "data/batch-067.json",
+    "game_level": "L1",
+    "grammar_level": "L4",
+    "grammar_topics": [
+      "formal administrative register"
+    ],
+    "category": "market and shopping",
+    "word_range": [
+      2,
+      8
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 50,
+    "id_prefix": "b067",
+    "notes": "authored and merged into phrases08/phrases09 with 100% align"
+  },
+  {
+    "id": "batch-068",
+    "file": "data/batch-068.json",
+    "game_level": "L1",
+    "grammar_level": "L4",
+    "grammar_topics": [
+      "complex multi-clause syntax"
+    ],
+    "category": "house and home",
+    "word_range": [
+      5,
+      8
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 50,
+    "id_prefix": "b068",
+    "notes": "authored and merged into phrases08/phrases09 with 100% align"
+  },
+  {
+    "id": "batch-069",
+    "file": "data/batch-069.json",
+    "game_level": "L1",
+    "grammar_level": "L4",
+    "grammar_topics": [
+      "anupras alliteration"
+    ],
+    "category": "work and occupations",
+    "word_range": [
+      2,
+      8
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 50,
+    "id_prefix": "b069",
+    "notes": "authored and merged into phrases08/phrases09 with 100% align"
+  },
+  {
+    "id": "batch-070",
+    "file": "data/batch-070.json",
+    "game_level": "L1",
+    "grammar_level": "L4",
+    "grammar_topics": [
+      "shles double entendre"
+    ],
+    "category": "numbers and counting",
+    "word_range": [
+      5,
+      8
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 50,
+    "id_prefix": "b070",
+    "notes": "authored and merged into phrases08/phrases09 with 100% align"
+  },
+  {
+    "id": "batch-071",
+    "file": "data/batch-071.json",
+    "game_level": "L2",
+    "grammar_level": "L2",
+    "grammar_topics": [
+      "free"
+    ],
+    "category": "travel and directions",
+    "word_range": [
+      13,
+      16
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 50,
+    "id_prefix": "b071",
+    "notes": "authored and merged into phrases08/phrases09 with 100% align"
+  },
+  {
+    "id": "batch-072",
+    "file": "data/batch-072.json",
+    "game_level": "L1",
+    "grammar_level": "L3",
+    "grammar_topics": [
+      "free"
+    ],
+    "category": "health",
+    "word_range": [
+      2,
+      8
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 50,
+    "id_prefix": "b072",
+    "notes": "authored and merged into phrases08/phrases09 with 100% align"
+  },
+  {
+    "id": "batch-073",
+    "file": "data/batch-073.json",
+    "game_level": "L1",
+    "grammar_level": "L4",
+    "grammar_topics": [
+      "free"
+    ],
+    "category": "daily routine",
+    "word_range": [
+      5,
+      8
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 50,
+    "id_prefix": "b073",
+    "notes": "authored and merged into phrases08/phrases09 with 100% align"
+  },
+  {
+    "id": "batch-074",
+    "file": "data/batch-074.json",
+    "game_level": "L2",
+    "grammar_level": "L1",
+    "grammar_topics": [
+      "free"
+    ],
+    "category": "animals",
+    "word_range": [
+      9,
+      12
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 50,
+    "id_prefix": "b074",
+    "notes": "authored and merged into phrases08/phrases09 with 100% align"
+  },
+  {
+    "id": "batch-075",
+    "file": "data/batch-075.json",
+    "game_level": "L2",
+    "grammar_level": "L2",
+    "grammar_topics": [
+      "free"
+    ],
+    "category": "emotions",
+    "word_range": [
+      13,
+      16
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 50,
+    "id_prefix": "b075",
+    "notes": "authored and merged into phrases08/phrases09 with 100% align"
+  },
+  {
+    "id": "batch-076",
+    "file": "data/batch-076.json",
+    "game_level": "L1",
+    "grammar_level": "L3",
+    "grammar_topics": [
+      "free"
+    ],
+    "category": "nature",
+    "word_range": [
+      2,
+      8
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 50,
+    "id_prefix": "b076",
+    "notes": "authored and merged into phrases08/phrases09 with 100% align"
+  },
+  {
+    "id": "batch-077",
+    "file": "data/batch-077.json",
+    "game_level": "L1",
+    "grammar_level": "L4",
+    "grammar_topics": [
+      "free"
+    ],
+    "category": "pronouns and questions",
+    "word_range": [
+      5,
+      8
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 50,
+    "id_prefix": "b077",
+    "notes": "authored and merged into phrases07/09/10 with 100% align"
+  },
+  {
+    "id": "batch-078",
+    "file": "data/batch-078.json",
+    "game_level": "L2",
+    "grammar_level": "L1",
+    "grammar_topics": [
+      "free"
+    ],
+    "category": "health",
+    "word_range": [
+      9,
+      12
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 50,
+    "id_prefix": "b078",
+    "notes": "authored and merged into phrases07/09/10 with 100% align"
+  },
+  {
+    "id": "batch-079",
+    "file": "data/batch-079.json",
+    "game_level": "L2",
+    "grammar_level": "L2",
+    "grammar_topics": [
+      "free"
+    ],
+    "category": "greetings and courtesy",
+    "word_range": [
+      13,
+      16
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 50,
+    "id_prefix": "b079",
+    "notes": "authored and merged into phrases07/09/10 with 100% align"
+  },
+  {
+    "id": "batch-080",
+    "file": "data/batch-080.json",
+    "game_level": "L1",
+    "grammar_level": "L3",
+    "grammar_topics": [
+      "free"
+    ],
+    "category": "places and infrastructure",
+    "word_range": [
+      2,
+      8
+    ],
+    "status": "done",
+    "target": 50,
+    "authored": 50,
+    "id_prefix": "b080",
+    "notes": "authored and merged into phrases07/09/10 with 100% align"
+  },
+  {
+    "id": "batch-181",
+    "file": "data/batch-181.json",
+    "id_prefix": "b181-",
+    "game_level": "L1",
+    "word_range": [
+      2,
+      5
+    ],
+    "grammar_level": "G1",
+    "grammar_topics": [
+      "hona copula tenses"
+    ],
+    "category": "colors",
+    "count": 25,
+    "status": "done",
+    "authored": 50,
+    "notes": "authored and merged into phrases07/09/10 with 100% align"
+  },
+  {
+    "id": "batch-182",
+    "file": "data/batch-182.json",
+    "id_prefix": "b182-",
+    "game_level": "L2",
+    "word_range": [
+      9,
+      12
+    ],
+    "grammar_level": "G1",
+    "grammar_topics": [
+      "hona copula tenses"
+    ],
+    "category": "food",
+    "count": 25,
+    "status": "done",
+    "authored": 50,
+    "notes": "authored and merged into phrases07/09/10 with 100% align"
+  },
+  {
+    "id": "batch-183",
+    "file": "data/batch-183.json",
+    "id_prefix": "b183-",
+    "game_level": "L3",
+    "word_range": [
+      17,
+      20
+    ],
+    "grammar_level": "G1",
+    "grammar_topics": [
+      "free"
+    ],
+    "category": "vocab sweep",
+    "count": 25,
+    "status": "done",
+    "authored": 22,
+    "notes": "authored and merged into phrases07/09/10 with 100% align"
+  },
+  {
+    "id": "batch-184",
+    "file": "data/batch-184.json",
+    "id_prefix": "b184-",
+    "game_level": "L1",
+    "word_range": [
+      4,
+      8
+    ],
+    "grammar_level": "G2",
+    "grammar_topics": [
+      "compound postpositions ke pas ke sath ke bina"
+    ],
+    "category": "fruits",
+    "count": 25,
+    "status": "done",
+    "authored": 50,
+    "notes": "authored and merged into phrases07/09/10 with 100% align"
+  },
+  {
+    "id": "batch-185",
+    "file": "data/batch-185.json",
+    "id_prefix": "b185-",
+    "game_level": "L2",
+    "word_range": [
+      13,
+      16
+    ],
+    "grammar_level": "G2",
+    "grammar_topics": [
+      "compound postpositions ke pas ke sath ke bina"
+    ],
+    "category": "days and time",
+    "count": 25,
+    "status": "done",
+    "authored": 50,
+    "notes": "authored and merged into phrases07/09/10 with 100% align"
+  },
+  {
+    "id": "batch-187",
+    "file": "data/batch-187.json",
+    "id_prefix": "b187-",
+    "game_level": "L1",
+    "word_range": [
+      6,
+      8
+    ],
+    "grammar_level": "G3",
+    "grammar_topics": [
+      "relative correlative pairs"
+    ],
+    "category": "family and relations",
+    "count": 25,
+    "status": "done",
+    "authored": 50,
+    "notes": "authored and merged into phrases07/09/10 with 100% align"
+  },
+  {
+    "id": "batch-188",
+    "file": "data/batch-188.json",
+    "id_prefix": "b188-",
+    "game_level": "L2",
+    "word_range": [
+      9,
+      12
+    ],
+    "grammar_level": "G3",
+    "grammar_topics": [
+      "relative correlative pairs"
+    ],
+    "category": "body",
+    "count": 25,
+    "status": "done",
+    "authored": 50,
+    "notes": "authored and merged into phrases10/11 with 100% align"
+  },
+  {
+    "id": "batch-190",
+    "file": "data/batch-190.json",
+    "id_prefix": "b190-",
+    "game_level": "L1",
+    "word_range": [
+      3,
+      6
+    ],
+    "grammar_level": "G4",
+    "grammar_topics": [
+      "formal administrative register"
+    ],
+    "category": "weather and seasons",
+    "count": 25,
+    "status": "done",
+    "authored": 50,
+    "notes": "authored and merged into phrases10/11 with 100% align"
+  },
+  {
+    "id": "batch-191",
+    "file": "data/batch-191.json",
+    "id_prefix": "b191-",
+    "game_level": "L2",
+    "word_range": [
+      13,
+      16
+    ],
+    "grammar_level": "G4",
+    "grammar_topics": [
+      "formal administrative register"
+    ],
+    "category": "school",
+    "count": 25,
+    "status": "done",
+    "authored": 50,
+    "notes": "authored and merged into phrases10/11 with 100% align"
+  },
+  {
+    "id": "batch-192",
+    "file": "data/batch-192.json",
+    "id_prefix": "b192-",
+    "game_level": "L1",
+    "word_range": [
+      2,
+      5
+    ],
+    "grammar_level": "G1",
+    "grammar_topics": [
+      "simple future"
+    ],
+    "category": "market and shopping",
+    "count": 25,
+    "status": "done",
+    "authored": 50,
+    "notes": "authored and merged into phrases10/11 with 100% align"
+  },
+  {
+    "id": "batch-193",
+    "file": "data/batch-193.json",
+    "id_prefix": "b193-",
+    "game_level": "L2",
+    "word_range": [
+      9,
+      12
+    ],
+    "grammar_level": "G1",
+    "grammar_topics": [
+      "simple future"
+    ],
+    "category": "animals",
+    "count": 25,
+    "status": "done",
+    "authored": 50,
+    "notes": "authored and merged into phrases10/11 with 100% align"
+  },
+  {
+    "id": "batch-194",
+    "file": "data/batch-194.json",
+    "id_prefix": "b194-",
+    "game_level": "L1",
+    "word_range": [
+      4,
+      8
+    ],
+    "grammar_level": "G2",
+    "grammar_topics": [
+      "causatives karana karavana"
+    ],
+    "category": "clothes",
+    "count": 25,
+    "status": "done",
+    "authored": 50,
+    "notes": "authored and merged into phrases10/11 with 100% align"
+  },
+  {
+    "id": "batch-195",
+    "file": "data/batch-195.json",
+    "id_prefix": "b195-",
+    "game_level": "L2",
+    "word_range": [
+      13,
+      16
+    ],
+    "grammar_level": "G2",
+    "grammar_topics": [
+      "causatives karana karavana"
+    ],
+    "category": "house and home",
+    "count": 25,
+    "status": "done",
+    "authored": 50,
+    "notes": "authored and merged into phrases10/11 with 100% align"
+  },
+  {
+    "id": "batch-196",
+    "file": "data/batch-196.json",
+    "id_prefix": "b196-",
+    "game_level": "L1",
+    "word_range": [
+      6,
+      8
+    ],
+    "grammar_level": "G3",
+    "grammar_topics": [
+      "sentence transformation"
+    ],
+    "category": "travel and directions",
+    "count": 25,
+    "status": "done",
+    "authored": 50,
+    "notes": "authored and merged into phrases10/11 with 100% align"
+  },
+  {
+    "id": "batch-197",
+    "file": "data/batch-197.json",
+    "id_prefix": "b197-",
+    "game_level": "L2",
+    "word_range": [
+      9,
+      12
+    ],
+    "grammar_level": "G3",
+    "grammar_topics": [
+      "sentence transformation"
+    ],
+    "category": "health",
+    "count": 25,
+    "status": "done",
+    "authored": 50,
+    "notes": "authored and merged into phrases10/11 with 100% align"
+  },
+  {
+    "id": "batch-198",
+    "file": "data/batch-198.json",
+    "id_prefix": "b198-",
+    "game_level": "L1",
+    "word_range": [
+      3,
+      6
+    ],
+    "grammar_level": "G4",
+    "grammar_topics": [
+      "ras aesthetics"
+    ],
+    "category": "work and occupations",
+    "count": 25,
+    "status": "done",
+    "authored": 50,
+    "notes": "authored and merged into phrases10/11 with 100% align"
+  },
+  {
+    "id": "batch-199",
+    "file": "data/batch-199.json",
+    "id_prefix": "b199-",
+    "game_level": "L2",
+    "word_range": [
+      13,
+      16
+    ],
+    "grammar_level": "G4",
+    "grammar_topics": [
+      "ras aesthetics"
+    ],
+    "category": "emotions",
+    "count": 25,
+    "status": "done"
+  },
+  {
+    "id": "batch-200",
+    "file": "data/batch-200.json",
+    "id_prefix": "b200-",
+    "game_level": "L1",
+    "word_range": [
+      2,
+      5
+    ],
+    "grammar_level": "G1",
+    "grammar_topics": [
+      "common imperatives"
+    ],
+    "category": "nature",
+    "count": 25,
+    "status": "done"
+  },
+  {
+    "id": "batch-201",
+    "file": "data/batch-201.json",
+    "id_prefix": "b201-",
+    "game_level": "L2",
+    "word_range": [
+      9,
+      12
+    ],
+    "grammar_level": "G1",
+    "grammar_topics": [
+      "common imperatives"
+    ],
+    "category": "numbers and counting",
+    "count": 25,
+    "status": "done"
+  },
+  {
+    "id": "batch-202",
+    "file": "data/batch-202.json",
+    "id_prefix": "b202-",
+    "game_level": "L1",
+    "word_range": [
+      4,
+      8
+    ],
+    "grammar_level": "G2",
+    "grammar_topics": [
+      "oblique and postpositions ko se ka ki me par"
+    ],
+    "category": "greetings and courtesy",
+    "count": 25,
+    "status": "done"
+  },
+  {
+    "id": "batch-203",
+    "file": "data/batch-203.json",
+    "id_prefix": "b203-",
+    "game_level": "L2",
+    "word_range": [
+      13,
+      16
+    ],
+    "grammar_level": "G2",
+    "grammar_topics": [
+      "oblique and postpositions ko se ka ki me par"
+    ],
+    "category": "places and infrastructure",
+    "count": 25,
+    "status": "done"
+  },
+  {
+    "id": "batch-204",
+    "file": "data/batch-204.json",
+    "id_prefix": "b204-",
+    "game_level": "L1",
+    "word_range": [
+      6,
+      8
+    ],
+    "grammar_level": "G3",
+    "grammar_topics": [
+      "samas compounds"
+    ],
+    "category": "daily routine",
+    "count": 25,
+    "status": "done"
+  },
+  {
+    "id": "batch-205",
+    "file": "data/batch-205.json",
+    "id_prefix": "b205-",
+    "game_level": "L2",
+    "word_range": [
+      9,
+      12
+    ],
+    "grammar_level": "G3",
+    "grammar_topics": [
+      "samas compounds"
+    ],
+    "category": "pronouns and questions",
+    "count": 25,
+    "status": "done"
+  },
+  {
+    "id": "batch-206",
+    "file": "data/batch-206.json",
+    "id_prefix": "b206-",
+    "game_level": "L1",
+    "word_range": [
+      3,
+      6
+    ],
+    "grammar_level": "G4",
+    "grammar_topics": [
+      "literary word order"
+    ],
+    "category": "action verbs",
+    "count": 25,
+    "status": "done"
+  },
+  {
+    "id": "batch-207",
+    "file": "data/batch-207.json",
+    "id_prefix": "b207-",
+    "game_level": "L2",
+    "word_range": [
+      13,
+      16
+    ],
+    "grammar_level": "G4",
+    "grammar_topics": [
+      "literary word order"
+    ],
+    "category": "adjectives",
+    "count": 25,
+    "status": "done"
+  },
+  {
+    "id": "batch-208",
+    "file": "data/batch-208.json",
+    "id_prefix": "b208-",
+    "game_level": "L1",
+    "word_range": [
+      2,
+      5
+    ],
+    "grammar_level": "G1",
+    "grammar_topics": [
+      "present habitual ta ti te"
+    ],
+    "category": "society and people",
+    "count": 25,
+    "status": "done"
+  },
+  {
+    "id": "batch-209",
+    "file": "data/batch-209.json",
+    "id_prefix": "b209-",
+    "game_level": "L2",
+    "word_range": [
+      9,
+      12
+    ],
+    "grammar_level": "G1",
+    "grammar_topics": [
+      "present habitual ta ti te"
+    ],
+    "category": "colors",
+    "count": 25,
+    "status": "done"
+  },
+  {
+    "id": "batch-210",
+    "file": "data/batch-210.json",
+    "id_prefix": "b210-",
+    "game_level": "L1",
+    "word_range": [
+      4,
+      8
+    ],
+    "grammar_level": "G2",
+    "grammar_topics": [
+      "compound verbs with vector verbs"
+    ],
+    "category": "food",
+    "count": 25,
+    "status": "done"
+  },
+  {
+    "id": "batch-211",
+    "file": "data/batch-211.json",
+    "id_prefix": "b211-",
+    "game_level": "L2",
+    "word_range": [
+      13,
+      16
+    ],
+    "grammar_level": "G2",
+    "grammar_topics": [
+      "compound verbs with vector verbs"
+    ],
+    "category": "vegetables",
+    "count": 25,
+    "status": "done"
+  },
+  {
+    "id": "batch-212",
+    "file": "data/batch-212.json",
+    "id_prefix": "b212-",
+    "game_level": "L1",
+    "word_range": [
+      6,
+      8
+    ],
+    "grammar_level": "G3",
+    "grammar_topics": [
+      "passive with jana"
+    ],
+    "category": "fruits",
+    "count": 25,
+    "status": "done"
+  },
+  {
+    "id": "batch-213",
+    "file": "data/batch-213.json",
+    "id_prefix": "b213-",
+    "game_level": "L2",
+    "word_range": [
+      9,
+      12
+    ],
+    "grammar_level": "G3",
+    "grammar_topics": [
+      "passive with jana"
+    ],
+    "category": "days and time",
+    "count": 25,
+    "status": "done"
+  },
+  {
+    "id": "batch-214",
+    "file": "data/batch-214.json",
+    "id_prefix": "b214-",
+    "game_level": "L1",
+    "word_range": [
+      3,
+      6
+    ],
+    "grammar_level": "G4",
+    "grammar_topics": [
+      "formal administrative register"
+    ],
+    "category": "family and relations",
+    "count": 25,
+    "status": "done"
+  },
+  {
+    "id": "batch-215",
+    "file": "data/batch-215.json",
+    "id_prefix": "b215-",
+    "game_level": "L2",
+    "word_range": [
+      13,
+      16
+    ],
+    "grammar_level": "G4",
+    "grammar_topics": [
+      "formal administrative register"
+    ],
+    "category": "body",
+    "count": 25,
+    "status": "done"
+  },
+  {
+    "id": "batch-216",
+    "file": "data/batch-216.json",
+    "id_prefix": "b216-",
+    "game_level": "L1",
+    "word_range": [
+      2,
+      5
+    ],
+    "grammar_level": "G1",
+    "grammar_topics": [
+      "gender and number agreement"
+    ],
+    "category": "weather and seasons",
+    "count": 25,
+    "status": "done"
+  },
+  {
+    "id": "batch-217",
+    "file": "data/batch-217.json",
+    "id_prefix": "b217-",
+    "game_level": "L2",
+    "word_range": [
+      9,
+      12
+    ],
+    "grammar_level": "G1",
+    "grammar_topics": [
+      "gender and number agreement"
+    ],
+    "category": "school",
+    "count": 25,
+    "status": "done"
+  },
+  {
+    "id": "batch-218",
+    "file": "data/batch-218.json",
+    "id_prefix": "b218-",
+    "game_level": "L1",
+    "word_range": [
+      4,
+      8
+    ],
+    "grammar_level": "G2",
+    "grammar_topics": [
+      "permission"
+    ],
+    "category": "market and shopping",
+    "count": 25,
+    "status": "done"
+  },
+  {
+    "id": "batch-219",
+    "file": "data/batch-219.json",
+    "id_prefix": "b219-",
+    "game_level": "L2",
+    "word_range": [
+      13,
+      16
+    ],
+    "grammar_level": "G2",
+    "grammar_topics": [
+      "permission"
+    ],
+    "category": "animals",
+    "count": 25,
+    "status": "done"
+  },
+  {
+    "id": "batch-220",
+    "file": "data/batch-220.json",
+    "id_prefix": "b220-",
+    "game_level": "L1",
+    "word_range": [
+      6,
+      8
+    ],
+    "grammar_level": "G3",
+    "grammar_topics": [
+      "sandhi"
+    ],
+    "category": "clothes",
+    "count": 25,
+    "status": "done"
+  },
+  {
+    "id": "batch-221",
+    "file": "data/batch-221.json",
+    "id_prefix": "b221-",
+    "game_level": "L2",
+    "word_range": [
+      9,
+      12
+    ],
+    "grammar_level": "G3",
+    "grammar_topics": [
+      "sandhi"
+    ],
+    "category": "house and home",
+    "count": 25,
+    "status": "done"
+  },
+  {
+    "id": "batch-222",
+    "file": "data/batch-222.json",
+    "id_prefix": "b222-",
+    "game_level": "L1",
+    "word_range": [
+      3,
+      6
+    ],
+    "grammar_level": "G4",
+    "grammar_topics": [
+      "ras aesthetics"
+    ],
+    "category": "travel and directions",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-223",
+    "file": "data/batch-223.json",
+    "id_prefix": "b223-",
+    "game_level": "L2",
+    "word_range": [
+      13,
+      16
+    ],
+    "grammar_level": "G4",
+    "grammar_topics": [
+      "ras aesthetics"
+    ],
+    "category": "health",
+    "count": 25,
+    "status": "done"
+  },
+  {
+    "id": "batch-224",
+    "file": "data/batch-224.json",
+    "id_prefix": "b224-",
+    "game_level": "L1",
+    "word_range": [
+      2,
+      5
+    ],
+    "grammar_level": "G1",
+    "grammar_topics": [
+      "hona copula tenses"
+    ],
+    "category": "work and occupations",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-225",
+    "file": "data/batch-225.json",
+    "id_prefix": "b225-",
+    "game_level": "L2",
+    "word_range": [
+      9,
+      12
+    ],
+    "grammar_level": "G1",
+    "grammar_topics": [
+      "hona copula tenses"
+    ],
+    "category": "emotions",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-226",
+    "file": "data/batch-226.json",
+    "id_prefix": "b226-",
+    "game_level": "L1",
+    "word_range": [
+      4,
+      8
+    ],
+    "grammar_level": "G2",
+    "grammar_topics": [
+      "transitive vs intransitive"
+    ],
+    "category": "nature",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-227",
+    "file": "data/batch-227.json",
+    "id_prefix": "b227-",
+    "game_level": "L2",
+    "word_range": [
+      13,
+      16
+    ],
+    "grammar_level": "G2",
+    "grammar_topics": [
+      "transitive vs intransitive"
+    ],
+    "category": "numbers and counting",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-228",
+    "file": "data/batch-228.json",
+    "id_prefix": "b228-",
+    "game_level": "L1",
+    "word_range": [
+      6,
+      8
+    ],
+    "grammar_level": "G3",
+    "grammar_topics": [
+      "bhavavachya impersonal constructions"
+    ],
+    "category": "greetings and courtesy",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-229",
+    "file": "data/batch-229.json",
+    "id_prefix": "b229-",
+    "game_level": "L2",
+    "word_range": [
+      9,
+      12
+    ],
+    "grammar_level": "G3",
+    "grammar_topics": [
+      "bhavavachya impersonal constructions"
+    ],
+    "category": "places and infrastructure",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-230",
+    "file": "data/batch-230.json",
+    "id_prefix": "b230-",
+    "game_level": "L1",
+    "word_range": [
+      3,
+      6
+    ],
+    "grammar_level": "G4",
+    "grammar_topics": [
+      "literary word order"
+    ],
+    "category": "daily routine",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-231",
+    "file": "data/batch-231.json",
+    "id_prefix": "b231-",
+    "game_level": "L2",
+    "word_range": [
+      13,
+      16
+    ],
+    "grammar_level": "G4",
+    "grammar_topics": [
+      "literary word order"
+    ],
+    "category": "pronouns and questions",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-232",
+    "file": "data/batch-232.json",
+    "id_prefix": "b232-",
+    "game_level": "L1",
+    "word_range": [
+      2,
+      5
+    ],
+    "grammar_level": "G1",
+    "grammar_topics": [
+      "simple future"
+    ],
+    "category": "action verbs",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-233",
+    "file": "data/batch-233.json",
+    "id_prefix": "b233-",
+    "game_level": "L2",
+    "word_range": [
+      9,
+      12
+    ],
+    "grammar_level": "G1",
+    "grammar_topics": [
+      "simple future"
+    ],
+    "category": "adjectives",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-234",
+    "file": "data/batch-234.json",
+    "id_prefix": "b234-",
+    "game_level": "L1",
+    "word_range": [
+      4,
+      8
+    ],
+    "grammar_level": "G2",
+    "grammar_topics": [
+      "ability sakna"
+    ],
+    "category": "society and people",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-235",
+    "file": "data/batch-235.json",
+    "id_prefix": "b235-",
+    "game_level": "L2",
+    "word_range": [
+      13,
+      16
+    ],
+    "grammar_level": "G2",
+    "grammar_topics": [
+      "ability sakna"
+    ],
+    "category": "colors",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-236",
+    "file": "data/batch-236.json",
+    "id_prefix": "b236-",
+    "game_level": "L1",
+    "word_range": [
+      6,
+      8
+    ],
+    "grammar_level": "G3",
+    "grammar_topics": [
+      "indeclinables and emphatic particles"
+    ],
+    "category": "food",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-237",
+    "file": "data/batch-237.json",
+    "id_prefix": "b237-",
+    "game_level": "L2",
+    "word_range": [
+      9,
+      12
+    ],
+    "grammar_level": "G3",
+    "grammar_topics": [
+      "indeclinables and emphatic particles"
+    ],
+    "category": "vegetables",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-238",
+    "file": "data/batch-238.json",
+    "id_prefix": "b238-",
+    "game_level": "L1",
+    "word_range": [
+      3,
+      6
+    ],
+    "grammar_level": "G4",
+    "grammar_topics": [
+      "formal administrative register"
+    ],
+    "category": "fruits",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-239",
+    "file": "data/batch-239.json",
+    "id_prefix": "b239-",
+    "game_level": "L2",
+    "word_range": [
+      13,
+      16
+    ],
+    "grammar_level": "G4",
+    "grammar_topics": [
+      "formal administrative register"
+    ],
+    "category": "days and time",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-240",
+    "file": "data/batch-240.json",
+    "id_prefix": "b240-",
+    "game_level": "L1",
+    "word_range": [
+      2,
+      5
+    ],
+    "grammar_level": "G1",
+    "grammar_topics": [
+      "common imperatives"
+    ],
+    "category": "family and relations",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-241",
+    "file": "data/batch-241.json",
+    "id_prefix": "b241-",
+    "game_level": "L2",
+    "word_range": [
+      9,
+      12
+    ],
+    "grammar_level": "G1",
+    "grammar_topics": [
+      "common imperatives"
+    ],
+    "category": "body",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-242",
+    "file": "data/batch-242.json",
+    "id_prefix": "b242-",
+    "game_level": "L1",
+    "word_range": [
+      4,
+      8
+    ],
+    "grammar_level": "G2",
+    "grammar_topics": [
+      "ne ergative"
+    ],
+    "category": "weather and seasons",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-243",
+    "file": "data/batch-243.json",
+    "id_prefix": "b243-",
+    "game_level": "L2",
+    "word_range": [
+      13,
+      16
+    ],
+    "grammar_level": "G2",
+    "grammar_topics": [
+      "ne ergative"
+    ],
+    "category": "school",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-244",
+    "file": "data/batch-244.json",
+    "id_prefix": "b244-",
+    "game_level": "L1",
+    "word_range": [
+      6,
+      8
+    ],
+    "grammar_level": "G3",
+    "grammar_topics": [
+      "relative correlative pairs"
+    ],
+    "category": "market and shopping",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-245",
+    "file": "data/batch-245.json",
+    "id_prefix": "b245-",
+    "game_level": "L2",
+    "word_range": [
+      9,
+      12
+    ],
+    "grammar_level": "G3",
+    "grammar_topics": [
+      "relative correlative pairs"
+    ],
+    "category": "animals",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-246",
+    "file": "data/batch-246.json",
+    "id_prefix": "b246-",
+    "game_level": "L1",
+    "word_range": [
+      3,
+      6
+    ],
+    "grammar_level": "G4",
+    "grammar_topics": [
+      "ras aesthetics"
+    ],
+    "category": "clothes",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-247",
+    "file": "data/batch-247.json",
+    "id_prefix": "b247-",
+    "game_level": "L2",
+    "word_range": [
+      13,
+      16
+    ],
+    "grammar_level": "G4",
+    "grammar_topics": [
+      "ras aesthetics"
+    ],
+    "category": "house and home",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-248",
+    "file": "data/batch-248.json",
+    "id_prefix": "b248-",
+    "game_level": "L1",
+    "word_range": [
+      2,
+      5
+    ],
+    "grammar_level": "G1",
+    "grammar_topics": [
+      "present habitual ta ti te"
+    ],
+    "category": "travel and directions",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-249",
+    "file": "data/batch-249.json",
+    "id_prefix": "b249-",
+    "game_level": "L2",
+    "word_range": [
+      9,
+      12
+    ],
+    "grammar_level": "G1",
+    "grammar_topics": [
+      "present habitual ta ti te"
+    ],
+    "category": "health",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-250",
+    "file": "data/batch-250.json",
+    "id_prefix": "b250-",
+    "game_level": "L1",
+    "word_range": [
+      4,
+      8
+    ],
+    "grammar_level": "G2",
+    "grammar_topics": [
+      "obligation dative plus infinitive plus hona padna cahiye"
+    ],
+    "category": "work and occupations",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-251",
+    "file": "data/batch-251.json",
+    "id_prefix": "b251-",
+    "game_level": "L2",
+    "word_range": [
+      13,
+      16
+    ],
+    "grammar_level": "G2",
+    "grammar_topics": [
+      "obligation dative plus infinitive plus hona padna cahiye"
+    ],
+    "category": "emotions",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-252",
+    "file": "data/batch-252.json",
+    "id_prefix": "b252-",
+    "game_level": "L1",
+    "word_range": [
+      6,
+      8
+    ],
+    "grammar_level": "G3",
+    "grammar_topics": [
+      "sentence transformation"
+    ],
+    "category": "nature",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-253",
+    "file": "data/batch-253.json",
+    "id_prefix": "b253-",
+    "game_level": "L2",
+    "word_range": [
+      9,
+      12
+    ],
+    "grammar_level": "G3",
+    "grammar_topics": [
+      "sentence transformation"
+    ],
+    "category": "numbers and counting",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-254",
+    "file": "data/batch-254.json",
+    "id_prefix": "b254-",
+    "game_level": "L1",
+    "word_range": [
+      3,
+      6
+    ],
+    "grammar_level": "G4",
+    "grammar_topics": [
+      "literary word order"
+    ],
+    "category": "greetings and courtesy",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-255",
+    "file": "data/batch-255.json",
+    "id_prefix": "b255-",
+    "game_level": "L2",
+    "word_range": [
+      13,
+      16
+    ],
+    "grammar_level": "G4",
+    "grammar_topics": [
+      "literary word order"
+    ],
+    "category": "places and infrastructure",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-256",
+    "file": "data/batch-256.json",
+    "id_prefix": "b256-",
+    "game_level": "L1",
+    "word_range": [
+      2,
+      5
+    ],
+    "grammar_level": "G1",
+    "grammar_topics": [
+      "gender and number agreement"
+    ],
+    "category": "daily routine",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-257",
+    "file": "data/batch-257.json",
+    "id_prefix": "b257-",
+    "game_level": "L2",
+    "word_range": [
+      9,
+      12
+    ],
+    "grammar_level": "G1",
+    "grammar_topics": [
+      "gender and number agreement"
+    ],
+    "category": "pronouns and questions",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-258",
+    "file": "data/batch-258.json",
+    "id_prefix": "b258-",
+    "game_level": "L1",
+    "word_range": [
+      4,
+      8
+    ],
+    "grammar_level": "G2",
+    "grammar_topics": [
+      "compound postpositions ke pas ke sath ke bina"
+    ],
+    "category": "action verbs",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-259",
+    "file": "data/batch-259.json",
+    "id_prefix": "b259-",
+    "game_level": "L2",
+    "word_range": [
+      13,
+      16
+    ],
+    "grammar_level": "G2",
+    "grammar_topics": [
+      "compound postpositions ke pas ke sath ke bina"
+    ],
+    "category": "adjectives",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-260",
+    "file": "data/batch-260.json",
+    "id_prefix": "b260-",
+    "game_level": "L1",
+    "word_range": [
+      6,
+      8
+    ],
+    "grammar_level": "G3",
+    "grammar_topics": [
+      "samas compounds"
+    ],
+    "category": "society and people",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-261",
+    "file": "data/batch-261.json",
+    "id_prefix": "b261-",
+    "game_level": "L2",
+    "word_range": [
+      9,
+      12
+    ],
+    "grammar_level": "G3",
+    "grammar_topics": [
+      "samas compounds"
+    ],
+    "category": "colors",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-262",
+    "file": "data/batch-262.json",
+    "id_prefix": "b262-",
+    "game_level": "L1",
+    "word_range": [
+      3,
+      6
+    ],
+    "grammar_level": "G4",
+    "grammar_topics": [
+      "formal administrative register"
+    ],
+    "category": "food",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-263",
+    "file": "data/batch-263.json",
+    "id_prefix": "b263-",
+    "game_level": "L2",
+    "word_range": [
+      13,
+      16
+    ],
+    "grammar_level": "G4",
+    "grammar_topics": [
+      "formal administrative register"
+    ],
+    "category": "vegetables",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-264",
+    "file": "data/batch-264.json",
+    "id_prefix": "b264-",
+    "game_level": "L1",
+    "word_range": [
+      2,
+      5
+    ],
+    "grammar_level": "G1",
+    "grammar_topics": [
+      "hona copula tenses"
+    ],
+    "category": "fruits",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-265",
+    "file": "data/batch-265.json",
+    "id_prefix": "b265-",
+    "game_level": "L2",
+    "word_range": [
+      9,
+      12
+    ],
+    "grammar_level": "G1",
+    "grammar_topics": [
+      "free"
+    ],
+    "category": "vocab sweep",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-266",
+    "file": "data/batch-266.json",
+    "id_prefix": "b266-",
+    "game_level": "L1",
+    "word_range": [
+      4,
+      8
+    ],
+    "grammar_level": "G2",
+    "grammar_topics": [
+      "causatives karana karavana"
+    ],
+    "category": "family and relations",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-267",
+    "file": "data/batch-267.json",
+    "id_prefix": "b267-",
+    "game_level": "L2",
+    "word_range": [
+      13,
+      16
+    ],
+    "grammar_level": "G2",
+    "grammar_topics": [
+      "free"
+    ],
+    "category": "vocab sweep",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-268",
+    "file": "data/batch-268.json",
+    "id_prefix": "b268-",
+    "game_level": "L1",
+    "word_range": [
+      6,
+      8
+    ],
+    "grammar_level": "G3",
+    "grammar_topics": [
+      "passive with jana"
+    ],
+    "category": "weather and seasons",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-269",
+    "file": "data/batch-269.json",
+    "id_prefix": "b269-",
+    "game_level": "L2",
+    "word_range": [
+      9,
+      12
+    ],
+    "grammar_level": "G3",
+    "grammar_topics": [
+      "free"
+    ],
+    "category": "vocab sweep",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-270",
+    "file": "data/batch-270.json",
+    "id_prefix": "b270-",
+    "game_level": "L1",
+    "word_range": [
+      3,
+      6
+    ],
+    "grammar_level": "G4",
+    "grammar_topics": [
+      "ras aesthetics"
+    ],
+    "category": "market and shopping",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-271",
+    "file": "data/batch-271.json",
+    "id_prefix": "b271-",
+    "game_level": "L2",
+    "word_range": [
+      13,
+      16
+    ],
+    "grammar_level": "G4",
+    "grammar_topics": [
+      "free"
+    ],
+    "category": "vocab sweep",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-272",
+    "file": "data/batch-272.json",
+    "id_prefix": "b272-",
+    "game_level": "L1",
+    "word_range": [
+      2,
+      5
+    ],
+    "grammar_level": "G1",
+    "grammar_topics": [
+      "simple future"
+    ],
+    "category": "clothes",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-274",
+    "file": "data/batch-274.json",
+    "id_prefix": "b274-",
+    "game_level": "L1",
+    "word_range": [
+      4,
+      8
+    ],
+    "grammar_level": "G2",
+    "grammar_topics": [
+      "free"
+    ],
+    "category": "vocab sweep",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-276",
+    "file": "data/batch-276.json",
+    "id_prefix": "b276-",
+    "game_level": "L1",
+    "word_range": [
+      6,
+      8
+    ],
+    "grammar_level": "G3",
+    "grammar_topics": [
+      "free"
+    ],
+    "category": "vocab sweep",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-278",
+    "file": "data/batch-278.json",
+    "id_prefix": "b278-",
+    "game_level": "L1",
+    "word_range": [
+      3,
+      6
+    ],
+    "grammar_level": "G4",
+    "grammar_topics": [
+      "free"
+    ],
+    "category": "vocab sweep",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-280",
+    "file": "data/batch-280.json",
+    "id_prefix": "b280-",
+    "game_level": "L1",
+    "word_range": [
+      2,
+      5
+    ],
+    "grammar_level": "G1",
+    "grammar_topics": [
+      "free"
+    ],
+    "category": "vocab sweep",
+    "count": 25,
+    "status": "pending"
+  },
+  {
+    "id": "batch-281",
+    "file": "data/batch-281.json",
+    "id_prefix": "b281-",
+    "game_level": "L1",
+    "word_range": [
+      4,
+      8
+    ],
+    "grammar_level": "G2",
+    "grammar_topics": [
+      "free"
+    ],
+    "category": "vocab sweep",
+    "count": 25,
+    "status": "pending"
+  }
+]

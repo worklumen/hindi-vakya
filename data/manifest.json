@@ -1,0 +1,85 @@
+{
+  "total_sentences": 6000,
+  "files": [
+    {
+      "file": "data/phrases01.json",
+      "count": 300
+    },
+    {
+      "file": "data/phrases02.json",
+      "count": 300
+    },
+    {
+      "file": "data/phrases03.json",
+      "count": 300
+    },
+    {
+      "file": "data/phrases04.json",
+      "count": 300
+    },
+    {
+      "file": "data/phrases05.json",
+      "count": 300
+    },
+    {
+      "file": "data/phrases06.json",
+      "count": 300
+    },
+    {
+      "file": "data/phrases07.json",
+      "count": 300
+    },
+    {
+      "file": "data/phrases08.json",
+      "count": 300
+    },
+    {
+      "file": "data/phrases09.json",
+      "count": 300
+    },
+    {
+      "file": "data/phrases10.json",
+      "count": 300
+    },
+    {
+      "file": "data/phrases11.json",
+      "count": 300
+    },
+    {
+      "file": "data/phrases12.json",
+      "count": 300
+    },
+    {
+      "file": "data/phrases13.json",
+      "count": 300
+    },
+    {
+      "file": "data/phrases14.json",
+      "count": 300
+    },
+    {
+      "file": "data/phrases15.json",
+      "count": 300
+    },
+    {
+      "file": "data/phrases16.json",
+      "count": 300
+    },
+    {
+      "file": "data/phrases17.json",
+      "count": 300
+    },
+    {
+      "file": "data/phrases18.json",
+      "count": 300
+    },
+    {
+      "file": "data/phrases19.json",
+      "count": 300
+    },
+    {
+      "file": "data/phrases20.json",
+      "count": 300
+    }
+  ]
+}

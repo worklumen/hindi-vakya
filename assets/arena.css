@@ -1,0 +1,1234 @@
+/* Game 1: Bridge */
+.game-bridge-ref {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.4rem, 1dvh, 0.75rem);
+  margin-bottom: clamp(0.5rem, 1.2dvh, 0.9rem);
+}
+.bridge-en-box, .bridge-hi-box {
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: clamp(0.45rem, 1dvh, 0.75rem) clamp(0.6rem, 1.5vw, 0.9rem);
+}
+.bridge-label {
+  font-size: 0.72rem;
+  color: var(--ink-2);
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 0.2rem;
+  display: block;
+}
+.bridge-sentence-en {
+  font-size: clamp(0.92rem, 2dvh, 1.1rem);
+  font-weight: 700;
+  margin: 0;
+}
+.bridge-arrow {
+  font-size: 1.2rem;
+  color: var(--brand);
+  font-weight: 900;
+}
+.bridge-slots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: clamp(0.25rem, 0.6dvh, 0.45rem);
+  justify-content: center;
+}
+.bridge-slot {
+  min-width: clamp(38px, 5vw, 44px);
+  min-height: clamp(34px, 4.5dvh, 38px);
+  padding: 0.2rem 0.5rem;
+  border: 1.5px dashed var(--line);
+  border-radius: 8px;
+  display: grid;
+  place-items: center;
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: clamp(0.95rem, 2.1dvh, 1.08rem);
+}
+.bridge-slot.filled.good {
+  border-style: solid;
+  border-color: var(--brand);
+  background: color-mix(in srgb, var(--brand) 15%, transparent);
+}
+.bridge-tiles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: clamp(0.35rem, 0.8dvh, 0.55rem);
+  justify-content: center;
+}
+
+/* Game 2: Bubble Pop */
+.target-highlight {
+  background: color-mix(in srgb, var(--brand) 25%, transparent);
+  color: var(--brand);
+  padding: 0.15rem 0.45rem;
+  border-radius: 6px;
+  border-bottom: 2px solid var(--brand);
+}
+.bubble-arena {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  padding: 1rem 0;
+}
+.bubble-btn {
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: 1.3rem;
+  padding: 0.8rem 1.4rem;
+  border-radius: 999px;
+  background: var(--surface-2);
+  border: 2px solid color-mix(in srgb, var(--brand) 40%, transparent);
+  color: var(--ink-1);
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  animation: floatBubble 3s ease-in-out infinite alternate;
+}
+@keyframes floatBubble {
+  from { transform: translateY(0); }
+  to { transform: translateY(-8px); }
+}
+.bubble-pop-anim {
+  animation: popOut 0.4s ease forwards !important;
+}
+@keyframes popOut {
+  50% { transform: scale(1.3); opacity: 0.8; }
+  100% { transform: scale(0); opacity: 0; }
+}
+
+/* Game 3: Reveal */
+.reveal-slots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+.reveal-slot {
+  min-width: 48px;
+  min-height: 42px;
+  border: 2px dashed var(--line);
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: 1.15rem;
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+}
+.reveal-slot.slot-ok {
+  border-style: solid;
+  border-color: #10b981;
+  background: rgba(16, 185, 129, 0.15);
+}
+.reveal-slot.slot-err {
+  border-style: solid;
+  border-color: #ef4444;
+  background: rgba(239, 68, 68, 0.15);
+}
+.reveal-bank {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  justify-content: center;
+}
+
+/* Game 4: Speed Dash */
+.speed-options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  width: 100%;
+}
+.speed-opt-btn {
+  padding: 0.9rem 1.1rem;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  background: var(--surface-2);
+  color: var(--ink-1);
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.speed-opt-btn.good {
+  background: rgba(16, 185, 129, 0.2);
+  border-color: #10b981;
+}
+.speed-opt-btn.bad {
+  background: rgba(239, 68, 68, 0.2);
+  border-color: #ef4444;
+}
+.speed-breakdown {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background: var(--surface-2);
+  border-radius: 12px;
+  width: 100%;
+}
+.breakdown-title {
+  font-size: 0.78rem;
+  color: var(--ink-2);
+  margin-bottom: 0.4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.breakdown-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  justify-content: center;
+}
+.breakdown-chip {
+  background: var(--surface-1);
+  border: 1px solid var(--line);
+  padding: 0.2rem 0.5rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+}
+
+/* Game 5: Word Detective */
+.detective-display {
+  display: flex;
+  flex-wrap: wrap;
+  gap: clamp(0.3rem, 0.7dvh, 0.5rem);
+  justify-content: center;
+  margin: clamp(0.4rem, 1dvh, 0.75rem) 0 clamp(0.5rem, 1.2dvh, 0.9rem);
+  padding: clamp(0.5rem, 1dvh, 0.8rem);
+  background: var(--surface-2);
+  border-radius: 14px;
+  border: 1.5px solid var(--line);
+}
+.detective-display.completed {
+  border-color: #10b981;
+  background: rgba(16, 185, 129, 0.12);
+  box-shadow: 0 0 16px rgba(16, 185, 129, 0.2);
+}
+.detective-word-btn {
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: clamp(0.95rem, 2.2dvh, 1.15rem);
+  padding: clamp(0.28rem, 0.7dvh, 0.4rem) clamp(0.55rem, 1.5vw, 0.8rem);
+  border-radius: 10px;
+  background: var(--surface-1);
+  border: 1.5px solid var(--line);
+  color: var(--ink-1);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.detective-word-btn:hover:not(:disabled) {
+  border-color: var(--brand);
+}
+.detective-word-btn.vanished-bad {
+  animation: popOut 0.35s ease forwards;
+  border-color: #ef4444;
+  color: #ef4444;
+}
+@keyframes popOut {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.15); opacity: 0.5; }
+  100% { transform: scale(0); opacity: 0; display: none; }
+}
+.detective-intruder-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  margin-top: 0.35rem;
+  animation: fadeIn 0.25s ease;
+}
+.detective-intruder-label {
+  font-size: 0.78rem;
+  color: var(--muted);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.detective-intruder-badge {
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: 1.05rem;
+  padding: 0.3rem 0.8rem;
+  border-radius: 999px;
+  background: rgba(239, 68, 68, 0.15);
+  border: 1.5px solid #ef4444;
+  color: #ef4444;
+  font-weight: 700;
+  box-shadow: 0 0 14px rgba(239, 68, 68, 0.3);
+  text-decoration: line-through;
+}
+
+/* Game: Word Swap */
+.swap-display {
+  display: flex;
+  flex-wrap: wrap;
+  gap: clamp(0.3rem, 0.7dvh, 0.5rem);
+  justify-content: center;
+  margin: clamp(0.4rem, 1dvh, 0.75rem) 0 clamp(0.5rem, 1.2dvh, 0.9rem);
+  padding: clamp(0.5rem, 1dvh, 0.8rem);
+  background: var(--surface-2);
+  border-radius: 14px;
+  border: 1.5px solid var(--line);
+}
+.swap-display.completed {
+  border-color: #10b981;
+  background: rgba(16, 185, 129, 0.12);
+  box-shadow: 0 0 16px rgba(16, 185, 129, 0.2);
+}
+.swap-word-btn {
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: clamp(0.95rem, 2.2dvh, 1.15rem);
+  padding: clamp(0.28rem, 0.7dvh, 0.4rem) clamp(0.55rem, 1.5vw, 0.8rem);
+  border-radius: 10px;
+  background: var(--surface-1);
+  border: 1.5px solid var(--line);
+  color: var(--ink-1);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.swap-word-btn.selected-swap {
+  border-color: var(--brand);
+  background: color-mix(in srgb, var(--brand) 20%, transparent);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Game: Word Doctor */
+.doctor-display {
+  display: flex;
+  flex-wrap: wrap;
+  gap: clamp(0.3rem, 0.7dvh, 0.5rem);
+  justify-content: center;
+  margin: clamp(0.35rem, 0.8dvh, 0.65rem) 0 clamp(0.4rem, 1dvh, 0.75rem);
+  padding: clamp(0.5rem, 1dvh, 0.8rem);
+  background: var(--surface-2);
+  border-radius: 14px;
+  border: 1.5px solid var(--line);
+}
+.doctor-display.completed {
+  border-color: #10b981;
+  background: rgba(16, 185, 129, 0.12);
+  box-shadow: 0 0 16px rgba(16, 185, 129, 0.2);
+}
+.doctor-word-btn {
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: clamp(0.95rem, 2.2dvh, 1.15rem);
+  padding: clamp(0.28rem, 0.7dvh, 0.4rem) clamp(0.55rem, 1.5vw, 0.8rem);
+  border-radius: 10px;
+  background: var(--surface-1);
+  border: 1.5px solid var(--line);
+  color: var(--ink-1);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.doctor-word-btn.sick-word {
+  border-color: #f97316;
+  background: rgba(249, 115, 22, 0.15);
+  color: #f97316;
+}
+.doctor-word-btn.cured-word {
+  border-color: #10b981;
+  background: rgba(16, 185, 129, 0.18);
+  color: #10b981;
+  font-weight: 700;
+}
+.doctor-remedy-bank {
+  display: flex;
+  flex-wrap: wrap;
+  gap: clamp(0.35rem, 0.8dvh, 0.5rem);
+  justify-content: center;
+  margin-top: clamp(0.3rem, 0.8dvh, 0.5rem);
+}
+.doctor-pill-btn {
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: clamp(0.9rem, 2dvh, 1.05rem);
+  padding: clamp(0.3rem, 0.7dvh, 0.4rem) clamp(0.6rem, 1.5vw, 0.9rem);
+  border-radius: 999px;
+  background: var(--surface-1);
+  border: 1.5px solid var(--brand);
+  color: var(--brand);
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  transition: all 0.15s;
+}
+.doctor-pill-btn:hover {
+  background: var(--brand);
+  color: #fff;
+}
+
+
+/* Game 6: Word Link Matcher (Strict 4x5 Grid) */
+.link-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: clamp(0.2rem, 0.5dvh, 0.35rem);
+  width: 100%;
+  box-sizing: border-box;
+}
+.link-card {
+  height: clamp(34px, 4.6dvh, 42px);
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  font-size: clamp(0.68rem, 1.4dvh, 0.74rem);
+  font-weight: 700;
+  color: var(--ink-1);
+  cursor: pointer;
+  padding: 0.15rem 0.2rem;
+  line-height: 1.2;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+  box-sizing: border-box;
+  transition: all 0.15s;
+}
+.link-card[data-type="hi"] {
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: 0.84rem;
+  font-weight: normal;
+}
+.link-card.active-select {
+  border-color: var(--brand);
+  background: color-mix(in srgb, var(--brand) 20%, transparent);
+}
+.link-card.cleared {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Game 7: Rapid Jumble */
+.rapid-slots {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+.rapid-slot {
+  min-width: 44px;
+  min-height: 40px;
+  border: 2px dashed var(--line);
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: 1.15rem;
+  padding: 0.2rem 0.5rem;
+}
+.rapid-slot.filled.good {
+  border-style: solid;
+  border-color: #10b981;
+  background: rgba(16, 185, 129, 0.15);
+}
+.rapid-tiles {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Game 8: Spot Mistake */
+.auditor-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  width: 100%;
+}
+.auditor-chip {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1.1rem;
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  cursor: pointer;
+  color: var(--ink-1);
+}
+.aud-hi {
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: 1.15rem;
+}
+.aud-arrow {
+  color: var(--ink-2);
+}
+.aud-en {
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+.auditor-chip.good {
+  background: rgba(16, 185, 129, 0.2);
+  border-color: #10b981;
+}
+
+/* Game 9: Codebreaker */
+.cipher-row {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+.cipher-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem 0.8rem;
+  border-radius: 12px;
+  border: 2px solid var(--line);
+  background: var(--surface-2);
+  cursor: pointer;
+  min-width: 56px;
+}
+.cipher-tile.active {
+  border-color: var(--brand);
+}
+.cipher-tile.solved {
+  background: rgba(16, 185, 129, 0.15);
+  border-color: #10b981;
+}
+.cipher-sym {
+  font-size: 1.25rem;
+  color: var(--brand);
+}
+.cipher-val {
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: 1rem;
+  color: var(--ink-1);
+}
+.cipher-candidates {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+/* Game 10: Threads */
+.threads-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 2rem;
+}
+.thread-col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  flex: 1;
+}
+.thread-node {
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+  background: var(--surface-2);
+  border: 2px solid var(--line);
+  color: var(--ink-1);
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+#thread-hi-col .thread-node {
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: 1.15rem;
+  font-weight: normal;
+}
+.thread-node.active-select {
+  border-color: var(--brand);
+  background: color-mix(in srgb, var(--brand) 20%, transparent);
+}
+.thread-node.cleared {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Game 11: Odd One Out */
+.odd-target-word {
+  font-size: 1.6rem;
+  color: var(--brand);
+  margin-bottom: 0.5rem;
+}
+.odd-options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  width: 100%;
+}
+.odd-option-btn {
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: 1.15rem;
+  padding: 0.85rem 1.1rem;
+  border-radius: 14px;
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  color: var(--ink-1);
+  text-align: left;
+  cursor: pointer;
+}
+.odd-option-btn.good {
+  background: rgba(16, 185, 129, 0.2);
+  border-color: #10b981;
+}
+
+/* Game 12: Syntax Highlighting */
+.syntax-word, .syntax-hi-word {
+  padding: 0.2rem 0.5rem;
+  border-radius: 6px;
+  display: inline-block;
+  margin: 0.1rem;
+}
+.syntax-hi-word {
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: 1.25rem;
+  border: 1px solid var(--line);
+  background: var(--surface-2);
+  cursor: pointer;
+}
+.brush-palette {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+.brush-btn {
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+.brush-btn.active {
+  border-color: var(--ink-1);
+}
+.role-blue {
+  background: #3b82f6;
+  color: #fff;
+}
+.role-green {
+  background: #10b981;
+  color: #fff;
+}
+.role-orange {
+  background: #f97316;
+  color: #fff;
+}
+
+/* Game 13: Type-Ahead */
+.type-hi-display {
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.type-slot-active {
+  color: var(--brand);
+  font-weight: 700;
+}
+.type-input-row {
+  display: flex;
+  gap: 0.5rem;
+  width: 100%;
+  max-width: 320px;
+  margin-bottom: 1rem;
+}
+.type-ahead-input {
+  flex: 1;
+  padding: 0.65rem 0.9rem;
+  border-radius: 12px;
+  border: 2px solid var(--line);
+  background: var(--surface-2);
+  color: var(--ink-1);
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: 1.15rem;
+}
+.type-ahead-input.good {
+  border-color: #10b981;
+}
+.type-assister {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Game 14: Slot Machine */
+.slot-machine-rack {
+  display: flex;
+  gap: 0.6rem;
+  justify-content: center;
+  margin: 1rem 0;
+}
+.slot-reel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+}
+.slot-arrow {
+  background: none;
+  border: none;
+  color: var(--ink-2);
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 0.2rem 0.5rem;
+}
+.slot-window {
+  width: 72px;
+  height: 54px;
+  border: 2px solid var(--line);
+  background: var(--surface-2);
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: 1.15rem;
+  transition: border-color 0.2s;
+}
+.slot-window.good {
+  border-color: #10b981;
+  background: rgba(16, 185, 129, 0.15);
+}
+.slot-window.bad {
+  border-color: #ef4444;
+  background: rgba(239, 68, 68, 0.15);
+}
+
+/* Game 15: Dual-Path */
+.dual-paths-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  width: 100%;
+}
+.dual-path-btn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  border-radius: 16px;
+  background: var(--surface-2);
+  border: 2px solid var(--line);
+  cursor: pointer;
+  color: var(--ink-1);
+  text-align: left;
+}
+.path-badge {
+  background: var(--brand);
+  color: #fff;
+  font-weight: 800;
+  font-size: 0.78rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  flex-shrink: 0;
+}
+.path-text {
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+.dual-path-btn.good {
+  border-color: #10b981;
+  background: rgba(16, 185, 129, 0.15);
+}
+
+/* Game 4: Word Flash (Swipe Cards) */
+.swipe-card {
+  width: 100%;
+  max-width: 360px;
+  background: var(--surface-2);
+  border: 1.5px solid var(--line);
+  border-radius: 16px;
+  padding: clamp(0.75rem, 1.8dvh, 1.25rem) clamp(0.75rem, 2vw, 1.1rem);
+  margin: clamp(0.35rem, 0.8dvh, 0.65rem) 0 clamp(0.5rem, 1.2dvh, 0.9rem);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.swipe-card-hi {
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: clamp(1.05rem, 2.4dvh, 1.25rem);
+  margin-bottom: clamp(0.25rem, 0.6dvh, 0.45rem);
+}
+.swipe-card-en {
+  font-size: clamp(0.85rem, 1.8dvh, 0.95rem);
+  font-weight: 600;
+  color: var(--ink-2);
+  margin: 0;
+}
+.swipe-actions {
+  display: flex;
+  gap: clamp(0.6rem, 1.5vw, 1rem);
+}
+.swipe-btn {
+  padding: clamp(0.45rem, 1dvh, 0.6rem) clamp(1rem, 2.5vw, 1.4rem);
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: clamp(0.8rem, 1.7dvh, 0.88rem);
+  cursor: pointer;
+  border: none;
+}
+.swipe-left {
+  background: rgba(249, 115, 22, 0.15);
+  color: #f97316;
+}
+.swipe-right {
+  background: rgba(16, 185, 129, 0.15);
+  color: #10b981;
+}
+.swipe-card.good {
+  border-color: #10b981;
+  background: color-mix(in srgb, #10b981 12%, var(--surface-2));
+  box-shadow: 0 0 18px rgba(16, 185, 129, 0.35);
+  transform: scale(1.02);
+}
+.swipe-card.good-orange {
+  border-color: #f97316;
+  background: color-mix(in srgb, #f97316 12%, var(--surface-2));
+  box-shadow: 0 0 18px rgba(249, 115, 22, 0.35);
+  transform: scale(1.02);
+}
+.swipe-btn.selected-good {
+  outline: 2px solid #10b981;
+  box-shadow: 0 0 12px rgba(16, 185, 129, 0.4);
+}
+.swipe-btn.selected-orange {
+  outline: 2px solid #f97316;
+  box-shadow: 0 0 12px rgba(249, 115, 22, 0.4);
+}
+
+.shake-bad {
+  animation: shake 0.35s ease;
+}
+
+/* Styles for Games 17-32 */
+.mole-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.6rem;
+  width: 100%;
+  max-width: 340px;
+  margin: 1rem 0;
+}
+.mole-hole {
+  height: 60px;
+  display: grid;
+  place-items: center;
+}
+.mole-btn {
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: 1.15rem;
+  padding: 0.6rem 0.8rem;
+  border-radius: 14px;
+  background: var(--surface-2);
+  border: 2px solid var(--line);
+  color: var(--ink-1);
+  cursor: pointer;
+  transition: transform 0.15s, background-color 0.15s;
+  width: 100%;
+  height: 100%;
+}
+.mole-btn:active {
+  transform: scale(0.92);
+}
+.mole-btn.good {
+  border-color: #10b981;
+  background: rgba(16, 185, 129, 0.2);
+}
+
+.snake-head-track {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.snake-tag {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--ink-2);
+  text-transform: uppercase;
+}
+.snake-body {
+  display: flex;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+}
+.snake-segment {
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: 0.95rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 8px;
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+}
+.snake-segment.filled {
+  background: color-mix(in srgb, var(--brand) 20%, transparent);
+  border-color: var(--brand);
+}
+.snake-field {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.snake-food {
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: 1.1rem;
+  padding: 0.55rem 1rem;
+  border-radius: 12px;
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  color: var(--ink-1);
+  cursor: pointer;
+}
+.snake-food.eaten {
+  opacity: 0.25;
+  pointer-events: none;
+}
+
+.crossword-clues {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  width: 100%;
+  margin-bottom: 1.25rem;
+}
+.cw-clue-box {
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 0.65rem 0.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  font-size: 0.9rem;
+}
+.cw-slot {
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: 1.15rem;
+  min-width: 50px;
+  height: 36px;
+  border: 2px dashed var(--line);
+  border-radius: 8px;
+  display: grid;
+  place-items: center;
+}
+.cw-slot.good {
+  border-style: solid;
+  border-color: #10b981;
+  background: rgba(16, 185, 129, 0.2);
+}
+.crossword-rack {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sorter-current {
+  margin-bottom: 1.25rem;
+}
+.sorter-badge {
+  font-size: 0.75rem;
+  color: var(--ink-2);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.sorter-word {
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: 1.8rem;
+  color: var(--brand);
+}
+.sorter-buckets {
+  display: flex;
+  gap: 0.65rem;
+  width: 100%;
+}
+.sorter-bucket {
+  flex: 1;
+  padding: 0.85rem 0.5rem;
+  border-radius: 14px;
+  border: none;
+  font-weight: 800;
+  font-size: 0.88rem;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.anagram-target-slot {
+  display: flex;
+  gap: 0.4rem;
+  justify-content: center;
+  margin: 1.25rem 0;
+}
+.anagram-char-box {
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: 1.4rem;
+  width: 44px;
+  height: 48px;
+  border: 2px dashed var(--line);
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+}
+.anagram-char-box.filled {
+  border-style: solid;
+  border-color: var(--brand);
+  background: color-mix(in srgb, var(--brand) 15%, transparent);
+}
+.anagram-letters {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.anagram-btn {
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: 1.25rem;
+  width: 46px;
+  height: 46px;
+  border-radius: 12px;
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  cursor: pointer;
+}
+.anagram-btn.used {
+  opacity: 0.25;
+}
+
+.pyramid-display {
+  margin: 1.25rem 0;
+}
+.pyramid-stem {
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: 1.45rem;
+}
+
+.tetris-well {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+.tetris-block {
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: 1.15rem;
+  min-width: 50px;
+  height: 44px;
+  border: 2px dashed var(--line);
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+}
+.tetris-block.filled.good {
+  border-style: solid;
+  border-color: #10b981;
+  background: rgba(16, 185, 129, 0.2);
+}
+
+.detective-clue-box {
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 0.85rem 1rem;
+  font-size: 0.88rem;
+  text-align: left;
+  line-height: 1.5;
+  width: 100%;
+}
+
+.plinko-ball {
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: 1.6rem;
+  background: color-mix(in srgb, var(--brand) 20%, transparent);
+  border: 2px solid var(--brand);
+  padding: 0.5rem 1.2rem;
+  border-radius: 999px;
+  margin: 0.5rem 0;
+  animation: pulse 1.5s infinite;
+}
+.plinko-pins {
+  letter-spacing: 0.5rem;
+  color: var(--ink-2);
+  margin: 0.5rem 0 1rem;
+}
+.plinko-slots {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+  width: 100%;
+}
+.plinko-slot-btn {
+  padding: 0.75rem;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: var(--surface-2);
+  font-weight: 700;
+  cursor: pointer;
+  color: var(--ink-1);
+}
+.plinko-slot-btn.good {
+  background: rgba(16, 185, 129, 0.2);
+  border-color: #10b981;
+}
+
+.word-search-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.45rem;
+  margin: 1rem 0;
+}
+.ws-cell {
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: 1.3rem;
+  width: 52px;
+  height: 52px;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: var(--surface-2);
+  cursor: pointer;
+}
+.ws-cell.active-select {
+  background: color-mix(in srgb, var(--brand) 25%, transparent);
+  border-color: var(--brand);
+}
+.ws-formed {
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: 1.15rem;
+  color: var(--ink-1);
+}
+
+.domino-chain {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 1rem 0;
+}
+.domino-tile {
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: 1.2rem;
+  padding: 0.75rem 1rem;
+  border: 2px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface-2);
+}
+.domino-tile.good {
+  border-color: #10b981;
+  background: rgba(16, 185, 129, 0.2);
+}
+.domino-connector {
+  font-size: 1.3rem;
+  color: var(--brand);
+}
+
+/* Word-level English spans */
+.en-word {
+  border-radius: 6px;
+  padding: 0 2px;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+
+/* Fixed Slot Anchor Game */
+.anchor-slots-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: clamp(0.3rem, 0.7dvh, 0.45rem);
+  justify-content: center;
+  align-items: center;
+  padding: clamp(0.45rem, 1dvh, 0.75rem);
+  background: var(--surface-2);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  margin-bottom: clamp(0.5rem, 1.2dvh, 0.9rem);
+  min-height: clamp(44px, 6dvh, 52px);
+}
+.anchor-slot {
+  min-width: clamp(38px, 5vw, 44px);
+  min-height: clamp(32px, 4.2dvh, 36px);
+  padding: 0.2rem 0.5rem;
+  border: 1.5px dashed color-mix(in srgb, var(--brand) 40%, var(--line));
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--surface-1);
+  transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+  position: relative;
+}
+.anchor-slot-word {
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: clamp(0.88rem, 2dvh, 0.98rem);
+  color: var(--ink-1);
+  font-weight: 600;
+  min-height: 1.1rem;
+}
+.anchor-slot.empty {
+  background: color-mix(in srgb, var(--surface-2) 60%, transparent);
+}
+.anchor-slot.filled {
+  border-style: solid;
+  border-color: color-mix(in srgb, var(--brand) 40%, var(--line));
+  background: var(--surface-1);
+  transform: scale(1.02);
+}
+.anchor-slots-container.completed,
+.bridge-hi-box.completed {
+  border: 1.5px solid #10b981;
+  background: rgba(16, 185, 129, 0.12) !important;
+  border-radius: 14px;
+  box-shadow: 0 0 16px rgba(16, 185, 129, 0.2);
+  transition: all 0.3s ease;
+}
+.anchor-slots-container.completed .anchor-slot,
+.bridge-hi-box.completed .bridge-slot {
+  border-color: #10b981 !important;
+  background: rgba(16, 185, 129, 0.18) !important;
+  color: #10b981 !important;
+}
+.anchor-tile-bank {
+  display: flex;
+  flex-wrap: wrap;
+  gap: clamp(0.35rem, 0.8dvh, 0.5rem);
+  justify-content: center;
+  padding: 0.2rem 0;
+}
+.anchor-word-btn {
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: clamp(0.88rem, 2dvh, 0.98rem);
+  padding: clamp(0.32rem, 0.8dvh, 0.45rem) clamp(0.6rem, 1.5vw, 0.85rem);
+  border-radius: 10px;
+  background: var(--surface-1);
+  border: 1.5px solid var(--line);
+  color: var(--ink-1);
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  transition: all 0.2s;
+}
+.anchor-word-btn:hover:not(:disabled) {
+  border-color: var(--brand);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+.anchor-word-btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+  transform: none;
+  background: var(--surface-2);
+}
+
+/* Game: Vanishing Word */
+.vanish-span {
+  display: inline-block;
+  padding: 0.15rem 0.35rem;
+  border-radius: 6px;
+  transition: all 0.25s ease;
+}
+.vanish-span.type-slot-active {
+  border-bottom: 2px dashed var(--brand);
+  color: var(--brand);
+  background: color-mix(in srgb, var(--brand) 12%, transparent);
+}
+
