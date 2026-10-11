@@ -1,5 +1,216 @@
 "use strict";
 /**
+ * games-engine.js — Core Audio FX & Gameplay Engine
+ */
+(() => {
+  /* =========================================================================
+   * 1. Audio & Sound FX (Web Audio API Synthesizer)
+   * ========================================================================= */
+  let audioCtx = null;
+  function getAudioCtx() {
+    if (!audioCtx) {
+      const AudioContext = window.AudioContext || window.webkitAudioContext;
+      if (AudioContext) audioCtx = new AudioContext();
+    }
+    if (audioCtx && audioCtx.state === "suspended") {
+      audioCtx.resume();
+    }
+    return audioCtx;
+  }
+
+  function playSound(type) {
+    try {
+      const ctx = getAudioCtx();
+      if (!ctx) return;
+      const now = ctx.currentTime;
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+
+      if (type === "pop" || type === "tap") {
+        osc.type = "sine";
+        osc.frequency.setValueAtTime(440, now);
+        osc.frequency.exponentialRampToValueAtTime(880, now + 0.08);
+        gain.gain.setValueAtTime(0.15, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.08);
+        osc.start(now);
+        osc.stop(now + 0.08);
+      } else if (type === "success") {
+        osc.type = "triangle";
+        osc.frequency.setValueAtTime(523.25, now); // C5
+        osc.frequency.setValueAtTime(659.25, now + 0.08); // E5
+        osc.frequency.setValueAtTime(783.99, now + 0.16); // G5
+        gain.gain.setValueAtTime(0.18, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.32);
+        osc.start(now);
+        osc.stop(now + 0.32);
+      } else if (type === "error") {
+        osc.type = "sawtooth";
+        osc.frequency.setValueAtTime(220, now);
+        osc.frequency.exponentialRampToValueAtTime(110, now + 0.18);
+        gain.gain.setValueAtTime(0.2, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.18);
+        osc.start(now);
+        osc.stop(now + 0.18);
+      } else if (type === "complete") {
+        osc.type = "sine";
+        osc.frequency.setValueAtTime(440, now);
+        osc.frequency.exponentialRampToValueAtTime(880, now + 0.12);
+        osc.frequency.exponentialRampToValueAtTime(1320, now + 0.28);
+        gain.gain.setValueAtTime(0.22, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.4);
+        osc.start(now);
+        osc.stop(now + 0.4);
+      }
+    } catch (e) {
+      // Audio autoplay or web audio context blocked
+    }
+  }
+
+  function shuffle(arr) {
+    const a = arr.slice();
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
+
+  function sample(arr) {
+    return arr[Math.floor(Math.random() * arr.length)];
+  }
+
+  /* =========================================================================
+   * 2. Arcade Engine & Session
+   * ========================================================================= */
+  const engine = {
+    allSentences: [],
+    activeGame: null,
+    score: 0,
+    round: null,
+    timerId: null,
+    timeLeft: 0,
+
+    init(sentences) {
+      this.allSentences = sentences;
+    },
+
+    getRandomSentence(filterFn) {
+      const pool = filterFn ? this.allSentences.filter(filterFn) : this.allSentences;
+      if (!pool || pool.length === 0) return sample(this.allSentences);
+      return sample(pool);
+    },
+
+    getRandomSentences(count, filterFn) {
+      const pool = filterFn ? this.allSentences.filter(filterFn) : this.allSentences;
+      const sh = shuffle(pool || this.allSentences);
+      return sh.slice(0, count);
+    },
+
+    /** Called by the hub every time a game (re)starts a round. */
+    beginRound() {
+      this.round = { touched: false, done: false };
+      this.meaningsActive = false;
+      const dictBtn = document.getElementById("btn-arcade-dict");
+      if (dictBtn) {
+        dictBtn.hidden = true;
+        dictBtn.classList.remove("active");
+      }
+      const board = document.getElementById("arcade-arena-board");
+      if (board) {
+        board.classList.remove("show-meanings");
+      }
+    },
+
+    /** First real interaction: only now is the round counted as played/seen. */
+    markTouched() {
+      const r = this.round;
+      if (!r || r.touched || !this.activeGame) return;
+      r.touched = true;
+      if (window.recordGameEvent) window.recordGameEvent(this.activeGame.id, this.currentSentence, "touch");
+    },
+
+    /** Round solved: counts once as done. */
+    completeRound() {
+      this.markTouched();
+      const r = this.round;
+      if (!r || r.done) return;
+      r.done = true;
+      playSound("complete");
+      const dictBtn = document.getElementById("btn-arcade-dict");
+      if (dictBtn) dictBtn.hidden = false;
+      if (this.onRoundComplete) this.onRoundComplete();
+      if (this.activeGame && window.recordGameEvent) {
+        window.recordGameEvent(this.activeGame.id, this.currentSentence, "done");
+      }
+    },
+
+    toggleMeanings() {
+      if (!this.round || !this.round.done) return;
+      this.meaningsActive = !this.meaningsActive;
+      const dictBtn = document.getElementById("btn-arcade-dict");
+      if (dictBtn) dictBtn.classList.toggle("active", this.meaningsActive);
+      const board = document.getElementById("arcade-arena-board");
+      if (board) board.classList.toggle("show-meanings", this.meaningsActive);
+      if (this.onToggleMeanings) this.onToggleMeanings(this.meaningsActive);
+    },
+
+    wrong() {
+      playSound("error");
+    },
+
+    updateHud() {},
+
+    showToast(text) {
+      const toast = document.createElement("div");
+      toast.className = "arcade-float-toast";
+      toast.textContent = text;
+      const arena = document.getElementById("arcade-arena-board");
+      if (arena) {
+        arena.appendChild(toast);
+        setTimeout(() => toast.remove(), 1200);
+      }
+    },
+
+    startTimer(seconds, onTick, onExpire) {
+      this.stopTimer();
+      this.timeLeft = seconds;
+      const bar = document.getElementById("arcade-timer-bar");
+      if (bar) {
+        bar.style.width = "100%";
+        bar.parentElement.hidden = false;
+      }
+      this.timerId = setInterval(() => {
+        this.timeLeft--;
+        if (bar) bar.style.width = `${Math.max(0, (this.timeLeft / seconds) * 100)}%`;
+        if (onTick) onTick(this.timeLeft);
+        if (this.timeLeft <= 0) {
+          this.stopTimer();
+          if (onExpire) onExpire();
+        }
+      }, 1000);
+    },
+
+    stopTimer() {
+      if (this.timerId) {
+        clearInterval(this.timerId);
+        this.timerId = null;
+      }
+      const bar = document.getElementById("arcade-timer-bar");
+      if (bar) {
+        bar.parentElement.hidden = true;
+      }
+    }
+  };
+
+  window.__VakyaArcadeEngine = engine;
+  window.__shuffle = shuffle;
+  window.__sample = sample;
+  window.__playSound = playSound;
+})();
+"use strict";
+/**
  * games-suite-1.js — Interactive Games 1 to 16
  */
 (() => {
@@ -320,4 +531,118 @@
   ];
 
   window.__VakyaGames = GAMES;
+})();
+"use strict";
+/**
+ * games-hub.js — Games Hub Card Grid & Arena Controller
+ */
+(() => {
+  const engine = window.__VakyaArcadeEngine;
+  const GAMES = window.__VakyaGames || window.__VakyaGamesPart1 || [];
+
+  // Every (re)start of a round resets the touched/done tracking.
+  GAMES.forEach(g => {
+    const original = g.start;
+    g.start = function (board) {
+      engine.beginRound();
+      return original.call(this, board);
+    };
+  });
+
+  /* =========================================================================
+   * 5. Public Arcade Interface
+   * ========================================================================= */
+  window.VakyaArcade = {
+    games: GAMES,
+
+    init(sentences) {
+      engine.init(sentences);
+      this.renderHub();
+      const nextBtn = document.getElementById("btn-arcade-next");
+      if (nextBtn) {
+        nextBtn.onclick = () => {
+          const board = document.getElementById("arcade-arena-board");
+          if (engine.activeGame && board) engine.activeGame.start(board);
+        };
+      }
+      const dictBtn = document.getElementById("btn-arcade-dict");
+      if (dictBtn) {
+        dictBtn.onclick = () => {
+          engine.toggleMeanings();
+        };
+      }
+      const arenaBoard = document.getElementById("arcade-arena-board");
+      if (arenaBoard) {
+        // capture phase: runs before the game's own handler sees the click
+        arenaBoard.addEventListener("click", e => {
+          if (e.target.closest("button, .memory-card, .syntax-hi-word")) engine.markTouched();
+        }, true);
+      }
+    },
+
+    renderHub() {
+      const grid = document.getElementById("arcade-games-grid");
+      if (!grid) return;
+      grid.innerHTML = GAMES.map(g => `
+        <article class="arcade-game-card" data-game-id="${g.id}">
+          <div class="arcade-card-icon-wrap" aria-hidden="true">
+            <svg class="arcade-game-icon"><use href="#i-${g.icon || 'arcade'}"/></svg>
+          </div>
+          <div class="arcade-card-body">
+            <h3 class="arcade-game-title">${g.title}</h3>
+          </div>
+          <div class="arcade-card-arrow" aria-hidden="true">
+            <svg class="arcade-arrow-icon" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+        </article>
+      `).join("");
+
+      grid.onclick = e => {
+        const card = e.target.closest(".arcade-game-card");
+        if (card) {
+          const gameId = card.dataset.gameId;
+          this.launchGame(gameId);
+        }
+      };
+    },
+
+    launchGame(gameId) {
+      const g = GAMES.find(x => x.id === gameId);
+      if (!g) return;
+      engine.activeGame = g;
+      engine.stopTimer();
+
+      // Show Arena Section
+      const hubSec = document.getElementById("section-arcade-hub");
+      const arenaSec = document.getElementById("section-arcade-arena");
+      if (hubSec) hubSec.hidden = true;
+      if (arenaSec) arenaSec.hidden = false;
+
+      const titleEl = document.getElementById("arcade-arena-title");
+      if (titleEl) titleEl.textContent = g.title;
+
+      const board = document.getElementById("arcade-arena-board");
+      if (board) g.start(board);
+    },
+
+    exitArena() {
+      engine.stopTimer();
+      engine.activeGame = null;
+      engine.meaningsActive = false;
+      const dictBtn = document.getElementById("btn-arcade-dict");
+      if (dictBtn) {
+        dictBtn.hidden = true;
+        dictBtn.classList.remove("active");
+      }
+      const board = document.getElementById("arcade-arena-board");
+      if (board) {
+        board.classList.remove("show-meanings");
+        board.innerHTML = "";
+      }
+      const hubSec = document.getElementById("section-arcade-hub");
+      const arenaSec = document.getElementById("section-arcade-arena");
+      if (arenaSec) arenaSec.hidden = true;
+      if (hubSec) hubSec.hidden = false;
+    }
+  };
 })();
