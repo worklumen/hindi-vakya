@@ -11,85 +11,49 @@
    * 1. Config
    * ------------------------------------------------------------------- */
   const CONFIG = Object.freeze({
-    storeKey: "hindi-vakya-state",
-    learnThreshold: 10,    // consecutive spotless rounds needed to learn a word
-    distractorRatio: 0.4,  // extra wrong tiles relative to sentence length
-    rejectFlashMs: 600
+    storeKey: "hindi-vakya-state"
   });
 
-  // Word-count range per level (index 0-2, shown as Level 1-3)
-  const LEVELS = Object.freeze([
-    [2, 8],
-    [9, 16],
-    [17, 24]
-  ]);
+  /* ---------------------------------------------------------------------
+   * 2. State
+   * ------------------------------------------------------------------- */
+  /** @type {{id:string|number, en:string, hi:string, freq:number, words:string[]}[]} */
+  let sentences = [];
+  let manifestSentenceTotal = 0;
+  let manifestWordTotal = 0;
+  let dictionary = {};    // { [hiWord]: string (en meaning) }
+  /** @type {{sentences:Object, words:Object, games:Object}} */
+  let progress = null;
 
-    /* ---------------------------------------------------------------------
-     * 2. State
-     * ------------------------------------------------------------------- */
-    /** @type {{id:string|number, en:string, hi:string, freq:number, words:string[]}[]} */
-    let sentences = [];
-    let manifestSentenceTotal = 0;
-    let manifestWordTotal = 0;
-    let dictionary = {};    // { [hiWord]: string (en meaning) }
-    /** @type {{sentences:Object, words:Object, plays:number, level:number, cleanStreak:number}} */
-    let progress = null;
+  window.__getWordMeaning = function (w) {
+    if (!w) return "";
+    const clean = w.replace(/[^\w\u0900-\u097F]/g, "");
+    return dictionary[clean] || dictionary[w] || "";
+  };
 
-    window.__getWordMeaning = function (w) {
-      if (!w) return "";
-      const clean = w.replace(/[^\w\u0900-\u097F]/g, "");
-      return dictionary[clean] || dictionary[w] || "";
-    };
-
-    const session = {
-      playLevel: null,   // level entered via Random / level button; sticky until exit
- lastPlayedId: null
-    };
-
-    /** Active round; null when not in a game. */
-    let round = null;
-
-    /* ---------------------------------------------------------------------
-     * 3. Storage
-     * ------------------------------------------------------------------- */
-    const clampLevel = l => Math.min(LEVELS.length - 1, Math.max(0, l || 0));
-
-    const levelOfLength = n => (n <= LEVELS[0][1] ? 0 : n <= LEVELS[1][1] ? 1 : LEVELS.length - 1);
-
-    const inLevel = (s, lvl) => {
-      const [lo, hi] = LEVELS[clampLevel(lvl)];
-      return s.words.length >= lo && s.words.length <= hi;
-    };
+  /* ---------------------------------------------------------------------
+   * 3. Storage
+   * ------------------------------------------------------------------- */
 
     function freshProgress() {
       return {
         sentences: {},
         words: {},
-        plays: 0,
-        level: 0,
         games: {} // { [gameId]: { plays: number, done: number } }
       };
     }
 
     /** Upgrades state saved by older versions of the app. */
     function migrate(p) {
-      if (typeof p.level === "number" && p.level > LEVELS.length - 1) {
-        p.level = Math.max(0, levelOfLength(p.level));
-      }
-      p.level = clampLevel(p.level);
-      p.plays = p.plays || 0;
-      delete p.arcadePoints;
-      delete p.cleanStreak;
       p.games = p.games || {};
       for (const g of Object.values(p.games)) {
         g.plays = g.plays || 0;
         g.done = g.done || 0;
-        delete g.bestStreak;
-        delete g.highScore;
       }
 
       if (!p.words) p.words = {};
       for (const w of Object.values(p.words)) {
+        if (w.enc === undefined) w.enc = 0;
         if (w.done === undefined) w.done = 0;
       }
       if (!p.sentences) p.sentences = {};
@@ -102,6 +66,8 @@
       }
       return p;
     }
+
+
 
     function loadProgress() {
       try {
@@ -191,23 +157,7 @@
     }
 
     /* ---------------------------------------------------------------------
-     * 5. Selection engine
-     * Pure random: the active level's band is the only filter. Every
-     * sentence in the band is equally likely — no weighting by seen, done
-     * or frequency; only the immediately-previous sentence is skipped
-     * when alternatives exist.
-     * ------------------------------------------------------------------- */
-    function shuffle(arr) {
-      const a = arr.slice();
-      for (let i = a.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [a[i], a[j]] = [a[j], a[i]];
-      }
-      return a;
-    }
-
-    /* ---------------------------------------------------------------------
-     * 5. Views & UI Controller
+     * 4. Views & UI Controller
      * ------------------------------------------------------------------- */
     const dom = {};
     const $ = id => document.getElementById(id);
@@ -224,23 +174,6 @@
       ].forEach(id => {
         dom[id.replace(/-(\w)/g, (_, c) => c.toUpperCase())] = $(id);
       });
-    }
-
-    function el(tag, className, text) {
-      const node = document.createElement(tag);
-      if (className) node.className = className;
-      if (text !== undefined) node.textContent = text;
-      return node;
-    }
-
-    function icon(name) {
-      const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-      svg.setAttribute("class", "icon");
-      svg.setAttribute("aria-hidden", "true");
-      const use = document.createElementNS("http://www.w3.org/2000/svg", "use");
-      use.setAttribute("href", `#i-${name}`);
-      svg.appendChild(use);
-      return svg;
     }
 
     /* --- Home (Games Hub & Stats) --- */
