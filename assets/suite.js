@@ -203,51 +203,33 @@
       tagline: "Diagnose the grammatically incorrect word and prescribe the cure",
       icon: "game-doctor",
       start(board) {
-        // Find a sentence that contains postpositions or common inflected words
-        const inflections = [
-          { group: ["का", "के", "की"] },
-          { group: ["रहा", "रही", "रहे"] },
-          { group: ["था", "थी", "थे"] },
-          { group: ["गया", "गई", "गए"] },
-          { group: ["करता", "करती", "करते"] },
-          { group: ["जाता", "जाती", "जाते"] },
-          { group: ["होता", "होती", "होते"] },
-          { group: ["सकता", "सकती", "सकते"] },
-          { group: ["आता", "आती", "आते"] },
-          { group: ["ने", "को", "से", "में", "पर"] }
-        ];
-
-        const sentence = engine.getRandomSentence(s => {
-          const wList = s.hi.split(/\s+/);
-          return wList.length >= 3 && inflections.some(inf => wList.some(w => inf.group.includes(w)));
-        }) || engine.getRandomSentence(s => s.hi.split(/\s+/).length >= 3);
+        const sentence = engine.getRandomSentence(s => s.hi.split(/\s+/).length >= 3)
+          || engine.getRandomSentence();
 
         const words = sentence.hi.split(/\s+/);
-
-        // Find candidate words in sentence that match our inflection groups
-        let targetIdx = -1;
-        let matchedGroup = null;
-        for (let i = 0; i < words.length; i++) {
-          const found = inflections.find(inf => inf.group.includes(words[i]));
-          if (found) {
-            targetIdx = i;
-            matchedGroup = found.group;
-            break;
-          }
-        }
-
-        // Fallback if no specific inflection matched
-        if (targetIdx === -1) {
-          targetIdx = Math.floor(Math.random() * words.length);
-          const other = engine.getRandomSentence(s => s.id !== sentence.id);
-          const otherWord = other ? sample(other.hi.split(/\s+/)) : "नहीं";
-          matchedGroup = [words[targetIdx], otherWord];
-        }
-
+        // Purely random: any word position in the sentence can be selected
+        const targetIdx = Math.floor(Math.random() * words.length);
         const correctWord = words[targetIdx];
-        const alternativeOptions = matchedGroup.filter(w => w !== correctWord);
-        const sickReplacement = sample(alternativeOptions) || "का";
-        const remedies = shuffle([correctWord, ...alternativeOptions.slice(0, 2)]);
+
+        // Gather candidate replacement words from other sentences in the curriculum
+        const otherSentences = engine.getRandomSentences ? engine.getRandomSentences(5, s => s.id !== sentence.id) : [];
+        const candidatePool = new Set();
+        otherSentences.forEach(s => {
+          s.hi.split(/\s+/).forEach(w => {
+            if (w && w !== correctWord && !words.includes(w)) {
+              candidatePool.add(w);
+            }
+          });
+        });
+
+        // Fallback candidates if pool is small
+        ["नहीं", "बहुत", "यहाँ", "वहाँ", "सब", "कल", "आज", "घर"].forEach(w => {
+          if (w !== correctWord && !words.includes(w)) candidatePool.add(w);
+        });
+
+        const alternativeOptions = shuffle(Array.from(candidatePool));
+        const sickReplacement = alternativeOptions[0] || "नहीं";
+        const remedies = shuffle([correctWord, alternativeOptions[1] || "बहुत", alternativeOptions[2] || "यहाँ"]);
 
         const displayedWords = words.slice();
         displayedWords[targetIdx] = sickReplacement;
