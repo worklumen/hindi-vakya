@@ -1,0 +1,4260 @@
+{
+  "total_verified": 851,
+  "words": {
+    "जो": {
+      "sentence_id": "b020s007",
+      "batch": 1,
+      "verified": true
+    },
+    "सुबह": {
+      "sentence_id": "b020s007",
+      "batch": 1,
+      "verified": true
+    },
+    "पराठा": {
+      "sentence_id": "b020s007",
+      "batch": 1,
+      "verified": true
+    },
+    "खा": {
+      "sentence_id": "b020s007",
+      "batch": 1,
+      "verified": true
+    },
+    "लेता": {
+      "sentence_id": "b020s007",
+      "batch": 1,
+      "verified": true
+    },
+    "है": {
+      "sentence_id": "b020s007",
+      "batch": 1,
+      "verified": true
+    },
+    "वह": {
+      "sentence_id": "b020s007",
+      "batch": 1,
+      "verified": true
+    },
+    "दोपहर": {
+      "sentence_id": "b020s007",
+      "batch": 1,
+      "verified": true
+    },
+    "तक": {
+      "sentence_id": "b020s007",
+      "batch": 1,
+      "verified": true
+    },
+    "भूख": {
+      "sentence_id": "b020s007",
+      "batch": 1,
+      "verified": true
+    },
+    "महसूस": {
+      "sentence_id": "b020s007",
+      "batch": 1,
+      "verified": true
+    },
+    "नहीं": {
+      "sentence_id": "b020s007",
+      "batch": 1,
+      "verified": true
+    },
+    "करता": {
+      "sentence_id": "b020s007",
+      "batch": 1,
+      "verified": true
+    },
+    "आँगन": {
+      "sentence_id": "b026s011",
+      "batch": 1,
+      "verified": true
+    },
+    "में": {
+      "sentence_id": "b026s011",
+      "batch": 1,
+      "verified": true
+    },
+    "ग्यारह": {
+      "sentence_id": "b026s011",
+      "batch": 1,
+      "verified": true
+    },
+    "दीपक": {
+      "sentence_id": "b026s011",
+      "batch": 1,
+      "verified": true
+    },
+    "जलाए": {
+      "sentence_id": "b026s011",
+      "batch": 1,
+      "verified": true
+    },
+    "गए": {
+      "sentence_id": "b026s011",
+      "batch": 1,
+      "verified": true
+    },
+    "और": {
+      "sentence_id": "b026s011",
+      "batch": 1,
+      "verified": true
+    },
+    "परछाइयों": {
+      "sentence_id": "b026s011",
+      "batch": 1,
+      "verified": true
+    },
+    "की": {
+      "sentence_id": "b026s011",
+      "batch": 1,
+      "verified": true
+    },
+    "संख्या": {
+      "sentence_id": "b026s011",
+      "batch": 1,
+      "verified": true
+    },
+    "दोगुनी": {
+      "sentence_id": "b026s011",
+      "batch": 1,
+      "verified": true
+    },
+    "हो": {
+      "sentence_id": "b026s011",
+      "batch": 1,
+      "verified": true
+    },
+    "गई": {
+      "sentence_id": "b026s011",
+      "batch": 1,
+      "verified": true
+    },
+    "दिन": {
+      "sentence_id": "b027s004",
+      "batch": 1,
+      "verified": true
+    },
+    "भर": {
+      "sentence_id": "b027s004",
+      "batch": 1,
+      "verified": true
+    },
+    "द्रव": {
+      "sentence_id": "b027s004",
+      "batch": 1,
+      "verified": true
+    },
+    "का": {
+      "sentence_id": "b027s004",
+      "batch": 1,
+      "verified": true
+    },
+    "सेवन": {
+      "sentence_id": "b027s004",
+      "batch": 1,
+      "verified": true
+    },
+    "चलता": {
+      "sentence_id": "b027s004",
+      "batch": 1,
+      "verified": true
+    },
+    "कुएँ": {
+      "sentence_id": "b027s004",
+      "batch": 1,
+      "verified": true
+    },
+    "से": {
+      "sentence_id": "b027s004",
+      "batch": 1,
+      "verified": true
+    },
+    "रस्सी": {
+      "sentence_id": "b027s004",
+      "batch": 1,
+      "verified": true
+    },
+    "खींचनी": {
+      "sentence_id": "b027s004",
+      "batch": 1,
+      "verified": true
+    },
+    "पड़ती": {
+      "sentence_id": "b027s004",
+      "batch": 1,
+      "verified": true
+    },
+    "खाने": {
+      "sentence_id": "b029s018",
+      "batch": 1,
+      "verified": true
+    },
+    "के": {
+      "sentence_id": "b029s018",
+      "batch": 1,
+      "verified": true
+    },
+    "पीछे": {
+      "sentence_id": "b029s018",
+      "batch": 1,
+      "verified": true
+    },
+    "पूरे": {
+      "sentence_id": "b029s018",
+      "batch": 1,
+      "verified": true
+    },
+    "गतिविधि": {
+      "sentence_id": "b029s018",
+      "batch": 1,
+      "verified": true
+    },
+    "छिपी": {
+      "sentence_id": "b029s018",
+      "batch": 1,
+      "verified": true
+    },
+    "रहती": {
+      "sentence_id": "b029s018",
+      "batch": 1,
+      "verified": true
+    },
+    "ऐसा": {
+      "sentence_id": "b029s018",
+      "batch": 1,
+      "verified": true
+    },
+    "मानना": {
+      "sentence_id": "b029s018",
+      "batch": 1,
+      "verified": true
+    },
+    "सच": {
+      "sentence_id": "b029s018",
+      "batch": 1,
+      "verified": true
+    },
+    "समय": {
+      "sentence_id": "b030s004",
+      "batch": 1,
+      "verified": true
+    },
+    "गिरावट": {
+      "sentence_id": "b030s004",
+      "batch": 1,
+      "verified": true
+    },
+    "होती": {
+      "sentence_id": "b030s004",
+      "batch": 1,
+      "verified": true
+    },
+    "पर": {
+      "sentence_id": "b030s004",
+      "batch": 1,
+      "verified": true
+    },
+    "इंसान": {
+      "sentence_id": "b030s004",
+      "batch": 1,
+      "verified": true
+    },
+    "एकत्र": {
+      "sentence_id": "b030s004",
+      "batch": 1,
+      "verified": true
+    },
+    "होकर": {
+      "sentence_id": "b030s004",
+      "batch": 1,
+      "verified": true
+    },
+    "उसे": {
+      "sentence_id": "b030s004",
+      "batch": 1,
+      "verified": true
+    },
+    "बर्बाद": {
+      "sentence_id": "b030s004",
+      "batch": 1,
+      "verified": true
+    },
+    "खेमे": {
+      "sentence_id": "b031s004",
+      "batch": 1,
+      "verified": true
+    },
+    "दरवाज़ा": {
+      "sentence_id": "b031s004",
+      "batch": 1,
+      "verified": true
+    },
+    "खुलना": {
+      "sentence_id": "b031s004",
+      "batch": 1,
+      "verified": true
+    },
+    "बंद": {
+      "sentence_id": "b031s004",
+      "batch": 1,
+      "verified": true
+    },
+    "हुआ": {
+      "sentence_id": "b031s004",
+      "batch": 1,
+      "verified": true
+    },
+    "विद्युत": {
+      "sentence_id": "b031s004",
+      "batch": 1,
+      "verified": true
+    },
+    "तार": {
+      "sentence_id": "b031s004",
+      "batch": 1,
+      "verified": true
+    },
+    "कट": {
+      "sentence_id": "b031s004",
+      "batch": 1,
+      "verified": true
+    },
+    "गया": {
+      "sentence_id": "b031s004",
+      "batch": 1,
+      "verified": true
+    },
+    "बुझ": {
+      "sentence_id": "b031s004",
+      "batch": 1,
+      "verified": true
+    },
+    "गणित": {
+      "sentence_id": "b191s030",
+      "batch": 1,
+      "verified": true
+    },
+    "विषय": {
+      "sentence_id": "b191s030",
+      "batch": 1,
+      "verified": true
+    },
+    "कमजोर": {
+      "sentence_id": "b191s030",
+      "batch": 1,
+      "verified": true
+    },
+    "छात्रों": {
+      "sentence_id": "b191s030",
+      "batch": 1,
+      "verified": true
+    },
+    "लिए": {
+      "sentence_id": "b191s030",
+      "batch": 1,
+      "verified": true
+    },
+    "विद्यालय": {
+      "sentence_id": "b191s030",
+      "batch": 1,
+      "verified": true
+    },
+    "अतिरिक्त": {
+      "sentence_id": "b191s030",
+      "batch": 1,
+      "verified": true
+    },
+    "उपचारात्मक": {
+      "sentence_id": "b191s030",
+      "batch": 1,
+      "verified": true
+    },
+    "कक्षाएं": {
+      "sentence_id": "b191s030",
+      "batch": 1,
+      "verified": true
+    },
+    "संचालित": {
+      "sentence_id": "b191s030",
+      "batch": 1,
+      "verified": true
+    },
+    "जाएंगी": {
+      "sentence_id": "b191s030",
+      "batch": 1,
+      "verified": true
+    },
+    "स्वास्थ्य": {
+      "sentence_id": "b215s004",
+      "batch": 1,
+      "verified": true
+    },
+    "विभाग": {
+      "sentence_id": "b215s004",
+      "batch": 1,
+      "verified": true
+    },
+    "समिति": {
+      "sentence_id": "b215s004",
+      "batch": 1,
+      "verified": true
+    },
+    "समक्ष": {
+      "sentence_id": "b215s004",
+      "batch": 1,
+      "verified": true
+    },
+    "कर्मचारी": {
+      "sentence_id": "b215s004",
+      "batch": 1,
+      "verified": true
+    },
+    "श्रवण": {
+      "sentence_id": "b215s004",
+      "batch": 1,
+      "verified": true
+    },
+    "क्षमता": {
+      "sentence_id": "b215s004",
+      "batch": 1,
+      "verified": true
+    },
+    "अधिकृत": {
+      "sentence_id": "b215s004",
+      "batch": 1,
+      "verified": true
+    },
+    "रिपोर्ट": {
+      "sentence_id": "b215s004",
+      "batch": 1,
+      "verified": true
+    },
+    "प्रस्तुत": {
+      "sentence_id": "b215s004",
+      "batch": 1,
+      "verified": true
+    },
+    "चालक": {
+      "sentence_id": "b215s021",
+      "batch": 1,
+      "verified": true
+    },
+    "अनुज्ञप्ति": {
+      "sentence_id": "b215s021",
+      "batch": 1,
+      "verified": true
+    },
+    "जारी": {
+      "sentence_id": "b215s021",
+      "batch": 1,
+      "verified": true
+    },
+    "करने": {
+      "sentence_id": "b215s021",
+      "batch": 1,
+      "verified": true
+    },
+    "पूर्व": {
+      "sentence_id": "b215s021",
+      "batch": 1,
+      "verified": true
+    },
+    "स्नायु": {
+      "sentence_id": "b215s021",
+      "batch": 1,
+      "verified": true
+    },
+    "तंत्र": {
+      "sentence_id": "b215s021",
+      "batch": 1,
+      "verified": true
+    },
+    "प्रतिक्रियाओं": {
+      "sentence_id": "b215s021",
+      "batch": 1,
+      "verified": true
+    },
+    "विधिवत": {
+      "sentence_id": "b215s021",
+      "batch": 1,
+      "verified": true
+    },
+    "परीक्षण": {
+      "sentence_id": "b215s021",
+      "batch": 1,
+      "verified": true
+    },
+    "किया": {
+      "sentence_id": "b215s021",
+      "batch": 1,
+      "verified": true
+    },
+    "न्यायालय": {
+      "sentence_id": "b215s022",
+      "batch": 1,
+      "verified": true
+    },
+    "आशुलिपिक": {
+      "sentence_id": "b215s022",
+      "batch": 1,
+      "verified": true
+    },
+    "पद": {
+      "sentence_id": "b215s022",
+      "batch": 1,
+      "verified": true
+    },
+    "हेतु": {
+      "sentence_id": "b215s022",
+      "batch": 1,
+      "verified": true
+    },
+    "अभ्यर्थी": {
+      "sentence_id": "b215s022",
+      "batch": 1,
+      "verified": true
+    },
+    "वाणी": {
+      "sentence_id": "b215s022",
+      "batch": 1,
+      "verified": true
+    },
+    "स्पष्टता": {
+      "sentence_id": "b215s022",
+      "batch": 1,
+      "verified": true
+    },
+    "आधिकारिक": {
+      "sentence_id": "b215s022",
+      "batch": 1,
+      "verified": true
+    },
+    "प्रमाण": {
+      "sentence_id": "b215s022",
+      "batch": 1,
+      "verified": true
+    },
+    "पत्र": {
+      "sentence_id": "b215s022",
+      "batch": 1,
+      "verified": true
+    },
+    "अनिवार्य": {
+      "sentence_id": "b215s022",
+      "batch": 1,
+      "verified": true
+    },
+    "प्रत्येक": {
+      "sentence_id": "p23s105",
+      "batch": 1,
+      "verified": true
+    },
+    "नागरिक": {
+      "sentence_id": "p23s105",
+      "batch": 1,
+      "verified": true
+    },
+    "प्रलोभनों": {
+      "sentence_id": "p23s105",
+      "batch": 1,
+      "verified": true
+    },
+    "बचता": {
+      "sentence_id": "p23s105",
+      "batch": 1,
+      "verified": true
+    },
+    "अपने": {
+      "sentence_id": "p23s105",
+      "batch": 1,
+      "verified": true
+    },
+    "गंतव्यों": {
+      "sentence_id": "p23s105",
+      "batch": 1,
+      "verified": true
+    },
+    "ओर": {
+      "sentence_id": "p23s105",
+      "batch": 1,
+      "verified": true
+    },
+    "बढ़ता": {
+      "sentence_id": "p23s105",
+      "batch": 1,
+      "verified": true
+    },
+    "सैनिकों": {
+      "sentence_id": "p23s185",
+      "batch": 1,
+      "verified": true
+    },
+    "ने": {
+      "sentence_id": "p23s185",
+      "batch": 1,
+      "verified": true
+    },
+    "बंदियों": {
+      "sentence_id": "p23s185",
+      "batch": 1,
+      "verified": true
+    },
+    "को": {
+      "sentence_id": "p23s185",
+      "batch": 1,
+      "verified": true
+    },
+    "सुरक्षित": {
+      "sentence_id": "p23s185",
+      "batch": 1,
+      "verified": true
+    },
+    "स्थान": {
+      "sentence_id": "p23s185",
+      "batch": 1,
+      "verified": true
+    },
+    "पहुँचाया": {
+      "sentence_id": "p23s185",
+      "batch": 1,
+      "verified": true
+    },
+    "बारूद": {
+      "sentence_id": "p23s185",
+      "batch": 1,
+      "verified": true
+    },
+    "नष्ट": {
+      "sentence_id": "p23s185",
+      "batch": 1,
+      "verified": true
+    },
+    "कर": {
+      "sentence_id": "p23s185",
+      "batch": 1,
+      "verified": true
+    },
+    "दिया": {
+      "sentence_id": "p23s185",
+      "batch": 1,
+      "verified": true
+    },
+    "एक": {
+      "sentence_id": "p24s121",
+      "batch": 1,
+      "verified": true
+    },
+    "दक्ष": {
+      "sentence_id": "p24s121",
+      "batch": 1,
+      "verified": true
+    },
+    "कारीगर": {
+      "sentence_id": "p24s121",
+      "batch": 1,
+      "verified": true
+    },
+    "हमेशा": {
+      "sentence_id": "p24s121",
+      "batch": 1,
+      "verified": true
+    },
+    "घटिया": {
+      "sentence_id": "p24s121",
+      "batch": 1,
+      "verified": true
+    },
+    "सामग्री": {
+      "sentence_id": "p24s121",
+      "batch": 1,
+      "verified": true
+    },
+    "प्रयोग": {
+      "sentence_id": "p24s121",
+      "batch": 1,
+      "verified": true
+    },
+    "जंगल": {
+      "sentence_id": "b075s041",
+      "batch": 1,
+      "verified": true
+    },
+    "आग": {
+      "sentence_id": "b075s041",
+      "batch": 1,
+      "verified": true
+    },
+    "गाँव": {
+      "sentence_id": "b075s041",
+      "batch": 1,
+      "verified": true
+    },
+    "बढ़ते": {
+      "sentence_id": "b075s041",
+      "batch": 1,
+      "verified": true
+    },
+    "देखकर": {
+      "sentence_id": "b075s041",
+      "batch": 1,
+      "verified": true
+    },
+    "लोगों": {
+      "sentence_id": "b075s041",
+      "batch": 1,
+      "verified": true
+    },
+    "होश": {
+      "sentence_id": "b075s041",
+      "batch": 1,
+      "verified": true
+    },
+    "उड़": {
+      "sentence_id": "b075s041",
+      "batch": 1,
+      "verified": true
+    },
+    "जैसे": {
+      "sentence_id": "b188s013",
+      "batch": 1,
+      "verified": true
+    },
+    "कान": {
+      "sentence_id": "b188s013",
+      "batch": 1,
+      "verified": true
+    },
+    "ध्यान": {
+      "sentence_id": "b188s013",
+      "batch": 1,
+      "verified": true
+    },
+    "सुनते": {
+      "sentence_id": "b188s013",
+      "batch": 1,
+      "verified": true
+    },
+    "हैं": {
+      "sentence_id": "b188s013",
+      "batch": 1,
+      "verified": true
+    },
+    "वैसे": {
+      "sentence_id": "b188s013",
+      "batch": 1,
+      "verified": true
+    },
+    "ही": {
+      "sentence_id": "b188s013",
+      "batch": 1,
+      "verified": true
+    },
+    "मन": {
+      "sentence_id": "b188s013",
+      "batch": 1,
+      "verified": true
+    },
+    "ज्ञान": {
+      "sentence_id": "b188s013",
+      "batch": 1,
+      "verified": true
+    },
+    "भरता": {
+      "sentence_id": "b188s013",
+      "batch": 1,
+      "verified": true
+    },
+    "पुलिस": {
+      "sentence_id": "p23s018",
+      "batch": 1,
+      "verified": true
+    },
+    "देखते": {
+      "sentence_id": "p23s018",
+      "batch": 1,
+      "verified": true
+    },
+    "घबराया": {
+      "sentence_id": "p23s018",
+      "batch": 1,
+      "verified": true
+    },
+    "क्योंकि": {
+      "sentence_id": "p23s018",
+      "batch": 1,
+      "verified": true
+    },
+    "चोर": {
+      "sentence_id": "p23s018",
+      "batch": 1,
+      "verified": true
+    },
+    "दाढ़ी": {
+      "sentence_id": "p23s018",
+      "batch": 1,
+      "verified": true
+    },
+    "तिनका": {
+      "sentence_id": "p23s018",
+      "batch": 1,
+      "verified": true
+    },
+    "था": {
+      "sentence_id": "p23s018",
+      "batch": 1,
+      "verified": true
+    },
+    "जिन": {
+      "sentence_id": "b030s003",
+      "batch": 1,
+      "verified": true
+    },
+    "दिनों": {
+      "sentence_id": "b030s003",
+      "batch": 1,
+      "verified": true
+    },
+    "दौरे": {
+      "sentence_id": "b030s003",
+      "batch": 1,
+      "verified": true
+    },
+    "होते": {
+      "sentence_id": "b030s003",
+      "batch": 1,
+      "verified": true
+    },
+    "उन": {
+      "sentence_id": "b030s003",
+      "batch": 1,
+      "verified": true
+    },
+    "छुट्टियाँ": {
+      "sentence_id": "b030s003",
+      "batch": 1,
+      "verified": true
+    },
+    "क्रमशः": {
+      "sentence_id": "b030s003",
+      "batch": 1,
+      "verified": true
+    },
+    "मिलतीं": {
+      "sentence_id": "b030s003",
+      "batch": 1,
+      "verified": true
+    },
+    "रेलवे": {
+      "sentence_id": "b215s046",
+      "batch": 1,
+      "verified": true
+    },
+    "चालकों": {
+      "sentence_id": "b215s046",
+      "batch": 1,
+      "verified": true
+    },
+    "विशेष": {
+      "sentence_id": "b215s046",
+      "batch": 1,
+      "verified": true
+    },
+    "पट्टिका": {
+      "sentence_id": "b215s046",
+      "batch": 1,
+      "verified": true
+    },
+    "द्वारा": {
+      "sentence_id": "b215s046",
+      "batch": 1,
+      "verified": true
+    },
+    "वर्ण": {
+      "sentence_id": "b215s046",
+      "batch": 1,
+      "verified": true
+    },
+    "अंधता": {
+      "sentence_id": "b215s046",
+      "batch": 1,
+      "verified": true
+    },
+    "जांच": {
+      "sentence_id": "b215s046",
+      "batch": 1,
+      "verified": true
+    },
+    "संपन्न": {
+      "sentence_id": "b215s046",
+      "batch": 1,
+      "verified": true
+    },
+    "जेठ": {
+      "sentence_id": "b016s011",
+      "batch": 1,
+      "verified": true
+    },
+    "बुढ़ापे": {
+      "sentence_id": "b016s011",
+      "batch": 1,
+      "verified": true
+    },
+    "देवर": {
+      "sentence_id": "b016s011",
+      "batch": 1,
+      "verified": true
+    },
+    "ननद": {
+      "sentence_id": "b016s011",
+      "batch": 1,
+      "verified": true
+    },
+    "उनकी": {
+      "sentence_id": "b016s011",
+      "batch": 1,
+      "verified": true
+    },
+    "सेवा": {
+      "sentence_id": "b016s011",
+      "batch": 1,
+      "verified": true
+    },
+    "जीरा": {
+      "sentence_id": "b078s044",
+      "batch": 1,
+      "verified": true
+    },
+    "पानी": {
+      "sentence_id": "b078s044",
+      "batch": 1,
+      "verified": true
+    },
+    "पीने": {
+      "sentence_id": "b078s044",
+      "batch": 1,
+      "verified": true
+    },
+    "गुर्दे": {
+      "sentence_id": "b078s044",
+      "batch": 1,
+      "verified": true
+    },
+    "स्वस्थ": {
+      "sentence_id": "b078s044",
+      "batch": 1,
+      "verified": true
+    },
+    "रहते": {
+      "sentence_id": "b078s044",
+      "batch": 1,
+      "verified": true
+    },
+    "सूजन": {
+      "sentence_id": "b078s044",
+      "batch": 1,
+      "verified": true
+    },
+    "घटती": {
+      "sentence_id": "b078s044",
+      "batch": 1,
+      "verified": true
+    },
+    "लेखक": {
+      "sentence_id": "p23s072",
+      "batch": 1,
+      "verified": true
+    },
+    "अपनी": {
+      "sentence_id": "p23s072",
+      "batch": 1,
+      "verified": true
+    },
+    "रचना": {
+      "sentence_id": "p23s072",
+      "batch": 1,
+      "verified": true
+    },
+    "दसवें": {
+      "sentence_id": "p23s072",
+      "batch": 1,
+      "verified": true
+    },
+    "अध्याय": {
+      "sentence_id": "p23s072",
+      "batch": 1,
+      "verified": true
+    },
+    "जनसामान्य": {
+      "sentence_id": "p23s072",
+      "batch": 1,
+      "verified": true
+    },
+    "अपेक्षाओं": {
+      "sentence_id": "p23s072",
+      "batch": 1,
+      "verified": true
+    },
+    "अनुरूप": {
+      "sentence_id": "p23s072",
+      "batch": 1,
+      "verified": true
+    },
+    "लिखा": {
+      "sentence_id": "p23s072",
+      "batch": 1,
+      "verified": true
+    },
+    "जिस": {
+      "sentence_id": "b016s010",
+      "batch": 1,
+      "verified": true
+    },
+    "कन्या": {
+      "sentence_id": "b016s010",
+      "batch": 1,
+      "verified": true
+    },
+    "वर": {
+      "sentence_id": "b016s010",
+      "batch": 1,
+      "verified": true
+    },
+    "मिलन": {
+      "sentence_id": "b016s010",
+      "batch": 1,
+      "verified": true
+    },
+    "उस": {
+      "sentence_id": "b016s010",
+      "batch": 1,
+      "verified": true
+    },
+    "ढोल": {
+      "sentence_id": "b016s010",
+      "batch": 1,
+      "verified": true
+    },
+    "बजाए": {
+      "sentence_id": "b016s010",
+      "batch": 1,
+      "verified": true
+    },
+    "शरद": {
+      "sentence_id": "b019s020",
+      "batch": 1,
+      "verified": true
+    },
+    "पत्ते": {
+      "sentence_id": "b019s020",
+      "batch": 1,
+      "verified": true
+    },
+    "झड़ते": {
+      "sentence_id": "b019s020",
+      "batch": 1,
+      "verified": true
+    },
+    "जड़": {
+      "sentence_id": "b019s020",
+      "batch": 1,
+      "verified": true
+    },
+    "दिखती": {
+      "sentence_id": "b019s020",
+      "batch": 1,
+      "verified": true
+    },
+    "मिट्टी": {
+      "sentence_id": "b019s020",
+      "batch": 1,
+      "verified": true
+    },
+    "पलटनी": {
+      "sentence_id": "b019s020",
+      "batch": 1,
+      "verified": true
+    },
+    "हम": {
+      "sentence_id": "b024s015",
+      "batch": 1,
+      "verified": true
+    },
+    "सब": {
+      "sentence_id": "b024s015",
+      "batch": 1,
+      "verified": true
+    },
+    "यथाशक्ति": {
+      "sentence_id": "b024s015",
+      "batch": 1,
+      "verified": true
+    },
+    "कमाकर": {
+      "sentence_id": "b024s015",
+      "batch": 1,
+      "verified": true
+    },
+    "उतनी": {
+      "sentence_id": "b024s015",
+      "batch": 1,
+      "verified": true
+    },
+    "धोती": {
+      "sentence_id": "b024s015",
+      "batch": 1,
+      "verified": true
+    },
+    "उतना": {
+      "sentence_id": "b024s015",
+      "batch": 1,
+      "verified": true
+    },
+    "कुर्ता": {
+      "sentence_id": "b024s015",
+      "batch": 1,
+      "verified": true
+    },
+    "खरीदते": {
+      "sentence_id": "b024s015",
+      "batch": 1,
+      "verified": true
+    },
+    "रात": {
+      "sentence_id": "b030s021",
+      "batch": 1,
+      "verified": true
+    },
+    "तीसरे": {
+      "sentence_id": "b030s021",
+      "batch": 1,
+      "verified": true
+    },
+    "पहर": {
+      "sentence_id": "b030s021",
+      "batch": 1,
+      "verified": true
+    },
+    "अज्ञात": {
+      "sentence_id": "b030s021",
+      "batch": 1,
+      "verified": true
+    },
+    "सन्नाटा": {
+      "sentence_id": "b030s021",
+      "batch": 1,
+      "verified": true
+    },
+    "छा": {
+      "sentence_id": "b030s021",
+      "batch": 1,
+      "verified": true
+    },
+    "जाता": {
+      "sentence_id": "b030s021",
+      "batch": 1,
+      "verified": true
+    },
+    "चेतावनी": {
+      "sentence_id": "b030s021",
+      "batch": 1,
+      "verified": true
+    },
+    "सी": {
+      "sentence_id": "b030s021",
+      "batch": 1,
+      "verified": true
+    },
+    "लगती": {
+      "sentence_id": "b030s021",
+      "batch": 1,
+      "verified": true
+    },
+    "क्या": {
+      "sentence_id": "b030s023",
+      "batch": 1,
+      "verified": true
+    },
+    "साथ": {
+      "sentence_id": "b030s023",
+      "batch": 1,
+      "verified": true
+    },
+    "आदतें": {
+      "sentence_id": "b030s023",
+      "batch": 1,
+      "verified": true
+    },
+    "बदलती": {
+      "sentence_id": "b030s023",
+      "batch": 1,
+      "verified": true
+    },
+    "या": {
+      "sentence_id": "b030s023",
+      "batch": 1,
+      "verified": true
+    },
+    "आदर्श": {
+      "sentence_id": "b030s023",
+      "batch": 1,
+      "verified": true
+    },
+    "अभिनय": {
+      "sentence_id": "b030s023",
+      "batch": 1,
+      "verified": true
+    },
+    "करती": {
+      "sentence_id": "b030s023",
+      "batch": 1,
+      "verified": true
+    },
+    "पत्रकार": {
+      "sentence_id": "b031s019",
+      "batch": 1,
+      "verified": true
+    },
+    "मौसम": {
+      "sentence_id": "b031s019",
+      "batch": 1,
+      "verified": true
+    },
+    "खबर": {
+      "sentence_id": "b031s019",
+      "batch": 1,
+      "verified": true
+    },
+    "लिखते": {
+      "sentence_id": "b031s019",
+      "batch": 1,
+      "verified": true
+    },
+    "तस्वीरें": {
+      "sentence_id": "b031s019",
+      "batch": 1,
+      "verified": true
+    },
+    "खींचकर": {
+      "sentence_id": "b031s019",
+      "batch": 1,
+      "verified": true
+    },
+    "प्रसारण": {
+      "sentence_id": "b031s019",
+      "batch": 1,
+      "verified": true
+    },
+    "भेजते": {
+      "sentence_id": "b031s019",
+      "batch": 1,
+      "verified": true
+    },
+    "समुद्र": {
+      "sentence_id": "b207s035",
+      "batch": 1,
+      "verified": true
+    },
+    "गहरी": {
+      "sentence_id": "b207s035",
+      "batch": 1,
+      "verified": true
+    },
+    "अंधेरी": {
+      "sentence_id": "b207s035",
+      "batch": 1,
+      "verified": true
+    },
+    "गुफाओं": {
+      "sentence_id": "b207s035",
+      "batch": 1,
+      "verified": true
+    },
+    "विचित्र": {
+      "sentence_id": "b207s035",
+      "batch": 1,
+      "verified": true
+    },
+    "प्रकाशमान": {
+      "sentence_id": "b207s035",
+      "batch": 1,
+      "verified": true
+    },
+    "जलीय": {
+      "sentence_id": "b207s035",
+      "batch": 1,
+      "verified": true
+    },
+    "जीव": {
+      "sentence_id": "b207s035",
+      "batch": 1,
+      "verified": true
+    },
+    "निवास": {
+      "sentence_id": "b207s035",
+      "batch": 1,
+      "verified": true
+    },
+    "करते": {
+      "sentence_id": "b207s035",
+      "batch": 1,
+      "verified": true
+    },
+    "भारी": {
+      "sentence_id": "p23s081",
+      "batch": 1,
+      "verified": true
+    },
+    "वर्षा": {
+      "sentence_id": "p23s081",
+      "batch": 1,
+      "verified": true
+    },
+    "कारण": {
+      "sentence_id": "p23s081",
+      "batch": 1,
+      "verified": true
+    },
+    "परिवर्तनीय": {
+      "sentence_id": "p23s081",
+      "batch": 1,
+      "verified": true
+    },
+    "नदी": {
+      "sentence_id": "p23s081",
+      "batch": 1,
+      "verified": true
+    },
+    "किनारे": {
+      "sentence_id": "p23s081",
+      "batch": 1,
+      "verified": true
+    },
+    "बस्तियाँ": {
+      "sentence_id": "p23s081",
+      "batch": 1,
+      "verified": true
+    },
+    "जलमग्न": {
+      "sentence_id": "p23s081",
+      "batch": 1,
+      "verified": true
+    },
+    "गईं": {
+      "sentence_id": "p23s081",
+      "batch": 1,
+      "verified": true
+    },
+    "इतिहासकार": {
+      "sentence_id": "p23s082",
+      "batch": 1,
+      "verified": true
+    },
+    "क्षत्रिय": {
+      "sentence_id": "p23s082",
+      "batch": 1,
+      "verified": true
+    },
+    "योद्धाओं": {
+      "sentence_id": "p23s082",
+      "batch": 1,
+      "verified": true
+    },
+    "वीरता": {
+      "sentence_id": "p23s082",
+      "batch": 1,
+      "verified": true
+    },
+    "राजशाही": {
+      "sentence_id": "p23s082",
+      "batch": 1,
+      "verified": true
+    },
+    "मंत्रालयों": {
+      "sentence_id": "p23s082",
+      "batch": 1,
+      "verified": true
+    },
+    "कामकाज": {
+      "sentence_id": "p23s082",
+      "batch": 1,
+      "verified": true
+    },
+    "सुंदर": {
+      "sentence_id": "p23s082",
+      "batch": 1,
+      "verified": true
+    },
+    "वर्णन": {
+      "sentence_id": "p23s082",
+      "batch": 1,
+      "verified": true
+    },
+    "पुजारी": {
+      "sentence_id": "p23s091",
+      "batch": 1,
+      "verified": true
+    },
+    "शुद्धिकरण": {
+      "sentence_id": "p23s091",
+      "batch": 1,
+      "verified": true
+    },
+    "अनुष्ठान": {
+      "sentence_id": "p23s091",
+      "batch": 1,
+      "verified": true
+    },
+    "खुदा": {
+      "sentence_id": "p23s091",
+      "batch": 1,
+      "verified": true
+    },
+    "इबादत": {
+      "sentence_id": "p23s091",
+      "batch": 1,
+      "verified": true
+    },
+    "सिर": {
+      "sentence_id": "p23s091",
+      "batch": 1,
+      "verified": true
+    },
+    "झुकाया": {
+      "sentence_id": "p23s091",
+      "batch": 1,
+      "verified": true
+    },
+    "वैज्ञानिकों": {
+      "sentence_id": "p23s092",
+      "batch": 1,
+      "verified": true
+    },
+    "अंतरमहाद्वीपीय": {
+      "sentence_id": "p23s092",
+      "batch": 1,
+      "verified": true
+    },
+    "जलवायु": {
+      "sentence_id": "p23s092",
+      "batch": 1,
+      "verified": true
+    },
+    "प्रभाव": {
+      "sentence_id": "p23s092",
+      "batch": 1,
+      "verified": true
+    },
+    "अध्ययन": {
+      "sentence_id": "p23s092",
+      "batch": 1,
+      "verified": true
+    },
+    "तटीय": {
+      "sentence_id": "p23s092",
+      "batch": 1,
+      "verified": true
+    },
+    "क्षेत्रों": {
+      "sentence_id": "p23s092",
+      "batch": 1,
+      "verified": true
+    },
+    "पौधों": {
+      "sentence_id": "p23s092",
+      "batch": 1,
+      "verified": true
+    },
+    "रोपण": {
+      "sentence_id": "p23s092",
+      "batch": 1,
+      "verified": true
+    },
+    "शुरू": {
+      "sentence_id": "p23s092",
+      "batch": 1,
+      "verified": true
+    },
+    "व्यापारिक": {
+      "sentence_id": "p23s102",
+      "batch": 1,
+      "verified": true
+    },
+    "संपर्कों": {
+      "sentence_id": "p23s102",
+      "batch": 1,
+      "verified": true
+    },
+    "विस्तार": {
+      "sentence_id": "p23s102",
+      "batch": 1,
+      "verified": true
+    },
+    "अविकसित": {
+      "sentence_id": "p23s102",
+      "batch": 1,
+      "verified": true
+    },
+    "विकास": {
+      "sentence_id": "p23s102",
+      "batch": 1,
+      "verified": true
+    },
+    "नई": {
+      "sentence_id": "p23s102",
+      "batch": 1,
+      "verified": true
+    },
+    "संभावनाएँ": {
+      "sentence_id": "p23s102",
+      "batch": 1,
+      "verified": true
+    },
+    "खुलीं": {
+      "sentence_id": "p23s102",
+      "batch": 1,
+      "verified": true
+    },
+    "समारोह": {
+      "sentence_id": "p23s111",
+      "batch": 1,
+      "verified": true
+    },
+    "पदधारी": {
+      "sentence_id": "p23s111",
+      "batch": 1,
+      "verified": true
+    },
+    "अधिकारियों": {
+      "sentence_id": "p23s111",
+      "batch": 1,
+      "verified": true
+    },
+    "भाग": {
+      "sentence_id": "p23s111",
+      "batch": 1,
+      "verified": true
+    },
+    "लिया": {
+      "sentence_id": "p23s111",
+      "batch": 1,
+      "verified": true
+    },
+    "घाव": {
+      "sentence_id": "p23s111",
+      "batch": 1,
+      "verified": true
+    },
+    "रक्त": {
+      "sentence_id": "p23s111",
+      "batch": 1,
+      "verified": true
+    },
+    "स्राव": {
+      "sentence_id": "p23s111",
+      "batch": 1,
+      "verified": true
+    },
+    "रोकने": {
+      "sentence_id": "p23s111",
+      "batch": 1,
+      "verified": true
+    },
+    "उपाय": {
+      "sentence_id": "p23s111",
+      "batch": 1,
+      "verified": true
+    },
+    "समझाए": {
+      "sentence_id": "p23s111",
+      "batch": 1,
+      "verified": true
+    },
+    "विशेषज्ञों": {
+      "sentence_id": "p23s112",
+      "batch": 1,
+      "verified": true
+    },
+    "उभरती": {
+      "sentence_id": "p23s112",
+      "batch": 1,
+      "verified": true
+    },
+    "अर्थव्यवस्थाओं": {
+      "sentence_id": "p23s112",
+      "batch": 1,
+      "verified": true
+    },
+    "बहु-आयामी": {
+      "sentence_id": "p23s112",
+      "batch": 1,
+      "verified": true
+    },
+    "विस्तृत": {
+      "sentence_id": "p23s112",
+      "batch": 1,
+      "verified": true
+    },
+    "विश्लेषण": {
+      "sentence_id": "p23s112",
+      "batch": 1,
+      "verified": true
+    },
+    "बैंक": {
+      "sentence_id": "p23s121",
+      "batch": 1,
+      "verified": true
+    },
+    "सुरक्षा": {
+      "sentence_id": "p23s121",
+      "batch": 1,
+      "verified": true
+    },
+    "बांड": {
+      "sentence_id": "p23s121",
+      "batch": 1,
+      "verified": true
+    },
+    "किए": {
+      "sentence_id": "p23s121",
+      "batch": 1,
+      "verified": true
+    },
+    "मालवाहक": {
+      "sentence_id": "p23s121",
+      "batch": 1,
+      "verified": true
+    },
+    "जहाज": {
+      "sentence_id": "p23s121",
+      "batch": 1,
+      "verified": true
+    },
+    "सामान": {
+      "sentence_id": "p23s121",
+      "batch": 1,
+      "verified": true
+    },
+    "लोडिंग": {
+      "sentence_id": "p23s121",
+      "batch": 1,
+      "verified": true
+    },
+    "पूरी": {
+      "sentence_id": "p23s121",
+      "batch": 1,
+      "verified": true
+    },
+    "करवाई": {
+      "sentence_id": "p23s121",
+      "batch": 1,
+      "verified": true
+    },
+    "दीवार": {
+      "sentence_id": "p23s122",
+      "batch": 1,
+      "verified": true
+    },
+    "आला": {
+      "sentence_id": "p23s122",
+      "batch": 1,
+      "verified": true
+    },
+    "रखी": {
+      "sentence_id": "p23s122",
+      "batch": 1,
+      "verified": true
+    },
+    "मूर्तियों": {
+      "sentence_id": "p23s122",
+      "batch": 1,
+      "verified": true
+    },
+    "वृद्ध": {
+      "sentence_id": "p23s122",
+      "batch": 1,
+      "verified": true
+    },
+    "व्यक्ति": {
+      "sentence_id": "p23s122",
+      "batch": 1,
+      "verified": true
+    },
+    "कूल्हे": {
+      "sentence_id": "p23s122",
+      "batch": 1,
+      "verified": true
+    },
+    "हाथ": {
+      "sentence_id": "p23s122",
+      "batch": 1,
+      "verified": true
+    },
+    "रखकर": {
+      "sentence_id": "p23s122",
+      "batch": 1,
+      "verified": true
+    },
+    "विश्राम": {
+      "sentence_id": "p23s122",
+      "batch": 1,
+      "verified": true
+    },
+    "प्राचीन": {
+      "sentence_id": "p23s131",
+      "batch": 1,
+      "verified": true
+    },
+    "काल": {
+      "sentence_id": "p23s131",
+      "batch": 1,
+      "verified": true
+    },
+    "शूरवीरों": {
+      "sentence_id": "p23s131",
+      "batch": 1,
+      "verified": true
+    },
+    "द्वंद्वयुद्ध": {
+      "sentence_id": "p23s131",
+      "batch": 1,
+      "verified": true
+    },
+    "जीतकर": {
+      "sentence_id": "p23s131",
+      "batch": 1,
+      "verified": true
+    },
+    "संपूर्ण": {
+      "sentence_id": "p23s131",
+      "batch": 1,
+      "verified": true
+    },
+    "राज्य": {
+      "sentence_id": "p23s131",
+      "batch": 1,
+      "verified": true
+    },
+    "ख्याति": {
+      "sentence_id": "p23s131",
+      "batch": 1,
+      "verified": true
+    },
+    "अर्जित": {
+      "sentence_id": "p23s131",
+      "batch": 1,
+      "verified": true
+    },
+    "सॉफ्टवेयर": {
+      "sentence_id": "p23s132",
+      "batch": 1,
+      "verified": true
+    },
+    "विकासकर्ता": {
+      "sentence_id": "p23s132",
+      "batch": 1,
+      "verified": true
+    },
+    "डेटाबेस": {
+      "sentence_id": "p23s132",
+      "batch": 1,
+      "verified": true
+    },
+    "अभिगमन": {
+      "sentence_id": "p23s132",
+      "batch": 1,
+      "verified": true
+    },
+    "सुनिश्चित": {
+      "sentence_id": "p23s132",
+      "batch": 1,
+      "verified": true
+    },
+    "प्रणाली": {
+      "sentence_id": "p23s132",
+      "batch": 1,
+      "verified": true
+    },
+    "बनाई": {
+      "sentence_id": "p23s132",
+      "batch": 1,
+      "verified": true
+    },
+    "शिकारी": {
+      "sentence_id": "p23s142",
+      "batch": 1,
+      "verified": true
+    },
+    "बाज": {
+      "sentence_id": "p23s142",
+      "batch": 1,
+      "verified": true
+    },
+    "नुकीले": {
+      "sentence_id": "p23s142",
+      "batch": 1,
+      "verified": true
+    },
+    "पंजे": {
+      "sentence_id": "p23s142",
+      "batch": 1,
+      "verified": true
+    },
+    "फैलाकर": {
+      "sentence_id": "p23s142",
+      "batch": 1,
+      "verified": true
+    },
+    "शिकार": {
+      "sentence_id": "p23s142",
+      "batch": 1,
+      "verified": true
+    },
+    "झपटा": {
+      "sentence_id": "p23s142",
+      "batch": 1,
+      "verified": true
+    },
+    "जबकि": {
+      "sentence_id": "p23s142",
+      "batch": 1,
+      "verified": true
+    },
+    "दर्जी": {
+      "sentence_id": "p23s142",
+      "batch": 1,
+      "verified": true
+    },
+    "कपड़े": {
+      "sentence_id": "p23s142",
+      "batch": 1,
+      "verified": true
+    },
+    "कतरनी": {
+      "sentence_id": "p23s142",
+      "batch": 1,
+      "verified": true
+    },
+    "चलाई": {
+      "sentence_id": "p23s142",
+      "batch": 1,
+      "verified": true
+    },
+    "शोधकर्ताओं": {
+      "sentence_id": "p23s152",
+      "batch": 1,
+      "verified": true
+    },
+    "दुर्लभ": {
+      "sentence_id": "p23s152",
+      "batch": 1,
+      "verified": true
+    },
+    "भृंग": {
+      "sentence_id": "p23s152",
+      "batch": 1,
+      "verified": true
+    },
+    "प्रजाति": {
+      "sentence_id": "p23s152",
+      "batch": 1,
+      "verified": true
+    },
+    "आधुनिक": {
+      "sentence_id": "p23s152",
+      "batch": 1,
+      "verified": true
+    },
+    "अर्धचालक": {
+      "sentence_id": "p23s152",
+      "batch": 1,
+      "verified": true
+    },
+    "उपकरणों": {
+      "sentence_id": "p23s152",
+      "batch": 1,
+      "verified": true
+    },
+    "बीच": {
+      "sentence_id": "p23s152",
+      "batch": 1,
+      "verified": true
+    },
+    "ताप": {
+      "sentence_id": "p23s152",
+      "batch": 1,
+      "verified": true
+    },
+    "प्रतिरोध": {
+      "sentence_id": "p23s152",
+      "batch": 1,
+      "verified": true
+    },
+    "तुलनात्मक": {
+      "sentence_id": "p23s152",
+      "batch": 1,
+      "verified": true
+    },
+    "आलोचकों": {
+      "sentence_id": "p23s162",
+      "batch": 1,
+      "verified": true
+    },
+    "उपन्यास": {
+      "sentence_id": "p23s162",
+      "batch": 1,
+      "verified": true
+    },
+    "शैलीगत": {
+      "sentence_id": "p23s162",
+      "batch": 1,
+      "verified": true
+    },
+    "विशेषताओं": {
+      "sentence_id": "p23s162",
+      "batch": 1,
+      "verified": true
+    },
+    "प्रशंसा": {
+      "sentence_id": "p23s162",
+      "batch": 1,
+      "verified": true
+    },
+    "उसमें": {
+      "sentence_id": "p23s162",
+      "batch": 1,
+      "verified": true
+    },
+    "उग्रवादी": {
+      "sentence_id": "p23s162",
+      "batch": 1,
+      "verified": true
+    },
+    "विचारों": {
+      "sentence_id": "p23s162",
+      "batch": 1,
+      "verified": true
+    },
+    "रेखांकित": {
+      "sentence_id": "p23s162",
+      "batch": 1,
+      "verified": true
+    },
+    "युवाओं": {
+      "sentence_id": "p23s171",
+      "batch": 1,
+      "verified": true
+    },
+    "उद्यमिता": {
+      "sentence_id": "p23s171",
+      "batch": 1,
+      "verified": true
+    },
+    "मार्ग": {
+      "sentence_id": "p23s171",
+      "batch": 1,
+      "verified": true
+    },
+    "चुनकर": {
+      "sentence_id": "p23s171",
+      "batch": 1,
+      "verified": true
+    },
+    "गिरते": {
+      "sentence_id": "p23s171",
+      "batch": 1,
+      "verified": true
+    },
+    "व्यापार": {
+      "sentence_id": "p23s171",
+      "batch": 1,
+      "verified": true
+    },
+    "पासे": {
+      "sentence_id": "p23s171",
+      "batch": 1,
+      "verified": true
+    },
+    "पलटने": {
+      "sentence_id": "p23s171",
+      "batch": 1,
+      "verified": true
+    },
+    "साहसिक": {
+      "sentence_id": "p23s171",
+      "batch": 1,
+      "verified": true
+    },
+    "निर्णय": {
+      "sentence_id": "p23s171",
+      "batch": 1,
+      "verified": true
+    },
+    "पक्षपातपूर्ण": {
+      "sentence_id": "p23s172",
+      "batch": 1,
+      "verified": true
+    },
+    "नीतियों": {
+      "sentence_id": "p23s172",
+      "batch": 1,
+      "verified": true
+    },
+    "आलोचना": {
+      "sentence_id": "p23s172",
+      "batch": 1,
+      "verified": true
+    },
+    "सभी": {
+      "sentence_id": "p23s172",
+      "batch": 1,
+      "verified": true
+    },
+    "लिंगों": {
+      "sentence_id": "p23s172",
+      "batch": 1,
+      "verified": true
+    },
+    "समान": {
+      "sentence_id": "p23s172",
+      "batch": 1,
+      "verified": true
+    },
+    "अधिकारों": {
+      "sentence_id": "p23s172",
+      "batch": 1,
+      "verified": true
+    },
+    "वकालत": {
+      "sentence_id": "p23s172",
+      "batch": 1,
+      "verified": true
+    },
+    "भक्तों": {
+      "sentence_id": "p23s191",
+      "batch": 1,
+      "verified": true
+    },
+    "मधुर": {
+      "sentence_id": "p23s191",
+      "batch": 1,
+      "verified": true
+    },
+    "भजनों": {
+      "sentence_id": "p23s191",
+      "batch": 1,
+      "verified": true
+    },
+    "गायन": {
+      "sentence_id": "p23s191",
+      "batch": 1,
+      "verified": true
+    },
+    "उच्च": {
+      "sentence_id": "p23s191",
+      "batch": 1,
+      "verified": true
+    },
+    "कोटि": {
+      "sentence_id": "p23s191",
+      "batch": 1,
+      "verified": true
+    },
+    "आध्यात्मिक": {
+      "sentence_id": "p23s191",
+      "batch": 1,
+      "verified": true
+    },
+    "शांति": {
+      "sentence_id": "p23s191",
+      "batch": 1,
+      "verified": true
+    },
+    "अनुभव": {
+      "sentence_id": "p23s191",
+      "batch": 1,
+      "verified": true
+    },
+    "नाविक": {
+      "sentence_id": "p23s192",
+      "batch": 1,
+      "verified": true
+    },
+    "लंगर": {
+      "sentence_id": "p23s192",
+      "batch": 1,
+      "verified": true
+    },
+    "गहरे": {
+      "sentence_id": "p23s192",
+      "batch": 1,
+      "verified": true
+    },
+    "डुबो": {
+      "sentence_id": "p23s192",
+      "batch": 1,
+      "verified": true
+    },
+    "राजा": {
+      "sentence_id": "p23s192",
+      "batch": 1,
+      "verified": true
+    },
+    "विद्वानों": {
+      "sentence_id": "p23s192",
+      "batch": 1,
+      "verified": true
+    },
+    "मानद": {
+      "sentence_id": "p23s192",
+      "batch": 1,
+      "verified": true
+    },
+    "उपाधियाँ": {
+      "sentence_id": "p23s192",
+      "batch": 1,
+      "verified": true
+    },
+    "प्रदान": {
+      "sentence_id": "p23s192",
+      "batch": 1,
+      "verified": true
+    },
+    "कीं": {
+      "sentence_id": "p23s192",
+      "batch": 1,
+      "verified": true
+    },
+    "बच्चों": {
+      "sentence_id": "p23s201",
+      "batch": 1,
+      "verified": true
+    },
+    "नियमित": {
+      "sentence_id": "p23s201",
+      "batch": 1,
+      "verified": true
+    },
+    "टीकों": {
+      "sentence_id": "p23s201",
+      "batch": 1,
+      "verified": true
+    },
+    "प्रबंध": {
+      "sentence_id": "p23s201",
+      "batch": 1,
+      "verified": true
+    },
+    "मिथकों": {
+      "sentence_id": "p23s201",
+      "batch": 1,
+      "verified": true
+    },
+    "खंडन": {
+      "sentence_id": "p23s201",
+      "batch": 1,
+      "verified": true
+    },
+    "मैदान": {
+      "sentence_id": "p24s007",
+      "batch": 1,
+      "verified": true
+    },
+    "रंग-बिरंगी": {
+      "sentence_id": "p24s007",
+      "batch": 1,
+      "verified": true
+    },
+    "गेंदें": {
+      "sentence_id": "p24s007",
+      "batch": 1,
+      "verified": true
+    },
+    "उछालीं": {
+      "sentence_id": "p24s007",
+      "batch": 1,
+      "verified": true
+    },
+    "लुटेरों": {
+      "sentence_id": "p24s007",
+      "batch": 1,
+      "verified": true
+    },
+    "यात्रियों": {
+      "sentence_id": "p24s007",
+      "batch": 1,
+      "verified": true
+    },
+    "धन": {
+      "sentence_id": "p24s007",
+      "batch": 1,
+      "verified": true
+    },
+    "लूटा": {
+      "sentence_id": "p24s007",
+      "batch": 1,
+      "verified": true
+    },
+    "जीववैज्ञानिक": {
+      "sentence_id": "p24s008",
+      "batch": 1,
+      "verified": true
+    },
+    "कई": {
+      "sentence_id": "p24s008",
+      "batch": 1,
+      "verified": true
+    },
+    "उपप्रजातियाँ": {
+      "sentence_id": "p24s008",
+      "batch": 1,
+      "verified": true
+    },
+    "खोजीं": {
+      "sentence_id": "p24s008",
+      "batch": 1,
+      "verified": true
+    },
+    "उनके": {
+      "sentence_id": "p24s008",
+      "batch": 1,
+      "verified": true
+    },
+    "सजातीय": {
+      "sentence_id": "p24s008",
+      "batch": 1,
+      "verified": true
+    },
+    "लक्षणों": {
+      "sentence_id": "p24s008",
+      "batch": 1,
+      "verified": true
+    },
+    "वर्गीकरण": {
+      "sentence_id": "p24s008",
+      "batch": 1,
+      "verified": true
+    },
+    "प्रयोगशाला": {
+      "sentence_id": "p24s017",
+      "batch": 1,
+      "verified": true
+    },
+    "रासायनिक": {
+      "sentence_id": "p24s017",
+      "batch": 1,
+      "verified": true
+    },
+    "अभिक्रिया": {
+      "sentence_id": "p24s017",
+      "batch": 1,
+      "verified": true
+    },
+    "हुई": {
+      "sentence_id": "p24s017",
+      "batch": 1,
+      "verified": true
+    },
+    "पास": {
+      "sentence_id": "p24s017",
+      "batch": 1,
+      "verified": true
+    },
+    "मस्जिद": {
+      "sentence_id": "p24s017",
+      "batch": 1,
+      "verified": true
+    },
+    "अज़ान": {
+      "sentence_id": "p24s017",
+      "batch": 1,
+      "verified": true
+    },
+    "बाद": {
+      "sentence_id": "p24s017",
+      "batch": 1,
+      "verified": true
+    },
+    "नमाज": {
+      "sentence_id": "p24s017",
+      "batch": 1,
+      "verified": true
+    },
+    "अदा": {
+      "sentence_id": "p24s017",
+      "batch": 1,
+      "verified": true
+    },
+    "सेना": {
+      "sentence_id": "p24s018",
+      "batch": 1,
+      "verified": true
+    },
+    "विध्वंसकों": {
+      "sentence_id": "p24s018",
+      "batch": 1,
+      "verified": true
+    },
+    "साजिश": {
+      "sentence_id": "p24s018",
+      "batch": 1,
+      "verified": true
+    },
+    "नाकाम": {
+      "sentence_id": "p24s018",
+      "batch": 1,
+      "verified": true
+    },
+    "समाज": {
+      "sentence_id": "p24s018",
+      "batch": 1,
+      "verified": true
+    },
+    "कल्याणकारी": {
+      "sentence_id": "p24s018",
+      "batch": 1,
+      "verified": true
+    },
+    "योजनाओं": {
+      "sentence_id": "p24s018",
+      "batch": 1,
+      "verified": true
+    },
+    "लागू": {
+      "sentence_id": "p24s018",
+      "batch": 1,
+      "verified": true
+    },
+    "करवाया": {
+      "sentence_id": "p24s018",
+      "batch": 1,
+      "verified": true
+    },
+    "खेल": {
+      "sentence_id": "p24s027",
+      "batch": 1,
+      "verified": true
+    },
+    "प्रतियोगिता": {
+      "sentence_id": "p24s027",
+      "batch": 1,
+      "verified": true
+    },
+    "प्रमुख": {
+      "sentence_id": "p24s027",
+      "batch": 1,
+      "verified": true
+    },
+    "प्रायोजकों": {
+      "sentence_id": "p24s027",
+      "batch": 1,
+      "verified": true
+    },
+    "मंच": {
+      "sentence_id": "p24s027",
+      "batch": 1,
+      "verified": true
+    },
+    "सशक्त": {
+      "sentence_id": "p24s027",
+      "batch": 1,
+      "verified": true
+    },
+    "मौजूदगी": {
+      "sentence_id": "p24s027",
+      "batch": 1,
+      "verified": true
+    },
+    "दर्ज": {
+      "sentence_id": "p24s027",
+      "batch": 1,
+      "verified": true
+    },
+    "कराई": {
+      "sentence_id": "p24s027",
+      "batch": 1,
+      "verified": true
+    },
+    "नशे": {
+      "sentence_id": "p24s038",
+      "batch": 1,
+      "verified": true
+    },
+    "धुत": {
+      "sentence_id": "p24s038",
+      "batch": 1,
+      "verified": true
+    },
+    "जुए": {
+      "sentence_id": "p24s038",
+      "batch": 1,
+      "verified": true
+    },
+    "सारी": {
+      "sentence_id": "p24s038",
+      "batch": 1,
+      "verified": true
+    },
+    "पैतृक": {
+      "sentence_id": "p24s038",
+      "batch": 1,
+      "verified": true
+    },
+    "सम्पत्ति": {
+      "sentence_id": "p24s038",
+      "batch": 1,
+      "verified": true
+    },
+    "गँवा": {
+      "sentence_id": "p24s038",
+      "batch": 1,
+      "verified": true
+    },
+    "दी": {
+      "sentence_id": "p24s038",
+      "batch": 1,
+      "verified": true
+    },
+    "पर्वतीय": {
+      "sentence_id": "p24s047",
+      "batch": 1,
+      "verified": true
+    },
+    "घाटी": {
+      "sentence_id": "p24s047",
+      "batch": 1,
+      "verified": true
+    },
+    "भयानक": {
+      "sentence_id": "p24s047",
+      "batch": 1,
+      "verified": true
+    },
+    "हिमस्खलन": {
+      "sentence_id": "p24s047",
+      "batch": 1,
+      "verified": true
+    },
+    "सीमा": {
+      "sentence_id": "p24s047",
+      "batch": 1,
+      "verified": true
+    },
+    "पार": {
+      "sentence_id": "p24s047",
+      "batch": 1,
+      "verified": true
+    },
+    "दमनकारी": {
+      "sentence_id": "p24s047",
+      "batch": 1,
+      "verified": true
+    },
+    "अत्याचार": {
+      "sentence_id": "p24s047",
+      "batch": 1,
+      "verified": true
+    },
+    "बढ़": {
+      "sentence_id": "p24s047",
+      "batch": 1,
+      "verified": true
+    },
+    "पर्वतारोहियों": {
+      "sentence_id": "p24s057",
+      "batch": 1,
+      "verified": true
+    },
+    "आरोही": {
+      "sentence_id": "p24s057",
+      "batch": 1,
+      "verified": true
+    },
+    "क्रम": {
+      "sentence_id": "p24s057",
+      "batch": 1,
+      "verified": true
+    },
+    "चढ़ाई": {
+      "sentence_id": "p24s057",
+      "batch": 1,
+      "verified": true
+    },
+    "केंद्र": {
+      "sentence_id": "p24s057",
+      "batch": 1,
+      "verified": true
+    },
+    "माताओं": {
+      "sentence_id": "p24s057",
+      "batch": 1,
+      "verified": true
+    },
+    "स्तनपान": {
+      "sentence_id": "p24s057",
+      "batch": 1,
+      "verified": true
+    },
+    "महत्व": {
+      "sentence_id": "p24s057",
+      "batch": 1,
+      "verified": true
+    },
+    "समझाया": {
+      "sentence_id": "p24s057",
+      "batch": 1,
+      "verified": true
+    },
+    "खेत": {
+      "sentence_id": "p24s058",
+      "batch": 1,
+      "verified": true
+    },
+    "जंगली": {
+      "sentence_id": "p24s058",
+      "batch": 1,
+      "verified": true
+    },
+    "सूअरों": {
+      "sentence_id": "p24s058",
+      "batch": 1,
+      "verified": true
+    },
+    "फसलें": {
+      "sentence_id": "p24s058",
+      "batch": 1,
+      "verified": true
+    },
+    "दीं": {
+      "sentence_id": "p24s058",
+      "batch": 1,
+      "verified": true
+    },
+    "जल": {
+      "sentence_id": "p24s058",
+      "batch": 1,
+      "verified": true
+    },
+    "आपूर्ति": {
+      "sentence_id": "p24s058",
+      "batch": 1,
+      "verified": true
+    },
+    "नलिकाओं": {
+      "sentence_id": "p24s058",
+      "batch": 1,
+      "verified": true
+    },
+    "भी": {
+      "sentence_id": "p24s058",
+      "batch": 1,
+      "verified": true
+    },
+    "तोड़": {
+      "sentence_id": "p24s058",
+      "batch": 1,
+      "verified": true
+    },
+    "डाला": {
+      "sentence_id": "p24s058",
+      "batch": 1,
+      "verified": true
+    },
+    "सड़क": {
+      "sentence_id": "p24s067",
+      "batch": 1,
+      "verified": true
+    },
+    "चलते": {
+      "sentence_id": "p24s067",
+      "batch": 1,
+      "verified": true
+    },
+    "बायां": {
+      "sentence_id": "p24s067",
+      "batch": 1,
+      "verified": true
+    },
+    "रास्ता": {
+      "sentence_id": "p24s067",
+      "batch": 1,
+      "verified": true
+    },
+    "रहा": {
+      "sentence_id": "p24s067",
+      "batch": 1,
+      "verified": true
+    },
+    "बालिका": {
+      "sentence_id": "p24s067",
+      "batch": 1,
+      "verified": true
+    },
+    "बार-बार": {
+      "sentence_id": "p24s067",
+      "batch": 1,
+      "verified": true
+    },
+    "पता": {
+      "sentence_id": "p24s067",
+      "batch": 1,
+      "verified": true
+    },
+    "पूछती": {
+      "sentence_id": "p24s067",
+      "batch": 1,
+      "verified": true
+    },
+    "आगे": {
+      "sentence_id": "p24s067",
+      "batch": 1,
+      "verified": true
+    },
+    "बढ़ी": {
+      "sentence_id": "p24s067",
+      "batch": 1,
+      "verified": true
+    },
+    "भ्रष्टाचार": {
+      "sentence_id": "p24s068",
+      "batch": 1,
+      "verified": true
+    },
+    "राष्ट्र": {
+      "sentence_id": "p24s068",
+      "batch": 1,
+      "verified": true
+    },
+    "नाश": {
+      "sentence_id": "p24s068",
+      "batch": 1,
+      "verified": true
+    },
+    "होता": {
+      "sentence_id": "p24s068",
+      "batch": 1,
+      "verified": true
+    },
+    "इसलिए": {
+      "sentence_id": "p24s068",
+      "batch": 1,
+      "verified": true
+    },
+    "सामाजिक": {
+      "sentence_id": "p24s068",
+      "batch": 1,
+      "verified": true
+    },
+    "संस्थाएं": {
+      "sentence_id": "p24s068",
+      "batch": 1,
+      "verified": true
+    },
+    "जनचेतना": {
+      "sentence_id": "p24s068",
+      "batch": 1,
+      "verified": true
+    },
+    "जगाने": {
+      "sentence_id": "p24s068",
+      "batch": 1,
+      "verified": true
+    },
+    "जुटी": {
+      "sentence_id": "p24s068",
+      "batch": 1,
+      "verified": true
+    },
+    "गणमान्य": {
+      "sentence_id": "p24s078",
+      "batch": 1,
+      "verified": true
+    },
+    "अतिथियों": {
+      "sentence_id": "p24s078",
+      "batch": 1,
+      "verified": true
+    },
+    "प्रेरणादायक": {
+      "sentence_id": "p24s078",
+      "batch": 1,
+      "verified": true
+    },
+    "भाषण": {
+      "sentence_id": "p24s078",
+      "batch": 1,
+      "verified": true
+    },
+    "दिए": {
+      "sentence_id": "p24s078",
+      "batch": 1,
+      "verified": true
+    },
+    "प्रसिद्ध": {
+      "sentence_id": "p24s078",
+      "batch": 1,
+      "verified": true
+    },
+    "वाक्यांशों": {
+      "sentence_id": "p24s078",
+      "batch": 1,
+      "verified": true
+    },
+    "उल्लेख": {
+      "sentence_id": "p24s078",
+      "batch": 1,
+      "verified": true
+    },
+    "अकार्बनिक": {
+      "sentence_id": "p24s087",
+      "batch": 1,
+      "verified": true
+    },
+    "रसायनों": {
+      "sentence_id": "p24s087",
+      "batch": 1,
+      "verified": true
+    },
+    "घर": {
+      "sentence_id": "p24s087",
+      "batch": 1,
+      "verified": true
+    },
+    "परदादा": {
+      "sentence_id": "p24s087",
+      "batch": 1,
+      "verified": true
+    },
+    "पुरानी": {
+      "sentence_id": "p24s087",
+      "batch": 1,
+      "verified": true
+    },
+    "कहानियाँ": {
+      "sentence_id": "p24s087",
+      "batch": 1,
+      "verified": true
+    },
+    "सुनीं": {
+      "sentence_id": "p24s087",
+      "batch": 1,
+      "verified": true
+    },
+    "अचानक": {
+      "sentence_id": "p24s097",
+      "batch": 1,
+      "verified": true
+    },
+    "हुए": {
+      "sentence_id": "p24s097",
+      "batch": 1,
+      "verified": true
+    },
+    "पक्षाघात": {
+      "sentence_id": "p24s097",
+      "batch": 1,
+      "verified": true
+    },
+    "चलना": {
+      "sentence_id": "p24s097",
+      "batch": 1,
+      "verified": true
+    },
+    "अदालत": {
+      "sentence_id": "p24s097",
+      "batch": 1,
+      "verified": true
+    },
+    "दुर्दांत": {
+      "sentence_id": "p24s097",
+      "batch": 1,
+      "verified": true
+    },
+    "अपराधी": {
+      "sentence_id": "p24s097",
+      "batch": 1,
+      "verified": true
+    },
+    "मृत्युदंड": {
+      "sentence_id": "p24s097",
+      "batch": 1,
+      "verified": true
+    },
+    "सुनाया": {
+      "sentence_id": "p24s097",
+      "batch": 1,
+      "verified": true
+    },
+    "भौतिकी": {
+      "sentence_id": "p24s098",
+      "batch": 1,
+      "verified": true
+    },
+    "ऊष्मा": {
+      "sentence_id": "p24s098",
+      "batch": 1,
+      "verified": true
+    },
+    "संवहन": {
+      "sentence_id": "p24s098",
+      "batch": 1,
+      "verified": true
+    },
+    "महत्वपूर्ण": {
+      "sentence_id": "p24s098",
+      "batch": 1,
+      "verified": true
+    },
+    "प्रक्रिया": {
+      "sentence_id": "p24s098",
+      "batch": 1,
+      "verified": true
+    },
+    "संत": {
+      "sentence_id": "p24s098",
+      "batch": 1,
+      "verified": true
+    },
+    "सांसारिक": {
+      "sentence_id": "p24s098",
+      "batch": 1,
+      "verified": true
+    },
+    "मोह": {
+      "sentence_id": "p24s098",
+      "batch": 1,
+      "verified": true
+    },
+    "परित्याग": {
+      "sentence_id": "p24s098",
+      "batch": 1,
+      "verified": true
+    },
+    "उपदेश": {
+      "sentence_id": "p24s098",
+      "batch": 1,
+      "verified": true
+    },
+    "खनिज": {
+      "sentence_id": "p24s107",
+      "batch": 1,
+      "verified": true
+    },
+    "क्रिस्टलीय": {
+      "sentence_id": "p24s107",
+      "batch": 1,
+      "verified": true
+    },
+    "संरचना": {
+      "sentence_id": "p24s107",
+      "batch": 1,
+      "verified": true
+    },
+    "स्पष्ट": {
+      "sentence_id": "p24s107",
+      "batch": 1,
+      "verified": true
+    },
+    "दिखाई": {
+      "sentence_id": "p24s107",
+      "batch": 1,
+      "verified": true
+    },
+    "परंतु": {
+      "sentence_id": "p24s107",
+      "batch": 1,
+      "verified": true
+    },
+    "स्रोत": {
+      "sentence_id": "p24s107",
+      "batch": 1,
+      "verified": true
+    },
+    "बुरी": {
+      "sentence_id": "p24s107",
+      "batch": 1,
+      "verified": true
+    },
+    "तरह": {
+      "sentence_id": "p24s107",
+      "batch": 1,
+      "verified": true
+    },
+    "प्रदूषित": {
+      "sentence_id": "p24s107",
+      "batch": 1,
+      "verified": true
+    },
+    "यह": {
+      "sentence_id": "p24s108",
+      "batch": 1,
+      "verified": true
+    },
+    "स्वयंसिद्ध": {
+      "sentence_id": "p24s108",
+      "batch": 1,
+      "verified": true
+    },
+    "सत्य": {
+      "sentence_id": "p24s108",
+      "batch": 1,
+      "verified": true
+    },
+    "कि": {
+      "sentence_id": "p24s108",
+      "batch": 1,
+      "verified": true
+    },
+    "ईमानदारी": {
+      "sentence_id": "p24s108",
+      "batch": 1,
+      "verified": true
+    },
+    "श्रेष्ठ": {
+      "sentence_id": "p24s108",
+      "batch": 1,
+      "verified": true
+    },
+    "नीति": {
+      "sentence_id": "p24s108",
+      "batch": 1,
+      "verified": true
+    },
+    "झूठ": {
+      "sentence_id": "p24s108",
+      "batch": 1,
+      "verified": true
+    },
+    "चरित्र": {
+      "sentence_id": "p24s108",
+      "batch": 1,
+      "verified": true
+    },
+    "काला": {
+      "sentence_id": "p24s108",
+      "batch": 1,
+      "verified": true
+    },
+    "धब्बा": {
+      "sentence_id": "p24s108",
+      "batch": 1,
+      "verified": true
+    },
+    "लगा": {
+      "sentence_id": "p24s108",
+      "batch": 1,
+      "verified": true
+    },
+    "देता": {
+      "sentence_id": "p24s108",
+      "batch": 1,
+      "verified": true
+    },
+    "न्यायाधीश": {
+      "sentence_id": "p24s118",
+      "batch": 1,
+      "verified": true
+    },
+    "अत्यंत": {
+      "sentence_id": "p24s118",
+      "batch": 1,
+      "verified": true
+    },
+    "न्यायसंगत": {
+      "sentence_id": "p24s118",
+      "batch": 1,
+      "verified": true
+    },
+    "फैसला": {
+      "sentence_id": "p24s118",
+      "batch": 1,
+      "verified": true
+    },
+    "दोनों": {
+      "sentence_id": "p24s118",
+      "batch": 1,
+      "verified": true
+    },
+    "पक्षों": {
+      "sentence_id": "p24s118",
+      "batch": 1,
+      "verified": true
+    },
+    "अप्रासंगिक": {
+      "sentence_id": "p24s118",
+      "batch": 1,
+      "verified": true
+    },
+    "दलीलों": {
+      "sentence_id": "p24s118",
+      "batch": 1,
+      "verified": true
+    },
+    "खारिज": {
+      "sentence_id": "p24s118",
+      "batch": 1,
+      "verified": true
+    },
+    "नगर": {
+      "sentence_id": "p24s127",
+      "batch": 1,
+      "verified": true
+    },
+    "निगम": {
+      "sentence_id": "p24s127",
+      "batch": 1,
+      "verified": true
+    },
+    "पुनर्नवीनीकरण": {
+      "sentence_id": "p24s127",
+      "batch": 1,
+      "verified": true
+    },
+    "योग्य": {
+      "sentence_id": "p24s127",
+      "batch": 1,
+      "verified": true
+    },
+    "कचरे": {
+      "sentence_id": "p24s127",
+      "batch": 1,
+      "verified": true
+    },
+    "अलग": {
+      "sentence_id": "p24s127",
+      "batch": 1,
+      "verified": true
+    },
+    "भविष्यवाणियों": {
+      "sentence_id": "p24s127",
+      "batch": 1,
+      "verified": true
+    },
+    "अनुसार": {
+      "sentence_id": "p24s127",
+      "batch": 1,
+      "verified": true
+    },
+    "तैयारी": {
+      "sentence_id": "p24s127",
+      "batch": 1,
+      "verified": true
+    },
+    "पुरातत्वविदों": {
+      "sentence_id": "p24s128",
+      "batch": 1,
+      "verified": true
+    },
+    "लिपियों": {
+      "sentence_id": "p24s128",
+      "batch": 1,
+      "verified": true
+    },
+    "पढ़ा": {
+      "sentence_id": "p24s128",
+      "batch": 1,
+      "verified": true
+    },
+    "विभिन्न": {
+      "sentence_id": "p24s128",
+      "batch": 1,
+      "verified": true
+    },
+    "परिषदों": {
+      "sentence_id": "p24s128",
+      "batch": 1,
+      "verified": true
+    },
+    "अध्यक्षों": {
+      "sentence_id": "p24s128",
+      "batch": 1,
+      "verified": true
+    },
+    "साझा": {
+      "sentence_id": "p24s128",
+      "batch": 1,
+      "verified": true
+    },
+    "कारखाने": {
+      "sentence_id": "p24s138",
+      "batch": 1,
+      "verified": true
+    },
+    "आपूर्तिकर्ताओं": {
+      "sentence_id": "p24s138",
+      "batch": 1,
+      "verified": true
+    },
+    "माल": {
+      "sentence_id": "p24s138",
+      "batch": 1,
+      "verified": true
+    },
+    "नकाबपोश": {
+      "sentence_id": "p24s138",
+      "batch": 1,
+      "verified": true
+    },
+    "चोरों": {
+      "sentence_id": "p24s138",
+      "batch": 1,
+      "verified": true
+    },
+    "गोदाम": {
+      "sentence_id": "p24s138",
+      "batch": 1,
+      "verified": true
+    },
+    "धावा": {
+      "sentence_id": "p24s138",
+      "batch": 1,
+      "verified": true
+    },
+    "बोला": {
+      "sentence_id": "p24s138",
+      "batch": 1,
+      "verified": true
+    },
+    "भूगोलवेत्ताओं": {
+      "sentence_id": "p24s147",
+      "batch": 1,
+      "verified": true
+    },
+    "प्रायद्वीपीय": {
+      "sentence_id": "p24s147",
+      "batch": 1,
+      "verified": true
+    },
+    "भारत": {
+      "sentence_id": "p24s147",
+      "batch": 1,
+      "verified": true
+    },
+    "पठारों": {
+      "sentence_id": "p24s147",
+      "batch": 1,
+      "verified": true
+    },
+    "सर्वेक्षण": {
+      "sentence_id": "p24s147",
+      "batch": 1,
+      "verified": true
+    },
+    "दस्तावेजों": {
+      "sentence_id": "p24s147",
+      "batch": 1,
+      "verified": true
+    },
+    "प्रमाणीकरण": {
+      "sentence_id": "p24s147",
+      "batch": 1,
+      "verified": true
+    },
+    "प्रशासन": {
+      "sentence_id": "p24s148",
+      "batch": 1,
+      "verified": true
+    },
+    "वित्तीय": {
+      "sentence_id": "p24s148",
+      "batch": 1,
+      "verified": true
+    },
+    "कदाचार": {
+      "sentence_id": "p24s148",
+      "batch": 1,
+      "verified": true
+    },
+    "परोपकारी": {
+      "sentence_id": "p24s148",
+      "batch": 1,
+      "verified": true
+    },
+    "दाताओं": {
+      "sentence_id": "p24s148",
+      "batch": 1,
+      "verified": true
+    },
+    "अनाथालय": {
+      "sentence_id": "p24s148",
+      "batch": 1,
+      "verified": true
+    },
+    "आर्थिक": {
+      "sentence_id": "p24s148",
+      "batch": 1,
+      "verified": true
+    },
+    "सहायता": {
+      "sentence_id": "p24s148",
+      "batch": 1,
+      "verified": true
+    },
+    "शहर": {
+      "sentence_id": "p24s157",
+      "batch": 1,
+      "verified": true
+    },
+    "हस्तशिल्प": {
+      "sentence_id": "p24s157",
+      "batch": 1,
+      "verified": true
+    },
+    "भव्य": {
+      "sentence_id": "p24s157",
+      "batch": 1,
+      "verified": true
+    },
+    "प्रदर्शनियाँ": {
+      "sentence_id": "p24s157",
+      "batch": 1,
+      "verified": true
+    },
+    "आयोजित": {
+      "sentence_id": "p24s157",
+      "batch": 1,
+      "verified": true
+    },
+    "पारंपरिक": {
+      "sentence_id": "p24s157",
+      "batch": 1,
+      "verified": true
+    },
+    "खानपान": {
+      "sentence_id": "p24s157",
+      "batch": 1,
+      "verified": true
+    },
+    "उत्तम": {
+      "sentence_id": "p24s157",
+      "batch": 1,
+      "verified": true
+    },
+    "आकाश": {
+      "sentence_id": "p24s167",
+      "batch": 1,
+      "verified": true
+    },
+    "चन्द": {
+      "sentence_id": "p24s167",
+      "batch": 1,
+      "verified": true
+    },
+    "तारे": {
+      "sentence_id": "p24s167",
+      "batch": 1,
+      "verified": true
+    },
+    "चमक": {
+      "sentence_id": "p24s167",
+      "batch": 1,
+      "verified": true
+    },
+    "रहे": {
+      "sentence_id": "p24s167",
+      "batch": 1,
+      "verified": true
+    },
+    "थे": {
+      "sentence_id": "p24s167",
+      "batch": 1,
+      "verified": true
+    },
+    "जनहित": {
+      "sentence_id": "p24s167",
+      "batch": 1,
+      "verified": true
+    },
+    "याचिकाओं": {
+      "sentence_id": "p24s167",
+      "batch": 1,
+      "verified": true
+    },
+    "सुनवाई": {
+      "sentence_id": "p24s167",
+      "batch": 1,
+      "verified": true
+    },
+    "रसोइए": {
+      "sentence_id": "p24s168",
+      "batch": 1,
+      "verified": true
+    },
+    "सलाद": {
+      "sentence_id": "p24s168",
+      "batch": 1,
+      "verified": true
+    },
+    "जैतून": {
+      "sentence_id": "p24s168",
+      "batch": 1,
+      "verified": true
+    },
+    "तेल": {
+      "sentence_id": "p24s168",
+      "batch": 1,
+      "verified": true
+    },
+    "मिलाया": {
+      "sentence_id": "p24s168",
+      "batch": 1,
+      "verified": true
+    },
+    "किसी": {
+      "sentence_id": "p24s168",
+      "batch": 1,
+      "verified": true
+    },
+    "जबरदस्ती": {
+      "sentence_id": "p24s168",
+      "batch": 1,
+      "verified": true
+    },
+    "थोपने": {
+      "sentence_id": "p24s168",
+      "batch": 1,
+      "verified": true
+    },
+    "मना": {
+      "sentence_id": "p24s168",
+      "batch": 1,
+      "verified": true
+    },
+    "साहित्यिक": {
+      "sentence_id": "p24s187",
+      "batch": 1,
+      "verified": true
+    },
+    "शब्दों": {
+      "sentence_id": "p24s187",
+      "batch": 1,
+      "verified": true
+    },
+    "पुनरुक्ति": {
+      "sentence_id": "p24s187",
+      "batch": 1,
+      "verified": true
+    },
+    "सुंदरता": {
+      "sentence_id": "p24s187",
+      "batch": 1,
+      "verified": true
+    },
+    "कवि": {
+      "sentence_id": "p24s187",
+      "batch": 1,
+      "verified": true
+    },
+    "सांकेतिक": {
+      "sentence_id": "p24s187",
+      "batch": 1,
+      "verified": true
+    },
+    "अन्योक्ति": {
+      "sentence_id": "p24s187",
+      "batch": 1,
+      "verified": true
+    },
+    "कविता": {
+      "sentence_id": "p24s188",
+      "batch": 1,
+      "verified": true
+    },
+    "अनुप्रास": {
+      "sentence_id": "p24s188",
+      "batch": 1,
+      "verified": true
+    },
+    "छटा": {
+      "sentence_id": "p24s188",
+      "batch": 1,
+      "verified": true
+    },
+    "बिखरी": {
+      "sentence_id": "p24s188",
+      "batch": 1,
+      "verified": true
+    },
+    "थी": {
+      "sentence_id": "p24s188",
+      "batch": 1,
+      "verified": true
+    },
+    "रोचक": {
+      "sentence_id": "p24s188",
+      "batch": 1,
+      "verified": true
+    },
+    "अतिशयोक्ति": {
+      "sentence_id": "p24s188",
+      "batch": 1,
+      "verified": true
+    },
+    "गरम": {
+      "sentence_id": "b002s045",
+      "batch": 1,
+      "verified": true
+    },
+    "मसालेदार": {
+      "sentence_id": "b002s045",
+      "batch": 1,
+      "verified": true
+    },
+    "सब्ज़ी": {
+      "sentence_id": "b002s045",
+      "batch": 1,
+      "verified": true
+    },
+    "जीभ": {
+      "sentence_id": "b002s045",
+      "batch": 1,
+      "verified": true
+    },
+    "चटपटा": {
+      "sentence_id": "b002s045",
+      "batch": 1,
+      "verified": true
+    },
+    "स्वाद": {
+      "sentence_id": "b002s045",
+      "batch": 1,
+      "verified": true
+    },
+    "बना": {
+      "sentence_id": "b002s045",
+      "batch": 1,
+      "verified": true
+    },
+    "रहता": {
+      "sentence_id": "b002s045",
+      "batch": 1,
+      "verified": true
+    },
+    "नमक": {
+      "sentence_id": "b003s012",
+      "batch": 1,
+      "verified": true
+    },
+    "चीनी": {
+      "sentence_id": "b003s012",
+      "batch": 1,
+      "verified": true
+    },
+    "बराबर": {
+      "sentence_id": "b003s012",
+      "batch": 1,
+      "verified": true
+    },
+    "मात्रा": {
+      "sentence_id": "b003s012",
+      "batch": 1,
+      "verified": true
+    },
+    "मिलाने": {
+      "sentence_id": "b003s012",
+      "batch": 1,
+      "verified": true
+    },
+    "ठीक": {
+      "sentence_id": "b003s012",
+      "batch": 1,
+      "verified": true
+    },
+    "शिशिर": {
+      "sentence_id": "b019s014",
+      "batch": 1,
+      "verified": true
+    },
+    "बूँद": {
+      "sentence_id": "b019s014",
+      "batch": 1,
+      "verified": true
+    },
+    "जैसी": {
+      "sentence_id": "b019s014",
+      "batch": 1,
+      "verified": true
+    },
+    "ओस": {
+      "sentence_id": "b019s014",
+      "batch": 1,
+      "verified": true
+    },
+    "गिरती": {
+      "sentence_id": "b019s014",
+      "batch": 1,
+      "verified": true
+    },
+    "कंबल": {
+      "sentence_id": "b019s014",
+      "batch": 1,
+      "verified": true
+    },
+    "ओढ़ना": {
+      "sentence_id": "b019s014",
+      "batch": 1,
+      "verified": true
+    },
+    "पड़ता": {
+      "sentence_id": "b019s014",
+      "batch": 1,
+      "verified": true
+    },
+    "सूर्योदय": {
+      "sentence_id": "b026s021",
+      "batch": 1,
+      "verified": true
+    },
+    "बुझे": {
+      "sentence_id": "b026s021",
+      "batch": 1,
+      "verified": true
+    },
+    "दोगुने": {
+      "sentence_id": "b026s021",
+      "batch": 1,
+      "verified": true
+    },
+    "माह": {
+      "sentence_id": "b030s002",
+      "batch": 1,
+      "verified": true
+    },
+    "अंत": {
+      "sentence_id": "b030s002",
+      "batch": 1,
+      "verified": true
+    },
+    "आपको": {
+      "sentence_id": "b030s002",
+      "batch": 1,
+      "verified": true
+    },
+    "लिखित": {
+      "sentence_id": "b030s002",
+      "batch": 1,
+      "verified": true
+    },
+    "टिप्पणी": {
+      "sentence_id": "b030s002",
+      "batch": 1,
+      "verified": true
+    },
+    "देनी": {
+      "sentence_id": "b030s002",
+      "batch": 1,
+      "verified": true
+    },
+    "चूंकि": {
+      "sentence_id": "b030s014",
+      "batch": 1,
+      "verified": true
+    },
+    "रेत": {
+      "sentence_id": "b030s014",
+      "batch": 1,
+      "verified": true
+    },
+    "फिसलता": {
+      "sentence_id": "b030s014",
+      "batch": 1,
+      "verified": true
+    },
+    "उपचार": {
+      "sentence_id": "b030s014",
+      "batch": 1,
+      "verified": true
+    },
+    "अस्थायी": {
+      "sentence_id": "b030s014",
+      "batch": 1,
+      "verified": true
+    },
+    "आकस्मिक": {
+      "sentence_id": "b075s002",
+      "batch": 1,
+      "verified": true
+    },
+    "वियोग": {
+      "sentence_id": "b075s002",
+      "batch": 1,
+      "verified": true
+    },
+    "समाचार": {
+      "sentence_id": "b075s002",
+      "batch": 1,
+      "verified": true
+    },
+    "सुनकर": {
+      "sentence_id": "b075s002",
+      "batch": 1,
+      "verified": true
+    },
+    "परिवार": {
+      "sentence_id": "b075s002",
+      "batch": 1,
+      "verified": true
+    },
+    "गहरा": {
+      "sentence_id": "b075s002",
+      "batch": 1,
+      "verified": true
+    },
+    "दुख": {
+      "sentence_id": "b075s002",
+      "batch": 1,
+      "verified": true
+    },
+    "मेथी": {
+      "sentence_id": "b078s033",
+      "batch": 1,
+      "verified": true
+    },
+    "दाना": {
+      "sentence_id": "b078s033",
+      "batch": 1,
+      "verified": true
+    },
+    "शर्करा": {
+      "sentence_id": "b078s033",
+      "batch": 1,
+      "verified": true
+    },
+    "स्तर": {
+      "sentence_id": "b078s033",
+      "batch": 1,
+      "verified": true
+    },
+    "नियंत्रित": {
+      "sentence_id": "b078s033",
+      "batch": 1,
+      "verified": true
+    },
+    "गर्दन": {
+      "sentence_id": "b188s034",
+      "batch": 1,
+      "verified": true
+    },
+    "सूरज": {
+      "sentence_id": "b188s034",
+      "batch": 1,
+      "verified": true
+    },
+    "मुड़े": {
+      "sentence_id": "b188s034",
+      "batch": 1,
+      "verified": true
+    },
+    "मुख": {
+      "sentence_id": "b188s034",
+      "batch": 1,
+      "verified": true
+    },
+    "धूप": {
+      "sentence_id": "b188s034",
+      "batch": 1,
+      "verified": true
+    },
+    "चमकती": {
+      "sentence_id": "b188s034",
+      "batch": 1,
+      "verified": true
+    },
+    "सम्मेलनों": {
+      "sentence_id": "b191s025",
+      "batch": 1,
+      "verified": true
+    },
+    "आयोजन": {
+      "sentence_id": "b191s025",
+      "batch": 1,
+      "verified": true
+    },
+    "सभागार": {
+      "sentence_id": "b191s025",
+      "batch": 1,
+      "verified": true
+    },
+    "तकनीक": {
+      "sentence_id": "b191s025",
+      "batch": 1,
+      "verified": true
+    },
+    "सुसज्जित": {
+      "sentence_id": "b191s025",
+      "batch": 1,
+      "verified": true
+    },
+    "पर्यवेक्षकों": {
+      "sentence_id": "b191s034",
+      "batch": 1,
+      "verified": true
+    },
+    "उपस्थिति": {
+      "sentence_id": "b191s034",
+      "batch": 1,
+      "verified": true
+    },
+    "परीक्षा": {
+      "sentence_id": "b191s034",
+      "batch": 1,
+      "verified": true
+    },
+    "अधीक्षक": {
+      "sentence_id": "b191s034",
+      "batch": 1,
+      "verified": true
+    },
+    "प्रश्न": {
+      "sentence_id": "b191s034",
+      "batch": 1,
+      "verified": true
+    },
+    "पत्रों": {
+      "sentence_id": "b191s034",
+      "batch": 1,
+      "verified": true
+    },
+    "सीलबंद": {
+      "sentence_id": "b191s034",
+      "batch": 1,
+      "verified": true
+    },
+    "लिफाफे": {
+      "sentence_id": "b191s034",
+      "batch": 1,
+      "verified": true
+    },
+    "खोले": {
+      "sentence_id": "b191s034",
+      "batch": 1,
+      "verified": true
+    },
+    "काई": {
+      "sentence_id": "b207s029",
+      "batch": 1,
+      "verified": true
+    },
+    "लगी": {
+      "sentence_id": "b207s029",
+      "batch": 1,
+      "verified": true
+    },
+    "चिकनी": {
+      "sentence_id": "b207s029",
+      "batch": 1,
+      "verified": true
+    },
+    "चट्टानों": {
+      "sentence_id": "b207s029",
+      "batch": 1,
+      "verified": true
+    },
+    "विशाल": {
+      "sentence_id": "b207s029",
+      "batch": 1,
+      "verified": true
+    },
+    "जलप्रपात": {
+      "sentence_id": "b207s029",
+      "batch": 1,
+      "verified": true
+    },
+    "गर्जना": {
+      "sentence_id": "b207s029",
+      "batch": 1,
+      "verified": true
+    },
+    "श्वेत": {
+      "sentence_id": "b207s029",
+      "batch": 1,
+      "verified": true
+    },
+    "जलधाराएं": {
+      "sentence_id": "b207s029",
+      "batch": 1,
+      "verified": true
+    },
+    "हरी": {
+      "sentence_id": "b209s003",
+      "batch": 1,
+      "verified": true
+    },
+    "घास": {
+      "sentence_id": "b209s003",
+      "batch": 1,
+      "verified": true
+    },
+    "बहुत": {
+      "sentence_id": "b209s003",
+      "batch": 1,
+      "verified": true
+    },
+    "तेजी": {
+      "sentence_id": "b209s003",
+      "batch": 1,
+      "verified": true
+    },
+    "उगती": {
+      "sentence_id": "b209s003",
+      "batch": 1,
+      "verified": true
+    },
+    "चिकित्सा": {
+      "sentence_id": "b215s049",
+      "batch": 1,
+      "verified": true
+    },
+    "व्यय": {
+      "sentence_id": "b215s049",
+      "batch": 1,
+      "verified": true
+    },
+    "प्रतिपूर्ति": {
+      "sentence_id": "b215s049",
+      "batch": 1,
+      "verified": true
+    },
+    "दावे": {
+      "sentence_id": "b215s049",
+      "batch": 1,
+      "verified": true
+    },
+    "पेट": {
+      "sentence_id": "b215s049",
+      "batch": 1,
+      "verified": true
+    },
+    "संलग्न": {
+      "sentence_id": "b215s049",
+      "batch": 1,
+      "verified": true
+    },
+    "व्याकरण": {
+      "sentence_id": "p23s071",
+      "batch": 1,
+      "verified": true
+    },
+    "कक्षा": {
+      "sentence_id": "p23s071",
+      "batch": 1,
+      "verified": true
+    },
+    "सर्वनाम": {
+      "sentence_id": "p23s071",
+      "batch": 1,
+      "verified": true
+    },
+    "भेद": {
+      "sentence_id": "p23s071",
+      "batch": 1,
+      "verified": true
+    },
+    "सीखे": {
+      "sentence_id": "p23s071",
+      "batch": 1,
+      "verified": true
+    },
+    "लोहार": {
+      "sentence_id": "p23s071",
+      "batch": 1,
+      "verified": true
+    },
+    "गर्म": {
+      "sentence_id": "p23s071",
+      "batch": 1,
+      "verified": true
+    },
+    "लोहे": {
+      "sentence_id": "p23s071",
+      "batch": 1,
+      "verified": true
+    },
+    "हथौड़े": {
+      "sentence_id": "p23s071",
+      "batch": 1,
+      "verified": true
+    },
+    "प्रहार": {
+      "sentence_id": "p23s071",
+      "batch": 1,
+      "verified": true
+    },
+    "दुर्गम": {
+      "sentence_id": "p23s101",
+      "batch": 1,
+      "verified": true
+    },
+    "पहाड़ी": {
+      "sentence_id": "p23s101",
+      "batch": 1,
+      "verified": true
+    },
+    "असामाजिक": {
+      "sentence_id": "p23s101",
+      "batch": 1,
+      "verified": true
+    },
+    "तत्वों": {
+      "sentence_id": "p23s101",
+      "batch": 1,
+      "verified": true
+    },
+    "बदमाशी": {
+      "sentence_id": "p23s101",
+      "batch": 1,
+      "verified": true
+    },
+    "रोक": {
+      "sentence_id": "p23s101",
+      "batch": 1,
+      "verified": true
+    },
+    "लगाई": {
+      "sentence_id": "p23s101",
+      "batch": 1,
+      "verified": true
+    },
+    "रोगी": {
+      "sentence_id": "p23s141",
+      "batch": 1,
+      "verified": true
+    },
+    "तली": {
+      "sentence_id": "p23s141",
+      "batch": 1,
+      "verified": true
+    },
+    "चीजों": {
+      "sentence_id": "p23s141",
+      "batch": 1,
+      "verified": true
+    },
+    "परहेज": {
+      "sentence_id": "p23s141",
+      "batch": 1,
+      "verified": true
+    },
+    "भाँति": {
+      "sentence_id": "p23s141",
+      "batch": 1,
+      "verified": true
+    },
+    "अन्य": {
+      "sentence_id": "p23s141",
+      "batch": 1,
+      "verified": true
+    },
+    "मरीजों": {
+      "sentence_id": "p23s141",
+      "batch": 1,
+      "verified": true
+    },
+    "रहने": {
+      "sentence_id": "p23s141",
+      "batch": 1,
+      "verified": true
+    },
+    "सलाह": {
+      "sentence_id": "p23s141",
+      "batch": 1,
+      "verified": true
+    },
+    "माता": {
+      "sentence_id": "p23s151",
+      "batch": 1,
+      "verified": true
+    },
+    "भगवती": {
+      "sentence_id": "p23s151",
+      "batch": 1,
+      "verified": true
+    },
+    "आराधना": {
+      "sentence_id": "p23s151",
+      "batch": 1,
+      "verified": true
+    },
+    "आत्मनिरीक्षण": {
+      "sentence_id": "p23s151",
+      "batch": 1,
+      "verified": true
+    },
+    "स्वभाव": {
+      "sentence_id": "p23s151",
+      "batch": 1,
+      "verified": true
+    },
+    "कमियों": {
+      "sentence_id": "p23s151",
+      "batch": 1,
+      "verified": true
+    },
+    "दूर": {
+      "sentence_id": "p23s151",
+      "batch": 1,
+      "verified": true
+    },
+    "मुसीबत": {
+      "sentence_id": "p23s161",
+      "batch": 1,
+      "verified": true
+    },
+    "परमेश्वर": {
+      "sentence_id": "p23s161",
+      "batch": 1,
+      "verified": true
+    },
+    "याद": {
+      "sentence_id": "p23s161",
+      "batch": 1,
+      "verified": true
+    },
+    "जब": {
+      "sentence_id": "p23s161",
+      "batch": 1,
+      "verified": true
+    },
+    "लपटें": {
+      "sentence_id": "p23s161",
+      "batch": 1,
+      "verified": true
+    },
+    "उठने": {
+      "sentence_id": "p23s161",
+      "batch": 1,
+      "verified": true
+    },
+    "लगीं": {
+      "sentence_id": "p23s161",
+      "batch": 1,
+      "verified": true
+    },
+    "सही": {
+      "sentence_id": "p23s181",
+      "batch": 1,
+      "verified": true
+    },
+    "उत्तर": {
+      "sentence_id": "p23s181",
+      "batch": 1,
+      "verified": true
+    },
+    "टिक": {
+      "sentence_id": "p23s181",
+      "batch": 1,
+      "verified": true
+    },
+    "लगाया": {
+      "sentence_id": "p23s181",
+      "batch": 1,
+      "verified": true
+    },
+    "काव्य": {
+      "sentence_id": "p23s181",
+      "batch": 1,
+      "verified": true
+    },
+    "अलंकरण": {
+      "sentence_id": "p23s181",
+      "batch": 1,
+      "verified": true
+    },
+    "भीड़": {
+      "sentence_id": "p23s182",
+      "batch": 1,
+      "verified": true
+    },
+    "चिल्लाने": {
+      "sentence_id": "p23s182",
+      "batch": 1,
+      "verified": true
+    },
+    "आवाज": {
+      "sentence_id": "p23s182",
+      "batch": 1,
+      "verified": true
+    },
+    "सुनाई": {
+      "sentence_id": "p23s182",
+      "batch": 1,
+      "verified": true
+    },
+    "आयोजकों": {
+      "sentence_id": "p23s182",
+      "batch": 1,
+      "verified": true
+    },
+    "प्रतिभागियों": {
+      "sentence_id": "p23s182",
+      "batch": 1,
+      "verified": true
+    },
+    "सूचियाँ": {
+      "sentence_id": "p23s182",
+      "batch": 1,
+      "verified": true
+    },
+    "तैयार": {
+      "sentence_id": "p23s182",
+      "batch": 1,
+      "verified": true
+    },
+    "दरबार": {
+      "sentence_id": "p24s037",
+      "batch": 1,
+      "verified": true
+    },
+    "गुणी": {
+      "sentence_id": "p24s037",
+      "batch": 1,
+      "verified": true
+    },
+    "सत्कार": {
+      "sentence_id": "p24s037",
+      "batch": 1,
+      "verified": true
+    },
+    "संकरी": {
+      "sentence_id": "p24s037",
+      "batch": 1,
+      "verified": true
+    },
+    "गली": {
+      "sentence_id": "p24s037",
+      "batch": 1,
+      "verified": true
+    },
+    "मुड़ती": {
+      "sentence_id": "p24s037",
+      "batch": 1,
+      "verified": true
+    },
+    "गाड़ी": {
+      "sentence_id": "p24s037",
+      "batch": 1,
+      "verified": true
+    },
+    "रुकने": {
+      "sentence_id": "p24s037",
+      "batch": 1,
+      "verified": true
+    },
+    "इशारा": {
+      "sentence_id": "p24s037",
+      "batch": 1,
+      "verified": true
+    },
+    "सत्संग": {
+      "sentence_id": "p24s048",
+      "batch": 1,
+      "verified": true
+    },
+    "मुख्य": {
+      "sentence_id": "p24s048",
+      "batch": 1,
+      "verified": true
+    },
+    "प्रयोजन": {
+      "sentence_id": "p24s048",
+      "batch": 1,
+      "verified": true
+    },
+    "विकारों": {
+      "sentence_id": "p24s048",
+      "batch": 1,
+      "verified": true
+    },
+    "मिटाने": {
+      "sentence_id": "p24s048",
+      "batch": 1,
+      "verified": true
+    },
+    "दिखाना": {
+      "sentence_id": "p24s048",
+      "batch": 1,
+      "verified": true
+    },
+    "दंगाइयों": {
+      "sentence_id": "p24s088",
+      "batch": 1,
+      "verified": true
+    },
+    "भड़काने": {
+      "sentence_id": "p24s088",
+      "batch": 1,
+      "verified": true
+    },
+    "कोशिश": {
+      "sentence_id": "p24s088",
+      "batch": 1,
+      "verified": true
+    },
+    "विफल": {
+      "sentence_id": "p24s088",
+      "batch": 1,
+      "verified": true
+    },
+    "मजदूरों": {
+      "sentence_id": "p24s088",
+      "batch": 1,
+      "verified": true
+    },
+    "डामर": {
+      "sentence_id": "p24s088",
+      "batch": 1,
+      "verified": true
+    },
+    "बिछाया": {
+      "sentence_id": "p24s088",
+      "batch": 1,
+      "verified": true
+    },
+    "वन्यजीव": {
+      "sentence_id": "p24s117",
+      "batch": 1,
+      "verified": true
+    },
+    "अभयारण्य": {
+      "sentence_id": "p24s117",
+      "batch": 1,
+      "verified": true
+    },
+    "पर्यटकों": {
+      "sentence_id": "p24s117",
+      "batch": 1,
+      "verified": true
+    },
+    "जिनको": {
+      "sentence_id": "p24s117",
+      "batch": 1,
+      "verified": true
+    },
+    "देखा": {
+      "sentence_id": "p24s117",
+      "batch": 1,
+      "verified": true
+    },
+    "वे": {
+      "sentence_id": "p24s117",
+      "batch": 1,
+      "verified": true
+    },
+    "सींग": {
+      "sentence_id": "p24s117",
+      "batch": 1,
+      "verified": true
+    },
+    "वाले": {
+      "sentence_id": "p24s117",
+      "batch": 1,
+      "verified": true
+    },
+    "गैंडे": {
+      "sentence_id": "p24s117",
+      "batch": 1,
+      "verified": true
+    }
+  }
+}
