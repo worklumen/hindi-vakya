@@ -30,8 +30,15 @@
     /** @type {{id:string|number, en:string, hi:string, freq:number, words:string[]}[]} */
     let sentences = [];
     let vocabTotal = 0;     // total words in the vocabulary, from data/vocab-manifest.json
+    let dictionary = {};    // { [hiWord]: string (en meaning) }
     /** @type {{sentences:Object, words:Object, plays:number, level:number, cleanStreak:number}} */
     let progress = null;
+
+    window.__getWordMeaning = function (w) {
+      if (!w) return "";
+      const clean = w.replace(/[^\w\u0900-\u097F]/g, "");
+      return dictionary[clean] || dictionary[w] || "";
+    };
 
     const session = {
       playLevel: null,   // level entered via Random / level button; sticky until exit
@@ -157,6 +164,11 @@
 
     async function loadData() {
       const manifest = await fetchJson("data/manifest.json");
+      try {
+        dictionary = await fetchJson("data/dictionary.json");
+      } catch (e) {
+        console.warn("Could not load dictionary.json", e);
+      }
       const all = [];
       for (const entry of manifest.files) {
         const items = await fetchJson(entry.file);
@@ -316,14 +328,11 @@
     function checkAnswer() {
       if (!round || round.locked || !round.answer.every(Boolean)) return;
 
-      // The game only ever rewards the correct sentence. Until the tiles match,
-      // the round stays open — rearranging carries no penalty.
       const words = round.sentence.words;
       if (!round.answer.every((a, i) => a.word === words[i])) return;
 
       round.locked = true;
 
-      // slips: wrong picks — only a spotless round earns credit
       const slips = round.wrongTaps;
       const clean = slips === 0;
       sentenceState(round.sentence.id).done++;
@@ -340,6 +349,83 @@
       saveProgress();
       renderRound();
       renderHome();
+    }
+    function renderBank() {
+      if (!round || !dom.tileBank) return;
+      dom.tileBank.innerHTML = "";
+      const usedBankIndices = new Set(round.answer.filter(Boolean).map(a => a.bankIndex));
+      round.bank.forEach((item, idx) => {
+        const btn = el("button", "tile");
+        btn.type = "button";
+        btn.dataset.index = String(idx);
+        const meaning = window.__getWordMeaning ? window.__getWordMeaning(item.word) : "";
+        btn.innerHTML = `<span class="slot-hi-text">${item.word}</span><span class="slot-en-gloss">${meaning}</span>`;
+        if (usedBankIndices.has(idx)) {
+          btn.classList.add("chosen");
+          btn.disabled = true;
+        }
+        dom.tileBank.appendChild(btn);
+      });
+    }
+
+    function renderRound() {
+      if (!round) return;
+
+      const lvl = clampLevel(session.playLevel !== null ? session.playLevel : progress.level);
+      if (dom.gameCount) {
+        dom.gameCount.textContent = `Level ${lvl + 1} · ${round.sentence.words.length} words`;
+      }
+
+      // answer row
+      if (dom.answerRow) {
+        dom.answerRow.innerHTML = "";
+        round.answer.forEach((slot, i) => {
+          if (slot) {
+            const btn = el("button", "tile");
+            btn.type = "button";
+            btn.dataset.slot = String(i);
+            if (round.locked) btn.classList.add("good");
+            const meaning = window.__getWordMeaning ? window.__getWordMeaning(slot.word) : "";
+            btn.innerHTML = `<span class="slot-hi-text">${slot.word}</span><span class="slot-en-gloss">${meaning}</span>`;
+            dom.answerRow.appendChild(btn);
+          } else {
+            const slotEl = el("div", "slot");
+            dom.answerRow.appendChild(slotEl);
+          }
+        });
+        dom.answerRow.classList.toggle("ok", round.locked);
+      }
+
+      // progress bar
+      if (dom.placeProgress) {
+        const placed = round.answer.filter(Boolean).length;
+        const total = round.sentence.words.length;
+        dom.placeProgress.style.width = total ? `${(placed / total) * 100}%` : "0%";
+      }
+
+      // bank
+      renderBank();
+
+      // check button state
+      if (dom.btnCheck) {
+        const full = round.answer.every(Boolean);
+        dom.btnCheck.disabled = !full || round.locked;
+        dom.btnCheck.classList.toggle("pulse", full && !round.locked);
+      }
+
+      // meanings state
+      if (dom.sectionGame) {
+        dom.sectionGame.classList.toggle("meanings-active", Boolean(round.showMeanings));
+      }
+      if (dom.btnMeaning) {
+        dom.btnMeaning.classList.toggle("active", Boolean(round.showMeanings));
+      }
+    }
+
+    function toggleMeanings() {
+      if (!round || !round.locked) return;
+      round.showMeanings = !round.showMeanings;
+      renderRound();
     }
 
     function exitGame() {
@@ -362,7 +448,7 @@
         "btn-exit", "game-count", "en-sentence",
         "answer-row", "place-track", "place-progress", "tile-bank",
         "actions-play", "actions-done",
-        "btn-check", "btn-clear", "btn-done", "btn-next",
+        "btn-check", "btn-clear", "btn-done", "btn-next", "btn-meaning",
         "btn-reset",
         "dialog", "dialog-title", "dialog-message", "dialog-confirm", "dialog-cancel",
         "btn-arcade-exit",
@@ -531,21 +617,26 @@
       }
 
 
-      // game
-      dom.btnExit.addEventListener("click", exitGame);
-      dom.btnDone.addEventListener("click", exitGame);
-      dom.btnNext.addEventListener("click", startGame);
-      dom.btnCheck.addEventListener("click", checkAnswer);
-      dom.btnClear.addEventListener("click", clearAnswer);
+      // game (if present)
+      if (dom.btnExit) dom.btnExit.addEventListener("click", exitGame);
+      if (dom.btnDone) dom.btnDone.addEventListener("click", exitGame);
+      if (dom.btnNext) dom.btnNext.addEventListener("click", startGame);
+      if (dom.btnCheck) dom.btnCheck.addEventListener("click", checkAnswer);
+      if (dom.btnClear) dom.btnClear.addEventListener("click", clearAnswer);
+      if (dom.btnMeaning) dom.btnMeaning.addEventListener("click", toggleMeanings);
 
-      dom.tileBank.addEventListener("click", e => {
-        const chip = e.target.closest("[data-index]");
-        if (chip) placeTile(Number(chip.dataset.index), chip);
-      });
-      dom.answerRow.addEventListener("click", e => {
-        const chip = e.target.closest("[data-slot]");
-        if (chip) removeTile(Number(chip.dataset.slot));
-      });
+      if (dom.tileBank) {
+        dom.tileBank.addEventListener("click", e => {
+          const chip = e.target.closest("[data-index]");
+          if (chip) placeTile(Number(chip.dataset.index), chip);
+        });
+      }
+      if (dom.answerRow) {
+        dom.answerRow.addEventListener("click", e => {
+          const chip = e.target.closest("[data-slot]");
+          if (chip) removeTile(Number(chip.dataset.slot));
+        });
+      }
 
       // Reset
       dom.btnReset.addEventListener("click", async () => {

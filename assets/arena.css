@@ -33,29 +33,41 @@
 .bridge-slots {
   display: flex;
   flex-wrap: wrap;
-  gap: clamp(0.25rem, 0.6dvh, 0.45rem);
+  gap: clamp(0.35rem, 0.8dvh, 0.55rem);
   justify-content: center;
 }
 .bridge-slot {
-  min-width: clamp(38px, 5vw, 44px);
-  min-height: clamp(34px, 4.5dvh, 38px);
-  padding: 0.2rem 0.5rem;
-  border: 1.5px dashed var(--line);
-  border-radius: 8px;
-  display: grid;
-  place-items: center;
+  min-width: clamp(48px, 6vw, 64px);
+  min-height: clamp(40px, 5dvh, 48px);
+  padding: 0.35rem 0.65rem;
+  border: 2px dashed var(--line-strong);
+  border-radius: 12px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   font-family: 'Tiro Devanagari Hindi', serif;
-  font-size: clamp(0.95rem, 2.1dvh, 1.08rem);
+  font-size: clamp(1rem, 2.2dvh, 1.18rem);
+  background: var(--surface);
+  transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 .bridge-slot.filled.good {
   border-style: solid;
-  border-color: var(--brand);
-  background: color-mix(in srgb, var(--brand) 15%, transparent);
+  border-color: var(--primary);
+  border-bottom: 4px solid var(--primary-shadow);
+  background: var(--primary-soft);
+  color: var(--ink);
+}
+.bridge-hi-box.completed .bridge-slot.filled.good {
+  border-color: var(--good);
+  border-bottom: 4px solid var(--good-shadow);
+  background: var(--good-soft);
+  color: var(--good-shadow);
 }
 .bridge-tiles {
   display: flex;
   flex-wrap: wrap;
-  gap: clamp(0.35rem, 0.8dvh, 0.55rem);
+  gap: clamp(0.4rem, 0.9dvh, 0.65rem);
   justify-content: center;
 }
 
@@ -278,20 +290,31 @@
 }
 .swap-word-btn {
   font-family: 'Tiro Devanagari Hindi', serif;
-  font-size: clamp(0.95rem, 2.2dvh, 1.15rem);
-  padding: clamp(0.28rem, 0.7dvh, 0.4rem) clamp(0.55rem, 1.5vw, 0.8rem);
-  border-radius: 10px;
-  background: var(--surface-1);
-  border: 1.5px solid var(--line);
-  color: var(--ink-1);
+  font-size: clamp(1rem, 2.2dvh, 1.2rem);
+  padding: clamp(0.35rem, 0.8dvh, 0.55rem) clamp(0.7rem, 1.8vw, 1rem);
+  border-radius: 14px;
+  background: var(--surface);
+  border: 2px solid var(--line-strong);
+  border-bottom: 5px solid var(--line-strong);
+  color: var(--ink);
   cursor: pointer;
-  transition: all 0.2s;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.04);
+  transition: transform 0.08s ease, border-color 0.15s ease, background-color 0.15s ease;
+}
+.swap-word-btn:active {
+  transform: translateY(3px);
+  border-bottom-width: 2px;
 }
 .swap-word-btn.selected-swap {
-  border-color: var(--brand);
-  background: color-mix(in srgb, var(--brand) 20%, transparent);
+  border-color: var(--primary);
+  border-bottom-color: var(--primary-shadow);
+  background: var(--primary-soft);
   transform: translateY(-2px);
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 8px 16px rgba(79, 70, 229, 0.2);
 }
 
 /* Game: Word Doctor */
@@ -307,30 +330,42 @@
   border: 1.5px solid var(--line);
 }
 .doctor-display.completed {
-  border-color: #10b981;
-  background: rgba(16, 185, 129, 0.12);
+  border-color: var(--good);
+  background: var(--good-soft);
   box-shadow: 0 0 16px rgba(16, 185, 129, 0.2);
 }
 .doctor-word-btn {
   font-family: 'Tiro Devanagari Hindi', serif;
-  font-size: clamp(0.95rem, 2.2dvh, 1.15rem);
-  padding: clamp(0.28rem, 0.7dvh, 0.4rem) clamp(0.55rem, 1.5vw, 0.8rem);
-  border-radius: 10px;
-  background: var(--surface-1);
-  border: 1.5px solid var(--line);
-  color: var(--ink-1);
+  font-size: clamp(1rem, 2.2dvh, 1.2rem);
+  padding: clamp(0.35rem, 0.8dvh, 0.55rem) clamp(0.7rem, 1.8vw, 1rem);
+  border-radius: 14px;
+  background: var(--surface);
+  border: 2px solid var(--line-strong);
+  border-bottom: 5px solid var(--line-strong);
+  color: var(--ink);
   cursor: pointer;
-  transition: all 0.2s;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.04);
+  transition: transform 0.08s ease, border-color 0.15s ease, background-color 0.15s ease;
+}
+.doctor-word-btn:active {
+  transform: translateY(3px);
+  border-bottom-width: 2px;
 }
 .doctor-word-btn.sick-word {
-  border-color: #f97316;
-  background: rgba(249, 115, 22, 0.15);
-  color: #f97316;
+  border-color: var(--bad);
+  border-bottom-color: var(--bad-shadow);
+  background: var(--bad-soft);
+  color: var(--bad);
 }
 .doctor-word-btn.cured-word {
-  border-color: #10b981;
-  background: rgba(16, 185, 129, 0.18);
-  color: #10b981;
+  border-color: var(--good);
+  border-bottom-color: var(--good-shadow);
+  background: var(--good-soft);
+  color: var(--good-shadow);
   font-weight: 700;
 }
 .doctor-remedy-bank {
@@ -1175,17 +1210,18 @@
 }
 .anchor-slots-container.completed,
 .bridge-hi-box.completed {
-  border: 1.5px solid #10b981;
-  background: rgba(16, 185, 129, 0.12) !important;
+  border: 2px solid var(--good);
+  background: var(--good-soft) !important;
   border-radius: 14px;
   box-shadow: 0 0 16px rgba(16, 185, 129, 0.2);
   transition: all 0.3s ease;
 }
 .anchor-slots-container.completed .anchor-slot,
 .bridge-hi-box.completed .bridge-slot {
-  border-color: #10b981 !important;
-  background: rgba(16, 185, 129, 0.18) !important;
-  color: #10b981 !important;
+  border-color: var(--good) !important;
+  border-bottom: 4px solid var(--good-shadow) !important;
+  background: var(--surface) !important;
+  color: var(--good-shadow) !important;
 }
 .anchor-tile-bank {
   display: flex;

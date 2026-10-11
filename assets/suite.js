@@ -53,11 +53,14 @@
         const shuffled = shuffle(poolItems);
 
         function renderTiles() {
-          tilesCont.innerHTML = shuffled.map((item, i) => `
-            <button type="button" class="arcade-chip ${placed.includes(item.origIndex) ? "used" : ""}" data-tile-idx="${i}">
-              ${item.word}
+          tilesCont.innerHTML = shuffled.map((item, i) => {
+            const meaning = window.__getWordMeaning ? window.__getWordMeaning(item.word) : "";
+            return `
+            <button type="button" class="arcade-chip ${placed.includes(item.origIndex) ? "used" : ""}" data-tile-idx="${i}" data-word="${item.word}">
+              <span class="slot-hi-text">${item.word}</span>
+              <span class="slot-en-gloss">${meaning}</span>
             </button>
-          `).join("");
+          `;}).join("");
         }
 
         renderTiles();
@@ -74,7 +77,9 @@
             playSound("tap");
             const slotEl = slotsCont.querySelector(`[data-slot="${nextSlotIdx}"]`);
             if (slotEl) {
-              slotEl.textContent = item.word;
+              const meaning = window.__getWordMeaning ? window.__getWordMeaning(item.word) : "";
+              slotEl.setAttribute("data-word", item.word);
+              slotEl.innerHTML = `<span class="slot-hi-text">${item.word}</span><span class="slot-en-gloss">${meaning}</span>`;
               slotEl.classList.add("filled", "good");
             }
             renderTiles();
@@ -130,11 +135,14 @@
                 <p class="arcade-sentence-display">${sentence.en}</p>
               </div>
               <div class="swap-display" id="swap-display">
-                ${currentWords.map((w, idx) => `
-                  <button type="button" class="swap-word-btn" data-idx="${idx}">
-                    ${w}
+                ${currentWords.map((w, idx) => {
+                  const meaning = window.__getWordMeaning ? window.__getWordMeaning(w) : "";
+                  return `
+                  <button type="button" class="swap-word-btn" data-idx="${idx}" data-word="${w}">
+                    <span class="slot-hi-text">${w}</span>
+                    <span class="slot-en-gloss">${meaning}</span>
                   </button>
-                `).join("")}
+                `;}).join("")}
               </div>
             </div>
           `;
@@ -252,11 +260,14 @@
               <p class="arcade-sentence-display">${sentence.en}</p>
             </div>
             <div class="doctor-display" id="doctor-display">
-              ${displayedWords.map((w, idx) => `
+              ${displayedWords.map((w, idx) => {
+                const meaning = window.__getWordMeaning ? window.__getWordMeaning(w) : "";
+                return `
                 <button type="button" class="doctor-word-btn" data-idx="${idx}" data-word="${w}">
-                  ${w}
+                  <span class="slot-hi-text">${w}</span>
+                  <span class="slot-en-gloss">${meaning}</span>
                 </button>
-              `).join("")}
+              `;}).join("")}
             </div>
             <div id="doctor-remedy-container" hidden>
               <div class="doctor-remedy-bank" id="doctor-remedies">
@@ -306,7 +317,9 @@
             playSound("pop");
             const targetBtn = displayEl.querySelector(`[data-idx="${targetIdx}"]`);
             if (targetBtn) {
-              targetBtn.textContent = correctWord;
+              const meaning = window.__getWordMeaning ? window.__getWordMeaning(correctWord) : "";
+              targetBtn.innerHTML = `<span class="slot-hi-text">${correctWord}</span><span class="slot-en-gloss">${meaning}</span>`;
+              targetBtn.setAttribute("data-word", correctWord);
               targetBtn.classList.remove("sick-word");
               targetBtn.classList.add("cured-word");
             }

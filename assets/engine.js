@@ -111,6 +111,12 @@
     /** Called by the hub every time a game (re)starts a round. */
     beginRound() {
       this.round = { touched: false, done: false };
+      this.meaningsActive = false;
+      const dictBtn = document.getElementById("btn-arcade-dict");
+      if (dictBtn) {
+        dictBtn.hidden = true;
+        dictBtn.classList.remove("active");
+      }
     },
 
     /** First real interaction: only now is the round counted as played/seen. */
@@ -127,10 +133,23 @@
       const r = this.round;
       if (!r || r.done) return;
       r.done = true;
-      playSound("success");
+      playSound("complete");
+      const dictBtn = document.getElementById("btn-arcade-dict");
+      if (dictBtn) dictBtn.hidden = false;
+      if (this.onRoundComplete) this.onRoundComplete();
       if (this.activeGame && window.recordGameEvent) {
         window.recordGameEvent(this.activeGame.id, this.currentSentence, "done");
       }
+    },
+
+    toggleMeanings() {
+      if (!this.round || !this.round.done) return;
+      this.meaningsActive = !this.meaningsActive;
+      const dictBtn = document.getElementById("btn-arcade-dict");
+      if (dictBtn) dictBtn.classList.toggle("active", this.meaningsActive);
+      const board = document.getElementById("arcade-arena-board");
+      if (board) board.classList.toggle("show-meanings", this.meaningsActive);
+      if (this.onToggleMeanings) this.onToggleMeanings(this.meaningsActive);
     },
 
     wrong() {

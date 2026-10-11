@@ -31,6 +31,12 @@
           if (engine.activeGame && board) engine.activeGame.start(board);
         };
       }
+      const dictBtn = document.getElementById("btn-arcade-dict");
+      if (dictBtn) {
+        dictBtn.onclick = () => {
+          engine.toggleMeanings();
+        };
+      }
       const arenaBoard = document.getElementById("arcade-arena-board");
       if (arenaBoard) {
         // capture phase: runs before the game's own handler sees the click
