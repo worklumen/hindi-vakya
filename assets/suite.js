@@ -257,7 +257,7 @@
         board.innerHTML = `
           <div class="arcade-card">
             <div class="arcade-prompt-box">
-              <p class="arcade-sentence-display doctor-prompt-text">Find and cure the incorrect word in this sentence</p>
+              <p class="arcade-sentence-display">${sentence.en}</p>
             </div>
             <div class="doctor-display" id="doctor-display">
               ${displayedWords.map((w, idx) => {
@@ -325,11 +325,6 @@
             }
             remedyCont.hidden = true;
             displayEl.classList.add("completed");
-            const promptEl = board.querySelector(".doctor-prompt-text");
-            if (promptEl) {
-              promptEl.textContent = sentence.en;
-              promptEl.classList.add("cured-prompt");
-            }
             engine.completeRound();
           } else {
             playSound("error");
