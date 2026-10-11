@@ -135,6 +135,7 @@
         }
       }
       saveProgress();
+      renderStats();
     };
 
     function sentenceState(id) {
@@ -213,8 +214,7 @@
 
     function cacheDom() {
       [
-        "section-home", "section-stats",
-        "nav-home", "nav-stats", "bottom-nav",
+        "section-home",
         "btn-reset",
         "dialog", "dialog-title", "dialog-message", "dialog-confirm", "dialog-cancel",
         "btn-arcade-exit",
@@ -243,37 +243,9 @@
       return svg;
     }
 
-    function showSection(name) {
-      if (window.VakyaArcade) {
-        window.VakyaArcade.exitArena();
-      }
-      for (const s of ["home", "stats"]) {
-        const secEl = dom["section" + s[0].toUpperCase() + s.slice(1)];
-        if (secEl) {
-          secEl.classList.toggle("active", s === name);
-          secEl.hidden = s !== name;
-        }
-      }
-      dom.navHome.classList.toggle("active", name === "home");
-      dom.navStats.classList.toggle("active", name === "stats");
-
-      const navButtons = [[dom.navHome, "home"], [dom.navStats, "stats"]];
-      for (const [btn, key] of navButtons) {
-        if (!btn) continue;
-        if (key === name) btn.setAttribute("aria-current", "page");
-        else btn.removeAttribute("aria-current");
-      }
-
-      // bottom nav remains always present across all sections
-      if (dom.bottomNav) dom.bottomNav.classList.remove("hidden");
-
-      if (name === "home") renderHome();
-      if (name === "stats") renderStats();
-      window.scrollTo(0, 0);
-    }
-
-    /* --- Home (Games Hub) --- */
+    /* --- Home (Games Hub & Stats) --- */
     function renderHome() {
+      renderStats();
       if (window.VakyaArcade) {
         window.VakyaArcade.exitArena();
         window.VakyaArcade.renderHub();
@@ -340,9 +312,6 @@
      * 9. Wiring
      * ------------------------------------------------------------------- */
     function bindEvents() {
-      // navigation
-      dom.navHome.addEventListener("click", () => showSection("home"));
-      dom.navStats.addEventListener("click", () => showSection("stats"));
       if (dom.btnArcadeExit) dom.btnArcadeExit.addEventListener("click", () => {
         if (window.VakyaArcade) window.VakyaArcade.exitArena();
       });

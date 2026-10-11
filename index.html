@@ -19,9 +19,9 @@
     rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Tiro+Devanagari+Hindi&display=swap"
   />
-  <link rel="stylesheet" href="assets/base.css?v=66" />
-  <link rel="stylesheet" href="assets/hub.css?v=66" />
-  <link rel="stylesheet" href="assets/arena.css?v=66" />
+  <link rel="stylesheet" href="assets/base.css?v=67" />
+  <link rel="stylesheet" href="assets/hub.css?v=67" />
+  <link rel="stylesheet" href="assets/arena.css?v=67" />
 </head>
 <body>
   <!-- Icon sprite: referenced via <use href="#i-…"> -->
@@ -63,11 +63,38 @@
     </header>
 
     <main id="main" class="main">
-      <!-- Games / Home (16 Interactive Drills & Games Hub + Arena) -->
-      <section id="section-home" class="section active" aria-label="Games">
-        <!-- Hub Grid View -->
+      <!-- Games & Stats Main View -->
+      <section id="section-home" class="section active" aria-label="Games & Stats">
+        <!-- Hub Grid View (Stats + Games List + Reset) -->
         <div id="section-arcade-hub" class="arcade-hub-view">
+          <!-- Stats Bar above Games -->
+          <div class="stats-simple-stack">
+            <div class="stat-simple-card">
+              <span class="stat-simple-label">Unique Sentences</span>
+              <div class="stat-simple-count">
+                <strong id="stat-sentences-seen" class="stat-simple-val">0</strong>
+                <span class="stat-simple-sep">/</span>
+                <span id="stat-sentences-total" class="stat-simple-total">0</span>
+              </div>
+            </div>
+
+            <div class="stat-simple-card">
+              <span class="stat-simple-label">Unique Words</span>
+              <div class="stat-simple-count">
+                <strong id="stat-words-seen" class="stat-simple-val">0</strong>
+                <span class="stat-simple-sep">/</span>
+                <span id="stat-words-total" class="stat-simple-total">0</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- List of Games -->
           <div id="arcade-games-grid" class="arcade-games-grid"></div>
+
+          <!-- Reset Button at the bottom -->
+          <div class="stat-simple-actions">
+            <button id="btn-reset" class="btn btn-secondary" type="button">Reset</button>
+          </div>
         </div>
 
         <!-- Single Game Play Arena View -->
@@ -92,46 +119,7 @@
           <div id="arcade-arena-board" class="arcade-arena-board"></div>
         </div>
       </section>
-
-      <!-- Stats Section -->
-      <section id="section-stats" class="section" aria-label="Stats">
-        <div class="stats-simple-stack">
-          <div class="stat-simple-card">
-            <span class="stat-simple-label">Unique Sentences</span>
-            <div class="stat-simple-count">
-              <strong id="stat-sentences-seen" class="stat-simple-val">0</strong>
-              <span class="stat-simple-sep">/</span>
-              <span id="stat-sentences-total" class="stat-simple-total">0</span>
-            </div>
-          </div>
-
-          <div class="stat-simple-card">
-            <span class="stat-simple-label">Unique Words</span>
-            <div class="stat-simple-count">
-              <strong id="stat-words-seen" class="stat-simple-val">0</strong>
-              <span class="stat-simple-sep">/</span>
-              <span id="stat-words-total" class="stat-simple-total">0</span>
-            </div>
-          </div>
-
-          <div class="stat-simple-actions">
-            <button id="btn-reset" class="btn btn-secondary" type="button">Reset</button>
-          </div>
-        </div>
-      </section>
     </main>
-
-    <!-- Bottom navigation -->
-    <nav id="bottom-nav" class="bottom-nav" aria-label="Primary">
-      <button id="nav-home" class="nav-item active" type="button" aria-current="page">
-        <svg class="icon" aria-hidden="true"><use href="#i-arcade"/></svg>
-        <span class="nav-label">Games</span>
-      </button>
-      <button id="nav-stats" class="nav-item" type="button">
-        <svg class="icon" aria-hidden="true"><use href="#i-words"/></svg>
-        <span class="nav-label">Stats</span>
-      </button>
-    </nav>
   </div>
 
   <!-- Modal dialog (replaces alert / confirm) -->
@@ -147,11 +135,11 @@
   </dialog>
 
   <!-- Arcade & Games Engine -->
-  <script src="assets/engine.js?v=66"></script>
-  <script src="assets/suite.js?v=66"></script>
-  <script src="assets/hub.js?v=66"></script>
+  <script src="assets/engine.js?v=67"></script>
+  <script src="assets/suite.js?v=67"></script>
+  <script src="assets/hub.js?v=67"></script>
 
   <!-- Core App & Curriculum -->
-  <script src="assets/app.js?v=66"></script>
+  <script src="assets/app.js?v=67"></script>
 </body>
 </html>
