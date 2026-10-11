@@ -19,9 +19,9 @@
     rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Tiro+Devanagari+Hindi&display=swap"
   />
-  <link rel="stylesheet" href="assets/base.css?v=60" />
-  <link rel="stylesheet" href="assets/hub.css?v=60" />
-  <link rel="stylesheet" href="assets/arena.css?v=60" />
+  <link rel="stylesheet" href="assets/base.css?v=61" />
+  <link rel="stylesheet" href="assets/hub.css?v=61" />
+  <link rel="stylesheet" href="assets/arena.css?v=61" />
 </head>
 <body>
   <!-- Icon sprite: referenced via <use href="#i-…"> -->
@@ -41,6 +41,11 @@
       <symbol id="i-arcade" viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="12" rx="3"/><circle cx="7" cy="12" r="1.5"/><path d="M14 10h4M16 8v4M6 10v4M4 12h4"/></symbol>
       <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20M4 19.5v-14A2.5 2.5 0 0 1 6.5 3H20v14H6.5A2.5 2.5 0 0 0 4 19.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
       <symbol id="i-sparkle" viewBox="0 0 24 24"><path d="M12 2l2.4 6.8L21.2 12l-6.8 3.2L12 22l-2.4-6.8L2.8 12l6.8-3.2z" fill="currentColor"/></symbol>
+      <symbol id="i-hint" viewBox="0 0 24 24">
+        <path d="M9 18h6M10 22h4" stroke-width="2" stroke-linecap="round"/>
+        <path d="M12 2a7 7 0 0 0-7 7c0 2.6 1.4 4.8 3.5 6 .6.3 1 1 1 1.7V17h5v-.3c0-.7.4-1.4 1-1.7 2.1-1.2 3.5-3.4 3.5-6a7 7 0 0 0-7-7z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M12 6v3M10.5 7.5l3 0" stroke-width="1.8" stroke-linecap="round"/>
+      </symbol>
       <symbol id="i-translate" viewBox="0 0 24 24"><path d="m5 8 6 6M4 14l6-6 2-3M2 5h12M7 2v3M14 18l4-8 4 8M15 16h6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
       <!-- Dedicated Game Icons -->
       <!-- Word Bridge: Arch bridge connecting two sides with road/pillars -->
@@ -118,8 +123,8 @@
             </button>
             <h3 id="arcade-arena-title" class="arcade-arena-title">Game Title</h3>
             <div class="arcade-hud">
-              <button id="btn-arcade-dict" class="icon-btn arcade-dict-btn" type="button" aria-label="Toggle Word Meanings" title="Toggle Word Meanings" hidden>
-                <svg class="icon" aria-hidden="true"><use href="#i-translate"/></svg>
+              <button id="btn-arcade-dict" class="icon-btn arcade-dict-btn" type="button" aria-label="Toggle Hint / Word Meanings" title="Toggle Hint / Word Meanings" hidden>
+                <svg class="icon" aria-hidden="true"><use href="#i-hint"/></svg>
               </button>
               <button id="btn-arcade-next" class="icon-btn arcade-next-btn" type="button" aria-label="Next round" title="Next">&#x23ED;</button>
             </div>
@@ -212,11 +217,11 @@
   </dialog>
 
   <!-- Arcade & Games Engine -->
-  <script src="assets/engine.js?v=60"></script>
-  <script src="assets/suite.js?v=60"></script>
-  <script src="assets/hub.js?v=60"></script>
+  <script src="assets/engine.js?v=61"></script>
+  <script src="assets/suite.js?v=61"></script>
+  <script src="assets/hub.js?v=61"></script>
 
   <!-- Core App & Curriculum -->
-  <script src="assets/app.js?v=60"></script>
+  <script src="assets/app.js?v=61"></script>
 </body>
 </html>

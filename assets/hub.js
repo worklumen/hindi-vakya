@@ -56,7 +56,6 @@
           </div>
           <div class="arcade-card-body">
             <h3 class="arcade-game-title">${g.title}</h3>
-            ${g.tagline ? `<p class="arcade-game-tagline">${g.tagline}</p>` : ''}
           </div>
           <div class="arcade-card-arrow" aria-hidden="true">
             <svg class="arcade-arrow-icon" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
