@@ -202,253 +202,16 @@
       return a;
     }
 
-    const randomItem = arr => arr[Math.floor(Math.random() * arr.length)];
-
-    function pickSentence() {
-      if (sentences.length === 0) return null;
-      const lvl = session.playLevel !== null ? session.playLevel : 0;
-      // Only sentences inside the active band; an empty band means no content
-      // exists for that level yet — never fall back to other levels.
-      let pool = sentences.filter(s => inLevel(s, lvl));
-      if (pool.length === 0) return null;
-
-      // avoid repeating the sentence just played, when possible
-      const noRepeat = pool.filter(s => s.id !== session.lastPlayedId);
-      if (noRepeat.length > 0) pool = noRepeat;
-
-      return randomItem(pool);
-    }
-
     /* ---------------------------------------------------------------------
-     * 6. Round (game logic)
-     * ------------------------------------------------------------------- */
-    function vibrate(pattern) {
-      try { if (navigator.vibrate) navigator.vibrate(pattern); } catch (e) { /* unsupported */ }
-    }
-
-
-
-    function buildBank(sentence) {
-      // distractors: unique words from other sentences
-      const targetSet = new Set(sentence.words);
-      const candidates = shuffle(
-        [...new Set(sentences.flatMap(s => (s.id === sentence.id ? [] : s.words)))]
-        .filter(w => !targetSet.has(w))
-      );
-      const count = Math.max(2, Math.round(sentence.words.length * CONFIG.distractorRatio));
-      return shuffle(
-        sentence.words.map(word => ({ word, distract: false }))
-        .concat(candidates.slice(0, count).map(word => ({ word, distract: true })))
-      );
-    }
-
-    function startGame() {
-      const picked = pickSentence();
-      if (!picked) {
-        session.playLevel = null;
-        renderHome();
-        showDialog({
-          title: "No sentences yet",
-          message: "There are no sentences for this level yet — more are being added soon."
-        });
-        return;
-      }
-      showSection("game");
-      progress.plays++;
-      newRound(picked);
-    }
-
-    function renderEnSentence() {
-      const frag = document.createDocumentFragment();
-      round.sentence.en.split(" ").forEach((word, j) => {
-        if (j > 0) frag.appendChild(document.createTextNode(" "));
-        const span = el("span", "en-word", word);
-        span.dataset.enIndex = String(j);
-        frag.appendChild(span);
-      });
-      dom.enSentence.replaceChildren(frag);
-    }
-
-    function newRound(sentence) {
-      session.lastPlayedId = sentence.id;
-
-      round = {
-        sentence,
-        // one predefined slot per word; taps fill the matching slot
-        answer: new Array(sentence.words.length).fill(null), // null | { word, bankIndex }
-        bank: buildBank(sentence),                           // { word, distract }[]
-        locked: false,        // true once the sentence is fully correct
-        touched: false,
-        wrongTaps: 0
-      };
-
-      renderEnSentence();
-      dom.actionsPlay.hidden = false;
-      dom.actionsDone.hidden = true;
-      renderBank();
-      renderRound();
-    }
-
-    function placeTile(bankIndex, chipEl) {
-      if (!round || round.locked) return;
-      if (!round.touched) {
-        round.touched = true;
-        sentenceState(round.sentence.id).seen++;
-      }
-      const tile = round.bank[bankIndex];
-      const used = round.answer.some(a => a && a.bankIndex === bankIndex);
-      if (used) return;
-
-      // The word snaps to its designated place, so words can be filled in any
-      // order; an incorrect word flashes red and stays in the bank.
-      const spot = round.sentence.words.findIndex((w, j) => w === tile.word && !round.answer[j]);
-      if (spot === -1) {
-        round.wrongTaps++;
-        chipEl.classList.add("reject");
-        setTimeout(() => chipEl.classList.remove("reject"), CONFIG.rejectFlashMs);
-        vibrate(60);
-        return;
-      }
-      round.answer[spot] = { word: tile.word, bankIndex };
-      renderRound();
-    }
-
-    function removeTile(slotIndex) {
-      if (!round || round.locked) return;
-      round.answer[slotIndex] = null;
-      renderRound();
-    }
-
-    function clearAnswer() {
-      if (!round || round.locked) return;
-      round.answer = new Array(round.sentence.words.length).fill(null);
-      renderRound();
-    }
-
-    function checkAnswer() {
-      if (!round || round.locked || !round.answer.every(Boolean)) return;
-
-      const words = round.sentence.words;
-      if (!round.answer.every((a, i) => a.word === words[i])) return;
-
-      round.locked = true;
-
-      const slips = round.wrongTaps;
-      const clean = slips === 0;
-      sentenceState(round.sentence.id).done++;
-
-      for (const w of words) {
-        const wSt = wordState(w);
-        wSt.enc++;
-        if (clean) wSt.done++;
-      }
-
-      vibrate(50);
-      dom.actionsPlay.hidden = true;
-      dom.actionsDone.hidden = false;
-      saveProgress();
-      renderRound();
-      renderHome();
-    }
-    function renderBank() {
-      if (!round || !dom.tileBank) return;
-      dom.tileBank.innerHTML = "";
-      const usedBankIndices = new Set(round.answer.filter(Boolean).map(a => a.bankIndex));
-      round.bank.forEach((item, idx) => {
-        const btn = el("button", "tile");
-        btn.type = "button";
-        btn.dataset.index = String(idx);
-        const meaning = window.__getWordMeaning ? window.__getWordMeaning(item.word) : "";
-        btn.innerHTML = `<span class="slot-hi-text">${item.word}</span><span class="slot-en-gloss">${meaning}</span>`;
-        if (usedBankIndices.has(idx)) {
-          btn.classList.add("chosen");
-          btn.disabled = true;
-        }
-        dom.tileBank.appendChild(btn);
-      });
-    }
-
-    function renderRound() {
-      if (!round) return;
-
-      const lvl = clampLevel(session.playLevel !== null ? session.playLevel : progress.level);
-      if (dom.gameCount) {
-        dom.gameCount.textContent = `Level ${lvl + 1} · ${round.sentence.words.length} words`;
-      }
-
-      // answer row
-      if (dom.answerRow) {
-        dom.answerRow.innerHTML = "";
-        round.answer.forEach((slot, i) => {
-          if (slot) {
-            const btn = el("button", "tile");
-            btn.type = "button";
-            btn.dataset.slot = String(i);
-            if (round.locked) btn.classList.add("good");
-            const meaning = window.__getWordMeaning ? window.__getWordMeaning(slot.word) : "";
-            btn.innerHTML = `<span class="slot-hi-text">${slot.word}</span><span class="slot-en-gloss">${meaning}</span>`;
-            dom.answerRow.appendChild(btn);
-          } else {
-            const slotEl = el("div", "slot");
-            dom.answerRow.appendChild(slotEl);
-          }
-        });
-        dom.answerRow.classList.toggle("ok", round.locked);
-      }
-
-      // progress bar
-      if (dom.placeProgress) {
-        const placed = round.answer.filter(Boolean).length;
-        const total = round.sentence.words.length;
-        dom.placeProgress.style.width = total ? `${(placed / total) * 100}%` : "0%";
-      }
-
-      // bank
-      renderBank();
-
-      // check button state
-      if (dom.btnCheck) {
-        const full = round.answer.every(Boolean);
-        dom.btnCheck.disabled = !full || round.locked;
-        dom.btnCheck.classList.toggle("pulse", full && !round.locked);
-      }
-
-      // meanings state
-      if (dom.sectionGame) {
-        dom.sectionGame.classList.toggle("meanings-active", Boolean(round.showMeanings));
-      }
-      if (dom.btnMeaning) {
-        dom.btnMeaning.classList.toggle("active", Boolean(round.showMeanings));
-      }
-    }
-
-    function toggleMeanings() {
-      if (!round || !round.locked) return;
-      round.showMeanings = !round.showMeanings;
-      renderRound();
-    }
-
-    function exitGame() {
-      round = null;
-      session.playLevel = null; // leaving the game returns to adaptive level
-      showSection("home");
-    }
-
-    /* ---------------------------------------------------------------------
-     * 7. Views
+     * 5. Views & UI Controller
      * ------------------------------------------------------------------- */
     const dom = {};
     const $ = id => document.getElementById(id);
 
     function cacheDom() {
       [
-        "section-home", "section-game", "section-stats",
+        "section-home", "section-stats",
         "nav-home", "nav-stats", "bottom-nav",
-        "btn-quick-play",
-        "btn-exit", "game-count", "en-sentence",
-        "answer-row", "place-track", "place-progress", "tile-bank",
-        "actions-play", "actions-done",
-        "btn-check", "btn-clear", "btn-done", "btn-next", "btn-meaning",
         "btn-reset",
         "dialog", "dialog-title", "dialog-message", "dialog-confirm", "dialog-cancel",
         "btn-arcade-exit",
@@ -479,7 +242,7 @@
     }
 
     function showSection(name) {
-      for (const s of ["home", "game", "stats"]) {
+      for (const s of ["home", "stats"]) {
         const secEl = dom["section" + s[0].toUpperCase() + s.slice(1)];
         if (secEl) {
           secEl.classList.toggle("active", s === name);
@@ -607,36 +370,6 @@
       if (dom.btnArcadeExit) dom.btnArcadeExit.addEventListener("click", () => {
         if (window.VakyaArcade) window.VakyaArcade.exitArena();
       });
-
-      // Quick play / Sentence Builder button
-      if (dom.btnQuickPlay) {
-        dom.btnQuickPlay.addEventListener("click", () => {
-          session.playLevel = Math.floor(Math.random() * LEVELS.length);
-          startGame();
-        });
-      }
-
-
-      // game (if present)
-      if (dom.btnExit) dom.btnExit.addEventListener("click", exitGame);
-      if (dom.btnDone) dom.btnDone.addEventListener("click", exitGame);
-      if (dom.btnNext) dom.btnNext.addEventListener("click", startGame);
-      if (dom.btnCheck) dom.btnCheck.addEventListener("click", checkAnswer);
-      if (dom.btnClear) dom.btnClear.addEventListener("click", clearAnswer);
-      if (dom.btnMeaning) dom.btnMeaning.addEventListener("click", toggleMeanings);
-
-      if (dom.tileBank) {
-        dom.tileBank.addEventListener("click", e => {
-          const chip = e.target.closest("[data-index]");
-          if (chip) placeTile(Number(chip.dataset.index), chip);
-        });
-      }
-      if (dom.answerRow) {
-        dom.answerRow.addEventListener("click", e => {
-          const chip = e.target.closest("[data-slot]");
-          if (chip) removeTile(Number(chip.dataset.slot));
-        });
-      }
 
       // Reset
       dom.btnReset.addEventListener("click", async () => {

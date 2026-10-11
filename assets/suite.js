@@ -337,19 +337,5 @@
     }
   ];
 
-  window.__VakyaGamesPart1 = GAMES;
-})();
-"use strict";
-/**
- * games-suite-2.js — Interactive Games 17 to 32
- */
-(() => {
-  const engine = window.__VakyaArcadeEngine;
-  const shuffle = window.__shuffle;
-  const sample = window.__sample;
-  const playSound = window.__playSound;
-
-  const GAMES_PART2 = [];
-
-  window.__VakyaGamesPart2 = GAMES_PART2;
+  window.__VakyaGames = GAMES;
 })();

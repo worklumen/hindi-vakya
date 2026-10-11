@@ -179,17 +179,6 @@
   text-overflow: ellipsis;
   width: 100%;
 }
-.arcade-game-tagline {
-  font-size: clamp(0.8rem, 1.7dvh, 0.92rem);
-  font-weight: 500;
-  color: var(--ink-2);
-  margin: 0;
-  line-height: 1.35;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  width: 100%;
-}
 .arcade-card-arrow {
   display: flex;
   align-items: center;
@@ -227,9 +216,6 @@
   }
   .arcade-game-title {
     font-size: clamp(1.15rem, 2.5dvh, 1.35rem);
-  }
-  .arcade-game-tagline {
-    font-size: clamp(0.85rem, 1.75dvh, 0.96rem);
   }
 }
 
@@ -317,10 +303,6 @@
   flex: 1;
   min-height: 0;
   justify-content: center;
-}
-.arcade-card:has(.link-grid) {
-  padding: clamp(0.35rem, 1dvh, 0.55rem) clamp(0.25rem, 1vw, 0.4rem);
-  min-height: 0;
 }
 
 .arcade-prompt-box {

@@ -339,17 +339,18 @@ table { border-collapse: collapse; width: 100%; }
   border-bottom-width: 2px;
 }
 
-.btn-meaning-toggle {
+.arcade-dict-btn {
   background: color-mix(in srgb, var(--accent-saffron) 15%, var(--surface));
-  color: var(--ink);
+  color: var(--accent-saffron-shadow);
   border-color: var(--accent-saffron-shadow);
   border-bottom-color: var(--accent-saffron-shadow);
 }
-.btn-meaning-toggle.active {
+.arcade-dict-btn.active {
   background: var(--accent-saffron);
   color: #ffffff;
   border-color: var(--accent-saffron-shadow);
   border-bottom-color: var(--accent-saffron-shadow);
+  box-shadow: 0 0 12px rgba(245, 158, 11, 0.4);
 }
 
 .btn-danger {
@@ -395,214 +396,8 @@ table { border-collapse: collapse; width: 100%; }
   transition: width 0.3s ease;
 }
 
-/* ---------- 5. Home ---------- */
-.mastery { padding: 18px 18px 6px; }
-
-.mastery-head {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 12px;
-  padding-bottom: 14px;
-  border-bottom: 1px solid var(--line);
-}
-
-.mastery-title {
-  font-family: var(--font-hi);
-  font-size: 1.6rem;
-  font-weight: 400;
-  line-height: 1.25;
-}
-
-.mastery-sub { margin-top: 2px; font-size: 0.8rem; color: var(--muted); }
-
-.streak {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 6px 12px 6px 10px;
-  border-radius: var(--r-pill);
-  background: var(--streak-soft);
-  color: var(--streak);
-  font-size: 0.95rem;
-  font-weight: 800;
-  font-variant-numeric: tabular-nums;
-}
-.streak .icon { width: 18px; height: 18px; fill: currentColor; fill-opacity: 0.2; }
-
-.level-row {
-  display: grid;
-  grid-template-columns: 74px 1fr 42px;
-  align-items: center;
-  gap: 12px;
-  padding: 13px 0;
-}
-.level-row + .level-row { border-top: 1px solid var(--line); }
-
-.level-name { font-size: 0.92rem; font-weight: 700; line-height: 1.2; }
-.level-name small { display: block; margin-top: 2px; font-size: 0.7rem; font-weight: 500; color: var(--muted); }
-
-.level-row .track { height: 8px; }
-
-.level-mid { display: flex; flex-direction: column; gap: 5px; min-width: 0; }
-
-.level-count {
-  font-size: 0.74rem;
-  font-weight: 500;
-  font-style: italic;
-  color: var(--ink-2);
-  font-variant-numeric: tabular-nums;
-}
-
-.level-play {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 42px;
-  height: 42px;
-  border: 0;
-  border-radius: 50%;
-  background: var(--primary-soft);
-  color: var(--primary);
-  cursor: pointer;
-  transition: background-color 0.15s ease, color 0.15s ease, transform 0.1s ease;
-}
-.level-play .icon { width: 16px; height: 16px; margin-left: 2px; }
-.level-play:hover { background: var(--primary); color: var(--on-primary); }
-.level-play:active { transform: scale(0.94); }
-
-.play-row {
-  display: flex;
-  align-items: stretch;
-  gap: 10px;
-  margin-top: 16px;
-}
-.play-row .btn { flex: 1; }
-.play-row .icon-btn { width: 54px; height: auto; border-radius: 16px; }
-
-/* ---------- 6. Game ---------- */
-.game-head {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  margin-bottom: 14px;
-}
-
-.game-meta { display: flex; align-items: center; gap: 8px; min-width: 0; }
-
-.game-count { font-size: 0.85rem; font-weight: 600; color: var(--muted); }
-
-.flag {
-  padding: 3px 10px;
-  border-radius: var(--r-pill);
-  background: var(--good-soft);
-  color: var(--good);
-  font-size: 0.75rem;
-  font-weight: 800;
-}
-
-.prompt {
-  padding: 16px 18px;
-  margin-bottom: 14px;
-  background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: var(--r-lg);
-  box-shadow: var(--shadow-sm);
-  font-size: 1.2rem;
-  font-weight: 600;
-  line-height: 1.6;
-  letter-spacing: -0.005em;
-  text-wrap: pretty;
-}
-
-.en-word {
-  display: inline-block;
-  padding: 2px 7px;
-  margin: 1px 1px;
-  border-radius: var(--r-sm);
-  border: 1.5px solid transparent;
-  transition: border-color 0.15s ease, background-color 0.15s ease, box-shadow 0.15s ease, color 0.15s ease;
-}
-
-
-.tile-row {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  gap: 10px;
-}
-
-.answer-row {
-  min-height: 74px;
-  padding: 13px;
-  margin-bottom: 12px;
-  background: var(--surface-2);
-  border: 1.5px dashed var(--line-strong);
-  border-radius: var(--r-lg);
-  transition: border-color 0.2s ease, background-color 0.2s ease;
-}
-.answer-row.ok { border-style: solid; border-color: var(--good); background: var(--good-soft); }
-
-.tile-bank { min-height: 52px; margin: 18px 0 22px; justify-content: center; }
-
-/* Signature element: tactile word tiles */
-.tile {
-  min-height: var(--tile-h);
-  padding: 8px 18px 7px;
-  border: 2px solid var(--line-strong);
-  border-bottom: 5px solid var(--line-strong);
-  border-radius: var(--r-md);
-  background: var(--surface);
-  color: var(--ink);
-  font-family: var(--font-hi);
-  font-size: 1.25rem;
-  line-height: 1.25;
-  cursor: pointer;
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
-  transition: transform 0.08s ease, border-color 0.15s ease, background-color 0.15s ease, opacity 0.2s ease, box-shadow 0.1s ease;
-  user-select: none;
-}
-
-.tile:hover:not(:disabled) {
-  border-color: var(--primary);
-  background: var(--surface-2);
-}
-
-.tile:active:not(:disabled) {
-  transform: translateY(3px);
-  border-bottom-width: 2px;
-}
-
-/* tile already placed in the sentence */
-.tile.chosen {
-  opacity: 0.3;
-  border-bottom-width: 2px;
-  background: var(--surface-2);
-  box-shadow: none;
-  cursor: default;
-}
-
-/* placed tile (tap to take it back) */
-.answer-row .tile {
-  background: var(--primary-soft);
-  border-color: var(--primary);
-  border-bottom-color: var(--primary-shadow);
-  color: var(--ink);
-}
-.answer-row .tile.good {
-  background: var(--good-soft);
-  border-color: var(--good);
-  border-bottom-color: var(--good-shadow);
-  color: var(--good-shadow);
-}
-
 /* Bilingual Gloss Inside Tiles & Slots */
-.tile .slot-hi-text, .bridge-slot .slot-hi-text, .swap-word-btn .slot-hi-text, .doctor-word-btn .slot-hi-text {
+.slot-hi-text {
   font-family: var(--font-hi);
   display: block;
   line-height: 1.2;
@@ -631,37 +426,6 @@ table { border-collapse: collapse; width: 100%; }
   0% { opacity: 0; transform: translateY(-4px) scale(0.9); }
   100% { opacity: 1; transform: translateY(0) scale(1); }
 }
-
-/* wrong pick flashes and stays in the bank */
-.tile.reject {
-  border-color: var(--bad);
-  border-bottom-color: var(--bad-shadow);
-  background: var(--bad-soft);
-  color: var(--bad);
-  animation: shake 0.3s ease;
-}
-
-
-/* empty placeholder — uniform width so it reveals nothing about the word */
-.slot {
-  display: inline-block;
-  width: 64px;
-  height: var(--tile-h);
-  border: 1.5px dashed var(--line-strong);
-  border-radius: var(--r-md);
-  background: transparent;
-}
-
-.game-actions { margin-top: 4px; }
-
-.actions-stack { display: grid; gap: 12px; }
-
-.tools { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
-.tools .btn { min-height: 44px; padding: 0 12px; font-size: 0.88rem; }
-
-.actions-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-
-.btn-primary.pulse { animation: pulse 1.4s ease infinite; }
 
 /* ---------- 7. Words ---------- */
 .table-card { margin-bottom: 20px; overflow: hidden; }
@@ -817,11 +581,6 @@ td.empty {
   .bottom-nav { border-radius: 0 0 27px 27px; }
 }
 
-@media (max-width: 359px) {
-  .level-row { grid-template-columns: 62px 1fr 44px 40px; gap: 8px; }
-  .tools .btn .icon { display: none; }
-}
-
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.01ms !important;
@@ -829,20 +588,6 @@ td.empty {
     transition-duration: 0.01ms !important;
   }
 }
-
-/* Words summary + Home mastered totals */
-.words-summary {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem 0.85rem;
-  padding: 0.6rem 0.85rem;
-  border-bottom: 1px solid color-mix(in srgb, currentColor 12%, transparent);
-  font-size: 0.74rem;
-  font-weight: 500;
-  font-style: italic;
-  color: var(--ink-2);
-}
-
 
 /* Polished minimal scrollbars for scrollable views */
 ::-webkit-scrollbar {

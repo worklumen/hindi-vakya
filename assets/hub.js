@@ -4,7 +4,7 @@
  */
 (() => {
   const engine = window.__VakyaArcadeEngine;
-  const GAMES = (window.__VakyaGamesPart1 || []).concat(window.__VakyaGamesPart2 || []);
+  const GAMES = window.__VakyaGames || window.__VakyaGamesPart1 || [];
 
   // Every (re)start of a round resets the touched/done tracking.
   GAMES.forEach(g => {
