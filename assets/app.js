@@ -242,6 +242,9 @@
     }
 
     function showSection(name) {
+      if (window.VakyaArcade) {
+        window.VakyaArcade.exitArena();
+      }
       for (const s of ["home", "stats"]) {
         const secEl = dom["section" + s[0].toUpperCase() + s.slice(1)];
         if (secEl) {

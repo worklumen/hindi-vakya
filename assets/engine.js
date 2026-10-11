@@ -117,6 +117,10 @@
         dictBtn.hidden = true;
         dictBtn.classList.remove("active");
       }
+      const board = document.getElementById("arcade-arena-board");
+      if (board) {
+        board.classList.remove("show-meanings");
+      }
     },
 
     /** First real interaction: only now is the round counted as played/seen. */

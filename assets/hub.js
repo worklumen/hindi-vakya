@@ -94,6 +94,17 @@
     exitArena() {
       engine.stopTimer();
       engine.activeGame = null;
+      engine.meaningsActive = false;
+      const dictBtn = document.getElementById("btn-arcade-dict");
+      if (dictBtn) {
+        dictBtn.hidden = true;
+        dictBtn.classList.remove("active");
+      }
+      const board = document.getElementById("arcade-arena-board");
+      if (board) {
+        board.classList.remove("show-meanings");
+        board.innerHTML = "";
+      }
       const hubSec = document.getElementById("section-arcade-hub");
       const arenaSec = document.getElementById("section-arcade-arena");
       if (arenaSec) arenaSec.hidden = true;
