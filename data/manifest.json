@@ -1,5 +1,6 @@
 {
   "total_sentences": 6000,
+  "total_words": 11445,
   "files": [
     {
       "file": "data/phrases01.json",

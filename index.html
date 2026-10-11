@@ -19,9 +19,9 @@
     rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Tiro+Devanagari+Hindi&display=swap"
   />
-  <link rel="stylesheet" href="assets/base.css?v=65" />
-  <link rel="stylesheet" href="assets/hub.css?v=65" />
-  <link rel="stylesheet" href="assets/arena.css?v=65" />
+  <link rel="stylesheet" href="assets/base.css?v=66" />
+  <link rel="stylesheet" href="assets/hub.css?v=66" />
+  <link rel="stylesheet" href="assets/arena.css?v=66" />
 </head>
 <body>
   <!-- Icon sprite: referenced via <use href="#i-…"> -->
@@ -95,53 +95,28 @@
 
       <!-- Stats Section -->
       <section id="section-stats" class="section" aria-label="Stats">
-        <!-- Overview KPI Cards -->
-        <div class="stats-kpi-grid">
-          <div class="kpi-card kpi-card-merged">
-            <div class="kpi-merged-values">
-              <div class="kpi-stat-item">
-                <span class="kpi-stat-label">Play</span>
-                <strong id="kpi-sentences-seen" class="kpi-value">0</strong>
-                <small id="kpi-sentences-sub" class="kpi-sub">of 0 total</small>
-              </div>
-              <div class="kpi-stat-divider" aria-hidden="true"></div>
-              <div class="kpi-stat-item">
-                <span class="kpi-stat-label">Done</span>
-                <strong id="kpi-sentences-done" class="kpi-value">0</strong>
-                <small id="kpi-sentences-rate" class="kpi-sub">0% completion</small>
-              </div>
+        <div class="stats-simple-stack">
+          <div class="stat-simple-card">
+            <span class="stat-simple-label">Unique Sentences</span>
+            <div class="stat-simple-count">
+              <strong id="stat-sentences-seen" class="stat-simple-val">0</strong>
+              <span class="stat-simple-sep">/</span>
+              <span id="stat-sentences-total" class="stat-simple-total">0</span>
             </div>
           </div>
-          <div class="kpi-card">
-            <span class="kpi-label">Unique Words</span>
-            <strong id="kpi-words-seen" class="kpi-value">0</strong>
-            <small id="kpi-words-sub" class="kpi-sub">encountered</small>
-          </div>
-          <div class="kpi-card">
-            <span class="kpi-label">Play Rating</span>
-            <strong id="kpi-arcade-pts" class="kpi-value">0</strong>
-            <small id="kpi-arcade-sub" class="kpi-sub">out of 10</small>
-          </div>
-        </div>
 
-        <!-- Games Performance Summary -->
-        <div class="card table-card">
-          <div class="table-wrap">
-            <table id="games-stats-table">
-              <thead>
-                <tr>
-                  <th scope="col">Game</th>
-                  <th scope="col" class="num">Play</th>
-                  <th scope="col" class="num">Done</th>
-                </tr>
-              </thead>
-              <tbody id="games-stats-tbody"></tbody>
-            </table>
+          <div class="stat-simple-card">
+            <span class="stat-simple-label">Unique Words</span>
+            <div class="stat-simple-count">
+              <strong id="stat-words-seen" class="stat-simple-val">0</strong>
+              <span class="stat-simple-sep">/</span>
+              <span id="stat-words-total" class="stat-simple-total">0</span>
+            </div>
           </div>
-        </div>
 
-        <div style="margin-top: 1.5rem; text-align: center;">
-          <button id="btn-reset" class="btn btn-danger" type="button">Reset All</button>
+          <div class="stat-simple-actions">
+            <button id="btn-reset" class="btn btn-secondary" type="button">Reset</button>
+          </div>
         </div>
       </section>
     </main>
@@ -172,11 +147,11 @@
   </dialog>
 
   <!-- Arcade & Games Engine -->
-  <script src="assets/engine.js?v=65"></script>
-  <script src="assets/suite.js?v=65"></script>
-  <script src="assets/hub.js?v=65"></script>
+  <script src="assets/engine.js?v=66"></script>
+  <script src="assets/suite.js?v=66"></script>
+  <script src="assets/hub.js?v=66"></script>
 
   <!-- Core App & Curriculum -->
-  <script src="assets/app.js?v=65"></script>
+  <script src="assets/app.js?v=66"></script>
 </body>
 </html>

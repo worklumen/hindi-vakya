@@ -29,7 +29,8 @@
      * ------------------------------------------------------------------- */
     /** @type {{id:string|number, en:string, hi:string, freq:number, words:string[]}[]} */
     let sentences = [];
-    let vocabTotal = 0;     // total words in the vocabulary, from data/vocab-manifest.json
+    let manifestSentenceTotal = 0;
+    let manifestWordTotal = 0;
     let dictionary = {};    // { [hiWord]: string (en meaning) }
     /** @type {{sentences:Object, words:Object, plays:number, level:number, cleanStreak:number}} */
     let progress = null;
@@ -164,6 +165,8 @@
 
     async function loadData() {
       const manifest = await fetchJson("data/manifest.json");
+      manifestSentenceTotal = manifest.total_sentences || 0;
+      manifestWordTotal = manifest.total_words || 0;
       try {
         dictionary = await fetchJson("data/dictionary.json");
       } catch (e) {
@@ -182,7 +185,7 @@
           });
         }
       }
-      vocabTotal = all.length;
+      if (!manifestSentenceTotal) manifestSentenceTotal = all.length;
       return all;
     }
 
@@ -215,10 +218,9 @@
         "btn-reset",
         "dialog", "dialog-title", "dialog-message", "dialog-confirm", "dialog-cancel",
         "btn-arcade-exit",
-        // KPI & Stats
-        "kpi-sentences-seen", "kpi-sentences-sub", "kpi-sentences-done", "kpi-sentences-rate",
-        "kpi-words-seen", "kpi-words-sub", "kpi-arcade-pts", "kpi-arcade-sub",
-        "games-stats-tbody"
+        // Simple Stats
+        "stat-sentences-seen", "stat-sentences-total",
+        "stat-words-seen", "stat-words-total"
       ].forEach(id => {
         dom[id.replace(/-(\w)/g, (_, c) => c.toUpperCase())] = $(id);
       });
@@ -280,58 +282,29 @@
 
     /* --- Stats Section --- */
     function renderStats() {
-      if (!sentences || sentences.length === 0) return;
-
-      // 1. KPI Cards
-      let totalSeen = 0, totalDone = 0;
-      for (const s of sentences) {
-        const st = progress.sentences[s.id];
-        if (st) {
-          if (st.seen > 0) totalSeen++;
-          if (st.done > 0) totalDone++;
+      // 1. Unique Sentences seen
+      let totalSeen = 0;
+      if (progress && progress.sentences) {
+        for (const st of Object.values(progress.sentences)) {
+          if (st && (st.seen > 0 || st.done > 0)) totalSeen++;
         }
       }
 
-      const activeWords = [...new Set(sentences.flatMap(s => s.words))]
-        .filter(w => progress.words[w] && progress.words[w].enc > 0);
-      const totalWordsDone = activeWords.reduce((n, w) => n + (progress.words[w].done || 0), 0);
-
-      if (dom.kpiSentencesSeen) dom.kpiSentencesSeen.textContent = String(totalSeen);
-      if (dom.kpiSentencesSub) dom.kpiSentencesSub.textContent = `of ${sentences.length} total`;
-      if (dom.kpiSentencesDone) dom.kpiSentencesDone.textContent = String(totalDone);
-      if (dom.kpiSentencesRate) {
-        const pct = sentences.length ? Math.round((totalDone / sentences.length) * 100) : 0;
-        dom.kpiSentencesRate.textContent = `${pct}% done`;
-      }
-      if (dom.kpiWordsSeen) dom.kpiWordsSeen.textContent = String(activeWords.length);
-      if (dom.kpiWordsSub) dom.kpiWordsSub.textContent = `${totalWordsDone} done`;
-      let gamePlays = 0, gameDone = 0;
-      for (const v of Object.values(progress.games || {})) {
-        gamePlays += v.plays || 0;
-        gameDone += v.done || 0;
-      }
-      if (dom.kpiArcadePts) {
-        dom.kpiArcadePts.textContent = gamePlays ? (Math.min(gameDone / gamePlays, 1) * 10).toFixed(1) : "-";
-      }
-      if (dom.kpiArcadeSub) {
-        dom.kpiArcadeSub.textContent = gamePlays ? `${gameDone} done of ${gamePlays} played` : "out of 10";
+      // 2. Unique Words seen
+      let wordsSeenCount = 0;
+      if (progress && progress.words) {
+        for (const wt of Object.values(progress.words)) {
+          if (wt && (wt.enc > 0 || wt.done > 0)) wordsSeenCount++;
+        }
       }
 
-      // 2. Games Performance Table
-      if (dom.gamesStatsTbody) {
-        const gamesList = window.VakyaArcade ? window.VakyaArcade.games : [];
-        const frag = document.createDocumentFragment();
-        gamesList.forEach(g => {
-          const gData = (progress.games && progress.games[g.id]) || { plays: 0, done: 0 };
-          const tr = el("tr");
-          const tdTitle = el("td", "", g.title);
-          const tdPlays = el("td", "num", String(gData.plays || 0));
-          const tdDone = el("td", "num", String(gData.done || 0));
-          tr.append(tdTitle, tdPlays, tdDone);
-          frag.appendChild(tr);
-        });
-        dom.gamesStatsTbody.replaceChildren(frag);
-      }
+      const totalSentences = manifestSentenceTotal || (sentences ? sentences.length : 0);
+      const totalWords = manifestWordTotal || 0;
+
+      if (dom.statSentencesSeen) dom.statSentencesSeen.textContent = String(totalSeen);
+      if (dom.statSentencesTotal) dom.statSentencesTotal.textContent = String(totalSentences);
+      if (dom.statWordsSeen) dom.statWordsSeen.textContent = String(wordsSeenCount);
+      if (dom.statWordsTotal) dom.statWordsTotal.textContent = String(totalWords);
     }
 
     /* ---------------------------------------------------------------------
@@ -377,9 +350,9 @@
       // Reset
       dom.btnReset.addEventListener("click", async () => {
         const ok = await showDialog({
-          title: "Reset all progress?",
-          message: "This permanently clears your sentence and word counts, play counts and game ratings. It cannot be undone.",
-          confirmLabel: "Reset all",
+          title: "Reset progress?",
+          message: "This will reset your sentences and words seen counters back to zero.",
+          confirmLabel: "Reset",
           cancelLabel: "Cancel",
           danger: true
         });
