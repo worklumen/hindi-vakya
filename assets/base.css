@@ -419,7 +419,27 @@ table { border-collapse: collapse; width: 100%; }
 .show-meanings .slot-en-gloss,
 .meanings-active .slot-en-gloss {
   display: block !important;
+  color: var(--accent-saffron-shadow);
+  font-weight: 800;
   animation: popGloss 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.show-meanings .bridge-slot,
+.show-meanings .swap-word-btn,
+.show-meanings .doctor-word-btn,
+.show-meanings .arcade-chip {
+  border-color: var(--accent-saffron-shadow) !important;
+  border-bottom-color: var(--accent-saffron-shadow) !important;
+  background: color-mix(in srgb, var(--accent-saffron) 12%, var(--surface)) !important;
+  box-shadow: 0 4px 12px color-mix(in srgb, var(--accent-saffron) 25%, transparent) !important;
+}
+
+.show-meanings .bridge-slot.filled.good,
+.show-meanings .bridge-hi-box.completed .bridge-slot {
+  border-color: var(--accent-saffron-shadow) !important;
+  border-bottom-color: var(--accent-saffron-shadow) !important;
+  background: color-mix(in srgb, var(--accent-saffron) 15%, var(--surface)) !important;
+  color: var(--ink) !important;
 }
 
 @keyframes popGloss {
